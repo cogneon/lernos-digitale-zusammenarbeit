@@ -1,58 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://cogneon.github.io/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-0-Grundlagen/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/1-0-%C3%9Cber-lernOS/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-1-Grundidee/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/1-1-Making-of/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-2-Lebenszyklus/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/2-0-Einf%C3%BChrung/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-3-Inhaltsverzeichnis/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/2-1-Warum/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-4-Inhalt-Schreibstil/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/2-2-Kollaborationstools/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-5-Markdown-Syntax/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/2-3-Bereiche/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-6-Produktionskette/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/3-0-Lernreise/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/1-7-Github/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/4-0-Lernpfad/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/2-0-Lernpfad/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/4-1-Woche-0/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/3-0-Anhang/</loc>
-         <lastmod>2022-01-02</lastmod>
+         <loc>https://magnus-rode.github.io/5-0-Kata-log/</loc>
+         <lastmod>2022-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/6-0-Hintergrund-Wissen/</loc>
+         <lastmod>2022-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/7-0-Vorlagen/</loc>
+         <lastmod>2022-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/8-0-Abschluss/</loc>
+         <lastmod>2022-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/_Anhang/</loc>
+         <lastmod>2022-08-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/lernOS_digitaleZusammenarbeit_Leitfaden_0.3/</loc>
+         <lastmod>2022-08-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
