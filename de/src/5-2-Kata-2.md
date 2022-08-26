@@ -1,4 +1,4 @@
-![](images/collaboration.png)
+![](images/Collaboration.png)
 **Zusammenarbeit (Teil 1)**
 
 ## Kata 2 - Wie arbeiten **wir** zusammen?

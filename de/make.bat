@@ -15,7 +15,7 @@ del %filename%.*
 
 REM Create Web Version (mkdocs)
 echo Creating Web Version ...
-rem py -m mkdocs build
+py -m mkdocs build
 
 rem Word to MarkDown
 rem "c:\Program Files\Pandoc\pandoc.exe" --from docx --to markdown "c:\Daten\GitHub\lernos-digitale-zusammenarbeit\de\lernOS_Digitale_Zusammenarbeit_Leitfaden_0.1.docx" -o "c:\Daten\GitHub\lernos-digitale-zusammenarbeit\de\src\lernOS_digitaleZusammenarbeit_Leitfaden_0.1.md" --extract-media=".\src\images"
@@ -28,14 +28,14 @@ rem pandoc metadata.yaml --from markdown -s --resource-path="./src" --number-sec
 rem pandoc metadata.yaml --from markdown --resource-path="./src" --number-sections -V lang=de-de -o TEST_OUT_lernOS-digitaleZusammenarbeit-Leitfaden-de.docx ./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.1.md
 
 rem pandoc metadata.yaml --from markdown --resource-path="./src" --toc -V lang=de-de -o "TEST_OUT2_lernOS-digitaleZusammenarbeit-Leitfaden-de.docx" ./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.2.md --lua-filter=pagebreak.lua
-pandoc metadata.yaml --from markdown --resource-path="./src" --toc -V lang=de-de -o %filename%.docx %chapters% --lua-filter=pagebreak.lua --file-scope --toc-depth=2 
+pandoc metadata.yaml --from markdown --resource-path="./src" --toc -V lang=de-de --lua-filter=pagebreak.lua --file-scope --toc-depth=2 -o %filename%.docx %chapters% 
 rem -F mermaid-filter nicht vorhanden
 
 REM Create HTML Version (html)
 echo Creating HTML version ...
 rem pandoc metadata.yaml --from markdown -s --resource-path="./src" -F mermaid-filter --number-sections -V lang=de-de -o %filename%.html %chapters%
 rem pandoc metadata.yaml --from markdown -s --resource-path="./src" --toc -V lang=de-de -o "TEST_OUT2_lernOS-digitaleZusammenarbeit-Leitfaden-de.html" ./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.2.md --lua-filter=pagebreak.lua
-pandoc metadata.yaml --from markdown -s --resource-path="./src" --toc -V lang=de-de -o %filename%.html %chapters% --lua-filter=pagebreak.lua --file-scope --toc-depth=2 
+pandoc metadata.yaml --from markdown -s --resource-path="./src" --toc -V lang=de-de --lua-filter=pagebreak.lua --file-scope --toc-depth=2 -o %filename%.html %chapters% 
 
 goto ende
 
