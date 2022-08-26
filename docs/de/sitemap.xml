@@ -2,82 +2,222 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://magnus-rode.github.io/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://magnus-rode.github.io/1-0-%C3%9Cber-lernOS/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <loc>https://magnus-rode.github.io/1-0-Ueber-lernOS/</loc>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/1-1-Making-of/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://magnus-rode.github.io/2-0-Einf%C3%BChrung/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <loc>https://magnus-rode.github.io/2-0-Einfuehrung/</loc>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/2-1-Warum/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/2-2-Kollaborationstools/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/2-3-Bereiche/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/3-0-Lernreise/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/4-0-Lernpfad/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://magnus-rode.github.io/4-1-Woche-0/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <loc>https://magnus-rode.github.io/4-0-Woche-0/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-1-Woche-1/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-10-Woche-10/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-11-Woche-11/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-12-Woche-12/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-2-Woche-2/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-3-Woche-3/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-4-Woche-4/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-5-Woche-5/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-6-Woche-6/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-7-Woche-7/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-8-Woche-8/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/4-9-Woche-9/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-0-Kata-0/</loc>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/5-0-Kata-log/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-1-Kata-1/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-10-Kata-10/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-11-Kata-11/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-12-Kata-12/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-2-Kata-2/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-3-Kata-3/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-4-Kata-4/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-5-Kata-5/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-6-Kata-6/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-7-Kata-7/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-8-Kata-8/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/5-9-Kata-9/</loc>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/6-0-Hintergrund-Wissen/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/6-1-Theorie-Kommunikation/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/6-2-Theorie-Wissen-teilen/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/6-3-Theorie-Zusammenarbeit/</loc>
+         <lastmod>2022-08-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://magnus-rode.github.io/6-4-Theorie-Retrospektive/</loc>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/7-0-Vorlagen/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/8-0-Abschluss/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://magnus-rode.github.io/_Anhang/</loc>
-         <lastmod>2022-08-24</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://magnus-rode.github.io/lernOS_digitaleZusammenarbeit_Leitfaden_0.3/</loc>
-         <lastmod>2022-08-24</lastmod>
+         <lastmod>2022-08-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
