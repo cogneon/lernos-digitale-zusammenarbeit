@@ -1,0 +1,3091 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-de" xml:lang="de-de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Britta Müller-Ruhnau" />
+  <meta name="author" content="Daniel Prial" />
+  <meta name="author" content="Fabienne Theis" />
+  <meta name="author" content="Magnus Rode" />
+  <meta name="author" content="Rainer Bartl" />
+  <meta name="author" content="Stefanie Ammler" />
+  <title>lernOS Leitfaden Digitale Zusammenarbeit</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">lernOS Leitfaden Digitale Zusammenarbeit</h1>
+<p class="subtitle">Ein Leitfaden, um gemeinsam die digitale
+Zusammenarbeit im Unternehmenskontext zu erlernen.</p>
+<p class="author">Britta Müller-Ruhnau</p>
+<p class="author">Daniel Prial</p>
+<p class="author">Fabienne Theis</p>
+<p class="author">Magnus Rode</p>
+<p class="author">Rainer Bartl</p>
+<p class="author">Stefanie Ammler</p>
+<p class="date">Version 0.3 (23.08.2022)</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#lernos-digitale-zusammenarbeit">lernOS Digitale
+Zusammenarbeit</a></li>
+<li><a href="#über-lernos">Über lernOS</a></li>
+<li><a href="#making-of-und-danksagung">Making of und
+Danksagung</a></li>
+<li><a href="#einführung-in-die-digitale-zusammenarbeit">Einführung in
+die digitale Zusammenarbeit</a>
+<ul>
+<li><a href="#warum-digitale-zusammenarbeit">Warum digitale
+Zusammenarbeit?</a></li>
+<li><a href="#was-sind-digitale-kollaborationstools">Was sind digitale
+Kollaborationstools?</a></li>
+<li><a href="#was-gehört-alles-zur-digitalen-zusammenarbeit">Was gehört
+alles zur digitalen Zusammenarbeit?</a></li>
+</ul></li>
+<li><a href="#deine-lernreise-im-überblick">Deine Lernreise im
+Überblick</a></li>
+<li><a href="#lernpfad">Lernpfad</a>
+<ul>
+<li><a href="#woche-0---kennenlernen-und-organisation-des-circles">Woche
+0 - Kennenlernen und Organisation des Circles</a></li>
+<li><a
+href="#woche-1---dein-einstieg-in-die-digitale-zusammenarbeit">Woche 1 -
+Dein Einstieg in die digitale Zusammenarbeit</a></li>
+<li><a href="#woche-2---wie-arbeiten-wir-im-circle-zusammen">Woche 2 -
+Wie arbeiten wir im Circle zusammen?</a></li>
+<li><a href="#woche-3---kommunikation-analyse-und-reflektion">Woche 3 -
+Kommunikation: Analyse und Reflektion</a></li>
+<li><a href="#woche-4---kommunikation-lerne-deine-tools-kennen">Woche 4
+- Kommunikation: Lerne deine Tools kennen</a></li>
+<li><a href="#woche-5---kommunikation-wähle-den-passenden-kanal">Woche 5
+- Kommunikation: Wähle den passenden Kanal</a></li>
+<li><a href="#woche-6---boxenstopp-circle-retro">Woche 6 - Boxenstopp
+(#Circle-Retro)</a></li>
+<li><a href="#woche-7---gemeinsam-an-dokumenten-arbeiten">Woche 7 -
+Gemeinsam an Dokumenten arbeiten</a></li>
+<li><a href="#woche-8---meetings-effizient-gestalten">Woche 8 - Meetings
+effizient gestalten</a></li>
+<li><a href="#woche-9---wissen-teilen-nehmen">Woche 9 - Wissen teilen
+(#Nehmen)</a></li>
+<li><a href="#woche-10---wissen-teilen-sichtbarwerden">Woche 10 - Wissen
+teilen (#SichtbarWerden)</a></li>
+<li><a href="#woche-11---wissen-teilen-geben">Woche 11 - Wissen teilen
+(#Geben)</a></li>
+<li><a href="#woche-12---sprint-review">Woche 12 -
+Sprint-Review</a></li>
+</ul></li>
+<li><a href="#kata-log">Kata-log</a>
+<ul>
+<li><a
+href="#kata-0---organisation-und-circle-setup-für-digitale-zusammenarbeit">Kata
+0 - Organisation und Circle-Setup für digitale Zusammenarbeit</a></li>
+<li><a href="#kata-1---meine-standort-bestimmung">Kata 1 - Meine
+Standort-Bestimmung</a></li>
+<li><a href="#kata-2---wie-arbeiten-wir-zusammen">Kata 2 - Wie arbeiten
+<strong>wir</strong> zusammen?</a></li>
+<li><a
+href="#kata-3---analysiere-und-reflektiere-deine-kommunikation">Kata 3 -
+Analysiere und reflektiere deine Kommunikation</a></li>
+<li><a href="#kata-4---lerne-deine-tools-kennen">Kata 4 - Lerne deine
+Tools kennen</a></li>
+<li><a href="#kata-5---wähle-einen-passenden-kanal">Kata 5 - Wähle einen
+passenden Kanal</a></li>
+<li><a href="#kata-6---retrospektive">Kata 6 - Retrospektive</a></li>
+<li><a href="#kata-7---dokumente-gemeinsam-bearbeiten">Kata 7 -
+Dokumente gemeinsam bearbeiten</a></li>
+<li><a href="#kata-8---meetings-effizient-gestalten">Kata 8 - Meetings
+effizient gestalten</a></li>
+<li><a
+href="#kata-9---wie-kannst-du-selbst-vom-wissen-anderer-profitieren-und-dankbarkeit-zeigen-nehmen">Kata
+9 - Wie kannst Du selbst vom Wissen anderer profitieren und Dankbarkeit
+zeigen (#Nehmen)?</a></li>
+<li><a
+href="#kata-10---wie-ich-mit-meinem-wissen-im-unternehmen-sichtbar-werde-sichtbarwerden">Kata
+10 - Wie ich mit meinem Wissen im Unternehmen sichtbar werde
+(#SichtbarWerden)</a></li>
+<li><a
+href="#kata-11---was-meine-kolleginnen-von-meinem-aktiven-teilen-von-wisseninformationen-haben-geben">Kata
+11 - Was meine Kolleg:innen von meinem aktiven Teilen von
+Wissen/Informationen haben (#Geben)</a></li>
+<li><a href="#kata-12---selbstreflexion">Kata 12 -
+Selbstreflexion</a></li>
+</ul></li>
+<li><a href="#hintergrund-wissen">Hintergrund-Wissen</a>
+<ul>
+<li><a href="#theorie-kommunikation">Theorie “Kommunikation”</a></li>
+<li><a href="#theorie-wissen-teilen">Theorie “Wissen teilen”</a></li>
+<li><a href="#theorie-zusammenarbeit">Theorie “Zusammenarbeit”</a></li>
+<li><a href="#theorie-retrospektive">Theorie “Retrospektive”</a></li>
+</ul></li>
+<li><a href="#vorlagen">Vorlagen</a></li>
+<li><a href="#abschluss">Abschluss</a></li>
+<li><a href="#anhang">Anhang</a>
+<ul>
+<li><a href="#danksagungen">Danksagungen</a></li>
+<li><a href="#änderungshistorie">Änderungshistorie</a></li>
+<li><a href="#lernos-glossar">lernOS Glossar</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="lernos-digitale-zusammenarbeit">lernOS Digitale
+Zusammenarbeit</h1>
+<p>Version 0.3 (23.08.2022)</p>
+<p>Ein Leitfaden, um gemeinsam die digitale Zusammenarbeit im
+Unternehmenskontext zu erlernen.</p>
+<p><strong>Hashtags:</strong> #lernOS #DigitaleZusammenarbeit
+#digitalcollaboration</p>
+<p><img src="images/Titel_digitale_Zusammenarbeit.jpeg" /></p>
+<blockquote>
+<p>Britta Müller-Ruhnau, Daniel Prial, Fabienne Theis, Magnus Rode,
+Rainer Bartl, Stefanie Ammler</p>
+</blockquote>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h1 id="über-lernos">Über lernOS</h1>
+<p>lernOS ist eine Methode zur Selbstorganisation für Menschen, die im
+21. Jahrhundert leben und arbeiten. Um heute erfolgreich zu sein, muss
+man ständig lernen, sich organisieren und weiterentwickeln. Niemand
+sonst ist für diesen Prozess verantwortlich. Man muss sich selbst darum
+kümmern (selbstgesteuertes, lebenslanges Lernen).</p>
+<p>lernOS Leitfäden stehen unter der Lizenz <a
+href="https://creativecommons.org/licenses/by/4.0/deed.de">Creative
+Commons Namensnennung 4.0 International</a> (CC BY 4.0):</p>
+<p><img src="images/CC-BY.png" /></p>
+<p><strong>Du darfst:</strong></p>
+<ul>
+<li><p>Teilen - das Material in jedwedem Format oder Medium
+vervielfältigen und weiterverbreiten.</p></li>
+<li><p>Bearbeiten - das Material remixen, verändern und darauf aufbauen,
+und zwar für beliebige Zwecke, sogar kommerziell.</p></li>
+</ul>
+<blockquote>
+<p> </p>
+</blockquote>
+<p><strong>Unter folgenden Bedingungen:</strong></p>
+<ul>
+<li><p>Namensnennung - Du musst angemessene Urheber- und Rechteangaben
+machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen
+vorgenommen wurden. Diese Angaben dürfen in jeder angemessenen Art und
+Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht,
+der Lizenzgeber unterstütze gerade Sie oder Ihre Nutzung
+besonders.</p></li>
+<li><p>Keine weiteren Einschränkungen - Du darfst keine zusätzlichen
+Klauseln oder technische Verfahren einsetzen, die anderen rechtlich
+irgendetwas untersagen, was die Lizenz erlaubt.</p></li>
+</ul>
+<p> </p>
+<p> <strong>Hinweise vorab für Unternehmen, die den Lernpfad verwenden
+wollen:</strong></p>
+<blockquote>
+<p>Unternehmen können den lernOS-Leitfaden für sich anpassen, um
+Beispiele und Tools aus dem eigenen Unternehmen zu integrieren.</p>
+<p>Um die Einstiegshürde zu senken, ist eine Anpassung an die lokale
+IT-Landschaft innerhalb des Unternehmens möglich (erfolgt durch das
+jeweilige Unternehmen, ggf. in Zusammenarbeit von denen, welche die
+gleichen Tools nutzen).</p>
+</blockquote>
+<p> </p>
+<p><strong>Hinweis vorab für Guides, die den Lernpfad im eigenen
+Unternehmen verwenden wollen:</strong></p>
+<blockquote>
+<p>Als Guide kann ich den lernOS-Leitfaden für digitale Zusammenarbeit
+als Lernprogramm in unserem Unternehmen einsetzen, um unsere
+Mitarbeitenden bei ihrem Einstieg zu unterstützen. Dafür kann ich den
+Leitfaden an die bei uns eingesetzten Tools und Methoden anpassen sowie
+Stories aus unserem Unternehmen ergänzen.</p>
+</blockquote>
+<p> </p>
+<p><strong>Hinweis für Einzelpersonen, die den Lernpfad mit anderen
+verwenden wollen:</strong></p>
+<blockquote>
+<p>Unternehmensübergreifende Circle sind möglich, aber dafür muss die
+“Übersetzungsleistung” auf die Toolebene von den Teilnehmenden selbst
+gestemmt werden.</p>
+</blockquote>
+<p> </p>
+<p> </p>
+<p><strong>Wer mehr über lernOS erfahren möchte:</strong></p>
+<ul>
+<li><p>Video “<a
+href="https://www.youtube.com/watch?v=JoTjZOK8L2g">lernOS - eine
+Einführung</a> in lernOS, das offene System für Lebenslanges Lernen und
+Lernende Organisationen” von Simon Dückert</p></li>
+<li><p>Weitere Informationen auf der <a
+href="https://lernos.org">lernOS</a>-Website</p></li>
+<li><p>Wenn du selbst einen Circle starten möchtest und nach weiteren
+Personen suchst, die mit dir gemeinsam auf Lernreise gehen, kannst du
+diese über die <a href="https://web.peerfinder.app/de">Peerfinder
+App</a> finden.</p></li>
+<li><p>Die lernOS-Community findest du <a
+href="https://community.cogneon.de/">hier</a>.</p></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h1 id="making-of-und-danksagung">Making of und Danksagung</h1>
+<p>Dieser #lernOS Leitfaden für die “Digitale Zusammenarbeit” ist im
+Rahmen des Netzwerks #GuidesExchange entstanden - natürlich komplett in
+digitaler Zusammenarbeit <img src="images/zwinkersmiley.png" />. Wir
+haben uns für die Arbeit am Leitfaden nie persönlich getroffen!</p>
+<p>Wir haben sowohl synchron in 2-wöchentlichen und zusätzlichen
+thematischen Treffen als auch asynchron an diesem Leitfaden gearbeitet
+in einem gemeinsamen OneNote-Notizbuch in MS Teams.</p>
+<h3 id="making-of">Making of</h3>
+<p><strong>Wieso haben wir uns mit dem Thema “Digitale Zusammenarbeit”
+beschäftigt?<br />
+Und was ist dieses #GuidesExchange Netzwerk?</strong></p>
+<p>Es war einmal in einem Working-Out-Loud-Circle im Jahr 2018. Bei
+Working Out Loud (#WOL) ist die Vernetzung mit anderen ein zentrales
+Thema. Und daher war es Magnus’ Ziel in diesem Circle, sich mit anderen
+Guide- &amp; Multiplikatoren-Netzwerken auszutauschen und gemeinsam
+voneinander zu lernen, da er selbst gerade am Aufbau eines
+Multiplikatoren-Netzwerks in seinem Konzern arbeitete.</p>
+<p>Manchmal dauert es etwas länger als die 12 Wochen in einem
+WOL-Circle, die Früchte dieser Arbeit zu ernten: Ein Tweet von Julia
+Wieland im Dezember 2019 bot die Grundlage, eine gemeinsame Community zu
+initiieren. Ab Januar 2020 haben wir uns unternehmensübergreifend
+(Cross-Company) regelmäßig in dieser #GuidesExchange Community getroffen
+mit dem Ziel, uns miteinander über die Herausforderungen in unseren
+Guide- und Multiplikatoren-Netzwerken auszutauschen und uns gegenseitig
+zu unterstützen.</p>
+<p>Im Sommer 2020 stellte Leonid Lezner in einem <a
+href="https://community.cogneon.de/t/digitale-zusammenarbeit-im-konzern-lernos-guide/2295/16">Post
+auf Cogneon CONNECT</a> die Idee vor, die “Digitale Zusammenarbeit im
+Konzern” in einem Circle ähnlich wie #WOL zu erlernen. Wir haben Leonid
+eingeladen, diese Idee in einem Workshop der #GuidesExchange Community
+vorzustellen und zu diskutieren. Denn die Herausforderungen bei der
+Einführung von Kollaborationslösungen wie z.B. Microsoft 365 waren in
+vielen unserer Unternehmen ähnlich.</p>
+<p>Seit Oktober 2020 arbeiteten wir daraufhin in einer Untergruppe der
+#GuidesExchange Community daran, einen #lernOS Leitfaden “Digitale
+Zusammenarbeit” zu erstellen.</p>
+<p>Unser Ziel war ein Circle Leitfaden für alle, die in Kleingruppen wie
+bei #WOL in 12 Wochen lernen möchten, die digitale Zusammenarbeit in
+ihre tägliche Arbeit zu integrieren, um ihre Aufgaben effizienter zu
+lösen. Dabei sollte der Leitfaden einfach an die im jeweiligen
+Unternehmen verwendeten Tools und Methoden angepasst werden können. Das
+wiederum würde uns die Arbeit in den Guide- und
+Multiplikatoren-Netzwerken vereinfachen.</p>
+<p>Wir haben unsere gemeinsamen Erfahrungen zusammengetragen und in
+einen Theorie-Teil sowie Aufgaben in Form der #lernOS Katas für die
+einzelnen Wochen im Circle aufbereitet.<br />
+Dabei gilt:<br />
+“Eat your own dogfood” - Alles was wir hier schreiben, haben wir auch
+selbst ausprobiert.</p>
+<h3 id="danksagung">Danksagung</h3>
+<p>Wir danken allen für die wertvollen Impulse zum Leitfaden!</p>
+<p>Wir danken zudem der #lernOS-Community für den Austausch und
+Inspirationen beim Schreiben von #lernOS Leitfäden, ganz besonders Simon
+Dückert für seine Unterstützung, das #lernOS Konzept und den Workflow
+nebst Template zum Erstellen der vielen Formate!</p>
+<p>Wir danken der #GuidesExchange Community für den offenen Austausch
+und den Rahmen für die Erstellung dieses Leitfadens!</p>
+<p>Geschrieben wurde der Leitfaden von:</p>
+<ul>
+<li><p>Britta Müller-Ruhnau</p></li>
+<li><p>Daniel Prial</p></li>
+<li><p>Fabienne Theis</p></li>
+<li><p>Magnus Rode</p></li>
+<li><p>Rainer Bartl</p></li>
+<li><p>Stefanie Ammler</p></li>
+</ul>
+<p>Wir bedanken uns für die Mitarbeit am Leitfaden und Unterstützung
+bei:</p>
+<ul>
+<li><p>Bernd Aures</p></li>
+<li><p>Hans-Jürgen Sturm</p></li>
+<li><p>Leonid Lezner</p></li>
+</ul>
+<p>Ein ganz besonderer Dank für die tollen Sketchnotes gilt:</p>
+<ul>
+<li>Tobias Grewe</li>
+</ul>
+<p>Wir danken allen, die den Leitfaden in der Pilotphase als
+Einzelpersonen und in Unternehmen testen und uns Feedback für die
+Verbesserung geben!</p>
+<p>Dankeschön!</p>
+<h3 id="kontakt">Kontakt</h3>
+<p>Habt ihr Fragen, Kommentare, Hinweise, Kritik, Anmerkungen?</p>
+<p>Meldet euch gerne an: <a
+href="mailto:feedback@circle.guide?subject=Feedback%20lernOS%20digitale%20Zusammenarbeit">feedback@circle.guide</a></p>
+<p>Keep calm &amp; learn on!</p>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h1 id="einführung-in-die-digitale-zusammenarbeit">Einführung in die
+digitale Zusammenarbeit</h1>
+<p>Der Lernpfad “Digitale Zusammenarbeit” richtet sich an alle Menschen
+im beruflichen Kontext, …</p>
+<ul>
+<li><p>… die festgestellt haben, dass digitales Arbeiten aus mehr als
+E-Mail- und Office-Programmen besteht,</p></li>
+<li><p>… die gegenüber digitaler Zusammenarbeit aufgeschlossen sind und
+mehr darüber lernen möchten,</p></li>
+<li><p>… die sich noch ein bisschen mehr Orientierung in der digitalen
+Welt wünschen,</p></li>
+<li><p>… die schon erste Erfahrungen mit kollaborativen Tools gemacht
+haben; aber auch Newbies sind herzlich willkommen.</p></li>
+</ul>
+<p>Der Einstieg in die digitale Zusammenarbeit ist sehr individuell. Es
+gibt nicht den einen Einstieg. Jede:r hat einen unterschiedlichen
+Zugang. Wir haben uns bei der Erstellung des Lernpfads selbst die Frage
+gestellt, was digitale Zusammenarbeit für uns bedeutet. Hier ein paar
+exemplarische Zitate:</p>
+<blockquote>
+<p>“Dann kam Corona … und alle wollten auf einmal digital arbeiten. In
+dieser Zeit habe ich an vielen Webinaren teilgenommen, um weitere Ideen
+zu sammeln und neue Tools kennenzulernen, wie beispielsweise Mural, Miro
+etc., um diese ins Unternehmen zu tragen und digitale Zusammenarbeit
+erlebbar zu machen.”</p>
+<p>“Ende 2019 ist meine Teamleiterin für einige Wochen nach Tokio
+gewechselt, so dass wir auch in meinem Team Bedarf hatten, digitale
+Zusammenarbeit auszuprobieren und zu lernen. Dabei haben wir MS Teams
+erfolgreich im Team eingeführt und verwenden es noch heute für den
+Austausch zu Fachthemen und organisatorischen Belangen.”</p>
+<p>“Mit kleinen Sachen viel erreichen: MS Teams anstelle von E-Mails
+genutzt, Dokumente in SharePoint freigeben für die Zusammenarbeit,
+Forms-Umfragen eingebaut etc. (Mindset-Change).”</p>
+<p>“Ich bin froh, damals unser Vernetzungstool entdeckt und seitdem
+aktiv für den Wissensaustausch mit Kolleg:innen aus anderen
+Konzernbereichen genutzt zu haben. Die Informationen aus Yammer haben
+mir in meiner täglichen Arbeit viele Vorteile gebracht.”</p>
+</blockquote>
+<p>So macht sich jede:r auf den Weg und lernt immer wieder dazu. Wenn
+ihr den Lernpfad in der Gruppe macht, habt ihr den Vorteil gleichzeitig
+von- und miteinander zu lernen. Jede:r von euch hat eine andere
+Zielstellung, eine andere Motivation. Was euch alle verbindet, ist: ihr
+wollt alle dazu lernen. Und das ist es, worauf es ankommt.</p>
+<p>Bitte erwartet hier keine fertige Schritt-für-Schritt-Anleitung. Der
+Lernpfad begleitet euch auf dem Weg. Hauptbestandteil wird sein, neue
+Dinge auszuprobieren, eigene Anwendungsfälle zu finden und im
+geschützten Raum zu testen, bevor ihr es im Team, eurer Abteilung etc.
+einführt.</p>
+<p>Daher die Hashtags für den Leitfaden “Digitale Zusammenarbeit”:<br />
+<strong>#lernOS #digitaleZusammenarbeit #collaboration
+#EinfachAusprobieren #EinfachMalMachen</strong> (z.B. wenn ihr in Social
+Media über eure Lernreise schreibt)</p>
+<h2 id="warum-digitale-zusammenarbeit">Warum digitale
+Zusammenarbeit?</h2>
+<p>Wir kennen oder hören Buzzwörter wie “Digitale Transformation” und
+“VUCA-Welt”.</p>
+<p>Konkret bedeutet das im beruflichen Kontext, dass neue Kompetenzen
+und Skills aber auch andere Arbeitsweisen notwendig sind, um den
+aktuellen Herausforderungen (z.B. Mobile Office, remote work, New Work)
+zu begegnen. Dadurch entstehen auch neue Konzepte der Zusammenarbeit,
+auf die man sich einlassen muss und darf.</p>
+<p>Der Leitfaden für digitale Zusammenarbeit setzt genau dort an. Neben
+den Tools stehen Methoden und Strategien der digitalen Zusammenarbeit,
+Vernetzung und Wissensverbreitung im Vordergrund.</p>
+<p>Viele Formate und Methoden, die in diesem Leitfaden auftauchen,
+existieren auch in der analogen Welt. Hier werden Möglichkeiten gezeigt,
+diese im digitalen Kontext umzusetzen. Zudem können viele sowohl
+synchron (zeitgleich) als auch asynchron (zeitversetzt) angewendet
+werden. In diesem Zusammenhang spricht man dann von Kollaborationstools,
+die zum Einsatz kommen.</p>
+<p>Im Folgenden seht ihr die verschiedenen Szenarien für digitale
+Zusammenarbeit in Verbindung mit der Reichweite und den Tools:</p>
+<p><img
+src="images/Sketchnote_Szenarien_Digitale_Zusammenarbeit.png" /></p>
+<h2 id="was-sind-digitale-kollaborationstools">Was sind digitale
+Kollaborationstools?</h2>
+<p>Die digitale Zusammenarbeit von Teams erfordert Kollaborationstools,
+die dies ermöglichen. Dadurch können sich Teams aus unternehmensinternen
+und -externen Personen zusammenfinden, um gemeinsam an Projekten und
+Themen zu arbeiten.</p>
+<p>Digitale Kollaborationstools sind Anwendungen, welche die
+Zusammenarbeit im Team, in der Abteilung und im Unternehmen digital
+ermöglichen. Dabei wird auch die interne Kommunikation gefördert.
+Bekannte Beispiele sind z.B. MS Teams, Slack, Planner, Asana und
+Mural.</p>
+<p>Hinweise zum Umgang mit Schatten-IT:</p>
+<ul>
+<li><p>Wir geben Beispiele für Tools. Du musst diese nochmal prüfen und
+unternehmenskonform damit umgehen.</p></li>
+<li><p>Für Unternehmen, die sich den Guide anpassen, gilt dasselbe. Ihr
+seid hier in der Verantwortung.</p></li>
+</ul>
+<h2 id="was-gehört-alles-zur-digitalen-zusammenarbeit">Was gehört alles
+zur digitalen Zusammenarbeit?</h2>
+<p>Zur digitalen Zusammenarbeit gehören u.a. die folgenden Aspekte:</p>
+<ul>
+<li><p><strong>Kommunikation (Chat, Video-Calls, ESN,
+…)</strong></p></li>
+<li><p><strong>Wissen teilen</strong></p></li>
+<li><p><strong>Gemeinsam an Dokumenten arbeiten</strong></p></li>
+<li><p><strong>Retrospektive</strong></p></li>
+<li><p>Beziehungsarbeit</p></li>
+<li><p>Entscheidungen treffen</p></li>
+<li><p>Planen</p></li>
+<li><p>Brainstorming und Ideenfindung</p></li>
+</ul>
+<p>Es gibt noch viel mehr. In diesem Leitfaden fokussieren wir uns auf
+die <strong>fett markierten Aspekte</strong>.</p>
+<p>Die Abbildung verdeutlicht noch mal das Zusammenspiel:</p>
+<p><img src="images/Digitale_Zusammenarbeit.jpeg" /></p>
+<p>Wenn du den Lernpfad durcharbeitest, dann</p>
+<ul>
+<li><p>verstehst du, was digitale Zusammenarbeit bedeutet und warum das
+wichtig ist,</p></li>
+<li><p>lernst du Strategien kennen, um digitale Zusammenarbeit im
+Unternehmenskontext umzusetzen,</p></li>
+<li><p>kennst du verschiedene Tools, Methoden und Möglichkeiten, um
+digital zusammenzuarbeiten,</p></li>
+<li><p>erkennst du, dass immer wieder neue Formen der digitalen
+Zusammenarbeit entstehen.</p></li>
+</ul>
+<p>Der Leitfaden “digitale Zusammenarbeit” umfasst wirklich viele
+Themen, die sich nicht immer leicht in gekürzter Form darstellen lassen.
+Deshalb: Habe den Mut einfach anzufangen. Beginne deine ganz persönliche
+Lernreise.</p>
+<h1 id="deine-lernreise-im-überblick">Deine Lernreise im Überblick</h1>
+<p>In den nächsten 1 + 12 Wochen wirst du dich intensiv mit dem Thema
+digitale Zusammenarbeit beschäftigen.</p>
+<p><img src="images/Roadmap_Digitale_Zusammenarbeit.jpg" /></p>
+<p>Hier die Wochen im Überblick:</p>
+<ul>
+<li><p>In der <strong>Woche 0</strong> geht es darum, die Lernreise
+vorzubereiten, sich klar zu werden über die eigene Motivation und mit
+der Lerngruppe zu verabreden, wie ihr euch in der Zeit organisieren
+wollt.</p></li>
+<li><p>In <strong>Woche 1</strong> beschäftigst du dich mit deinem
+individuellen Einstieg in die digitale Zusammenarbeit. Dazu erstellst du
+eine individuelle Standortbestimmung.</p></li>
+<li><p>In <strong>Woche 2</strong> erstellt ihr gemein das Collaboration
+Canvas für eure Zusammenarbeit im Circle und legt damit eure Regeln der
+Zusammenarbeit fest.</p></li>
+<li><p>In den <strong>Wochen 3-5</strong> geht es um verschiedene
+Aspekte rund um das Thema Kommunikation. Du lernst geeignete Tools aber
+auch Kanäle für die Kommunikation kennen und erfährst, wie du deine
+Kommunikation optimal ausrichtest.</p></li>
+<li><p>In der <strong>Woche 6</strong> erfolgt ein Boxenstopp, indem ihr
+eine Circle-Retrospektive durchführt.</p></li>
+<li><p>In <strong>Woche 7</strong> steht das gemeinsame Arbeiten an
+Dokumenten im Mittelpunkt. Du lernst, was dabei in der digitalen
+Zusammenarbeit zu berücksichtigen ist.</p></li>
+<li><p>In <strong>Woche 8</strong> erhältst du Anregungen, wie du
+Meetings effizient gestalten kannst.</p></li>
+<li><p>In den <strong>Wochen 9-11</strong> liegt der Schwerpunkt auf
+Wissen teilen. Du behandelst dabei die Aspekte “nehmen”, “sichtbar
+werden” und “geben”.</p></li>
+<li><p>In der <strong>Woche 12</strong> erwartet dich ein Sprint-Review.
+Hier reflektierst du deine Lernreise.</p></li>
+</ul>
+<p>Für jede Woche gibt es eine Agenda mit folgendem Aufbau:</p>
+<ul>
+<li><p>Check-in</p></li>
+<li><p>Hauptthema</p></li>
+<li><p>Check-out</p></li>
+<li><p>Hausaufgabe</p></li>
+</ul>
+<p>Auf deiner Lernreise begegnest du wöchentlich einer sogenannten Kata,
+was so viel wie “Übung” bedeutet. Die Lernreise ist so angelegt, dass du
+in der Vor-Woche die jeweilige Kata für die nächste Woche als
+Hausaufgabe vorbereitest, so dass ihr euch gemeinsam darüber im Circle
+austauschen könnt.</p>
+<p>Bitte plane pro Woche mindestens 2 Stunden Zeit ein: 1 Stunde für das
+gemeinsame Treffen und 1 Stunde (oder mehr) für deine Hausaufgabe. Vor-
+und Nachbereitungszeiten können dabei variieren.</p>
+<p>Digitale Zusammenarbeit ist ein sehr umfangreiches Thema. Es können
+nicht alle Aspekte gleichermaßen erarbeitet werden. Auch ist euer
+Kenntnisstand jeweils unterschiedlich in den einzelnen Bereichen.</p>
+<p>Bitte lege für dich deine Schwerpunkte fest und entscheide bei jeder
+Kata, ob du zusätzlich zum Lernpfad noch mehr machen willst - es gibt in
+jeder Kata weiterführende Tipps und Aufgaben für dich.</p>
+<p>Bevor ihr euch auf den Weg macht, möchten wir euch die Kraft der
+kleinen Schritte vorstellen, die euch bei eurem Lernprozess motivieren
+soll. Das Diagramm von James Clear mit dem Titel „The Power of Tiny
+Gains” zeigt anschaulich, dass es sich lohnt, dran zu bleiben, auch wenn
+es am Anfang mühselig erscheint.</p>
+<p><img src="images/lernOS_Verbessung.png" /> Zu wissen, dass “1%
+Verbesserung jeden Tag” helfen kann, zu lernen und voranzukommen, zeigt
+die Abbildung:</p>
+<p>Und nun: viel Spaß bei deiner Reise!</p>
+<h1 id="lernpfad">Lernpfad</h1>
+<h2 id="woche-0---kennenlernen-und-organisation-des-circles">Woche 0 -
+Kennenlernen und Organisation des Circles</h2>
+<p>Es geht los!</p>
+<p>Eure lernOS-Digitale Zusammenarbeit-Reise beginnt heute.</p>
+<p>Ihr lernt euch kennen und plant gemeinsam die nächsten 12 Wochen, in
+denen ihr euch einmal wöchentlich hören und sehen werdet.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(25 Minuten)</em><br />
+Herzlich willkommen! Schön, dass ihr dabei seid!</p>
+<p><strong>Vorstellung</strong>: Jedes Circle-Mitglied stellt sich in 5
+Minuten vor.</p>
+<ul>
+<li>Bitte denke einen Moment darüber nach, warum bist du hier?</li>
+<li>Nimm dir jetzt Zeit, um deine persönlichen Gründe aufzuschreiben und
+teile diese sowie weitere Informationen zu deiner Person deinem Circle
+mit.</li>
+</ul>
+<p>Viel Spaß beim Kennenlernen!</p>
+<p><strong>Hauptthema</strong>: <em>(20 Minuten)</em><br />
+Plant, wann ihr euch trefft, welche Tools ihr nutzt und wer die
+Moderation übernimmt, siehe <a href="5-0-Kata-0.md">Kata 0 -
+Organisation und Circle-Setup für digitale Zusammenarbeit</a></p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Bitte bestätigt das nächste Treffen. Was wirst du bis zum nächsten
+Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-1-Kata-1.md">Kata 1 -
+Standort-Bestimmung</a> vor und lege dein lernOS-Canvas sowie deinen
+lernOS Workplace in der gemeinsamen Dokumentenablage ab, so dass ihr
+diese alle vorher anschauen und beim nächsten Treffen darüber sprechen
+könnt.</p>
+<h2 id="woche-1---dein-einstieg-in-die-digitale-zusammenarbeit">Woche 1
+- Dein Einstieg in die digitale Zusammenarbeit</h2>
+<p>Heute geht es um die individuelle Standortbestimmung. Ihr sprecht
+über euer lernOS Canvas und lernOS Wheel.</p>
+<hr />
+<p>Kleiner Exkurs: Jede:r startet von einem anderen Standort und hat
+womöglich andere Ziele. Das ist völlig normal.</p>
+<p>Dies verdeutlicht auch noch mal die Parabel vom „König von Savatthi”.
+Während eures Circles ist es wichtig, dass ihr diese Standorte von euch
+gegenseitig kennt und im Blick behaltet. So ist eine gegenseitige
+Unterstützung viel gewinnbringender.</p>
+<p><strong>Parabel vom „König von Savatthi”</strong></p>
+<blockquote>
+<p>Die Parabel vom „König von Savatthi” auch bekannt unter „Die blinden
+Männer und der Elefant” verdeutlicht sehr anschaulich, welchen Einfluss
+Erfahrungen und die individuelle Perspektive auf die Gesamtsicht haben
+können. In der Parabel untersuchen mehrere blind geborene Männer im
+Auftrag des Königs einen Elefanten. Jeder von Ihnen untersucht einen
+Teil des Elefanten, aber eben nur genau einen Teil. Basierend auf ihren
+Kenntnissen und Erfahrungen ziehen sie Vergleiche und berichten
+anschließend dem König aus ihrer individuellen Perspektive heraus, was
+für sie ein Elefant ist.</p>
+</blockquote>
+<p><em>Aus &lt;<a href="https://prozesselefant.de/perspektive"
+class="uri">https://prozesselefant.de/perspektive</a>&gt;</em></p>
+<hr />
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)</em><br />
+Was hat mich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied!</p>
+<p><strong>Hauptthema</strong>: <em>(45 Minuten)</em><br />
+Stellt euch gegenseitig eure <a href="5-1-Kata-1.md">Kata 1 -
+Standort-Bestimmung</a> vor und tauscht euch darüber aus.</p>
+<ul>
+<li>Was ist deine Motivation für diesen Circle?</li>
+<li>Was willst du erreichen?</li>
+<li>Worin willst du besser werden? </li>
+</ul>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em>**<br />
+**Was werde ich bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-2-Kata-2.md">Kata 2 -
+Wie arbeiten wir zusammen?</a> vor.</p>
+<h2 id="woche-2---wie-arbeiten-wir-im-circle-zusammen">Woche 2 - Wie
+arbeiten wir im Circle zusammen?</h2>
+<p>“Unser Einstieg in die digitale Zusammenarbeit”</p>
+<p>Nachdem ihr in der letzten Woche euren eigenen Standort bestimmt
+habt, wollen wir in dieser Woche den Fokus auf die digitale
+Zusammenarbeit in eurem Circle richten.</p>
+<p>Ihr seid das erste Team, in dem ihr die gelernten Dinge aktiv
+ausprobieren und umsetzen könnt. Denn wie so häufig im Leben lernst du
+am besten in der eigenen Anwendung.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)<br />
+</em>Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: (45 Minuten)</p>
+<ul>
+<li>Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-2-Kata-2.md">Kata 2 - Wie arbeiten wir zusammen?</a> vor und
+tauscht euch darüber aus.</li>
+<li>Erarbeitet eure Regeln für die Zusammenarbeit im <a
+href="6-3-Theorie-Zusammenarbeit.md#collaboration-canvas">Collaboration
+Canvas</a>.</li>
+</ul>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-3-Kata-3.md">Kata 3 -
+Analysiere und reflektiere deine Kommunikation</a> vor.</p>
+<h2 id="woche-3---kommunikation-analyse-und-reflektion">Woche 3 -
+Kommunikation: Analyse und Reflektion</h2>
+<p>In den folgenden 3 Wochen geht es um das Thema Kommunikation.</p>
+<p>Hier ist es wichtig, Frustration und Stress zu vermeiden, indem du
+deine Kommunikation optimal ausrichtest. Hilfreich ist es auch, die
+geeigneten Kanäle/Tools auszuwählen, um eine schnelle und effektive
+Zusammenarbeit mit Internen und Externen zu ermöglichen. Alles mit dem
+Ziel deinen Umgang mit eingehender Kommunikation zu optimieren.</p>
+<p>Wir beginnen in dieser Woche damit, deine Kommunikation zu
+analysieren und zu reflektieren.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)<br />
+</em>Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: (45 Minuten)<br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-3-Kata-3.md">Kata 3 - Analysiere und reflektiere deine
+Kommunikation</a> vor und tauscht euch darüber aus.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-4-Kata-4.md">Kata 4 -
+Lerne deine Tools kennen</a> vor.</p>
+<h2 id="woche-4---kommunikation-lerne-deine-tools-kennen">Woche 4 -
+Kommunikation: Lerne deine Tools kennen</h2>
+<p>In dieser Woche lernst du geeignete Tools für die Kommunikation
+kennen.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)<br />
+</em>Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: <em>(45 Minuten)</em><br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-4-Kata-4.md">Kata 4 - Lerne deine Tools kennen</a> vor und
+tauscht euch darüber aus.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-5-Kata-5.md">Kata 5 -
+Wähle einen passenden Kanal</a> vor.</p>
+<h2 id="woche-5---kommunikation-wähle-den-passenden-kanal">Woche 5 -
+Kommunikation: Wähle den passenden Kanal</h2>
+<p>In dieser Woche lernst du geeignete Kanäle auszuwählen, um eine
+schnelle und effektive Zusammenarbeit mit Internen und Externen zu
+ermöglichen.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)<br />
+</em>Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: (45 Minuten)<br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-5-Kata-5.md">Kata 5 - Wähle einen passenden Kanal</a> vor und
+tauscht euch darüber aus.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-6-Kata-6.md">Kata 6 -
+Retro</a> vor.<br />
+Hier wollen wir auf die ersten Wochen zurückblicken, um die
+Zusammenarbeit im Circle für die verbleibenden Wochen anpassen zu
+können.</p>
+<h2 id="woche-6---boxenstopp-circle-retro">Woche 6 - Boxenstopp
+(#Circle-Retro)</h2>
+<p>In der Vorbereitung zur Kata 6 habt ihr euch einen guten Überblick
+zur Retrospektive verschafft.</p>
+<p>Heute geht es um die praktische Anwendung. Anwendungsfall ist eure
+bisherige Circle-Lernpfad-Zusammenarbeit. Wie ist es euch damit
+ergangen? Was wollt ihr weglassen? Wovon wünscht ihr euch mehr?</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)<br />
+</em>Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: (45 Minuten)</p>
+<ul>
+<li>Stellt euch gegenseitig eure Ergebnisse, Gedanken und Erkenntnisse
+aus der <a href="5-6-Kata-6.md">Kata 6 - Retro</a> vor und tauscht euch
+darüber aus.</li>
+<li>Welche Retro-Vorlage wollt ihr nutzen, um den Circle-Boxenstopp
+durchzuführen?<br />
+Anhand derer reflektiert ihr gemeinsam, wie eure bisherige
+Zusammenarbeit im Circle gelaufen ist. Zunächst verschriftlicht ihr
+jede:r für sich eure Punkte (z.B. stichpunktartig auf Post-its
+schreiben), danach sprecht ihr darüber und versucht euch gegenseitig zu
+verstehen und ggf. Lösungen zu finden.</li>
+<li>Für den Fall, dass ihr euch nicht entscheiden könnt, versucht es
+einfach mit der <a href="7-0-Vorlagen.md">Vorlage “Template 4L”</a></li>
+</ul>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-7-Kata-7.md">Kata 7 -
+Dokumente gemeinsam bearbeiten</a> vor.</p>
+<h2 id="woche-7---gemeinsam-an-dokumenten-arbeiten">Woche 7 - Gemeinsam
+an Dokumenten arbeiten</h2>
+<p>Nun wollen wir basierend auf unseren Regeln für die Zusammenarbeit
+einen Schritt weiter gehen und Dokumente nicht nur miteinander teilen,
+sondern auch gemeinsam erarbeiten. Als konkretes Beispiel dient eine
+Sammlung der “besten Hacks für die digitale Zusammenarbeit”. Ihr habt
+als Hausaufgabe mit der <a href="5-7-Kata-7.md">Kata 7 - Dokumente
+gemeinsam bearbeiten</a> schon begonnen, gemeinsam an einem Dokument zu
+arbeiten. Diese Arbeit werdet ihr bis zum Ende des Circles zusammen
+(asynchron) weiterführen.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)<br />
+</em>Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: (45 Minuten)<br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-7-Kata-7.md">Kata 7 - Dokumente gemeinsam bearbeiten</a> vor und
+tauscht euch darüber aus.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe</strong>:<br />
+Bereite bitte bis zur nächsten Woche <a href="5-8-Kata-8.md">Kata 8 -
+Meetings effizient gestalten</a> vor.</p>
+<h2 id="woche-8---meetings-effizient-gestalten">Woche 8 - Meetings
+effizient gestalten</h2>
+<p>In dieser Woche besprechen wir die Sammlung der Hacks seit dem
+letzten Treffen. Wir wenden unsere Erkenntnisse über das gemeinsame
+Bearbeiten von Dokumenten an, um damit unsere Meetings effizienter zu
+gestalten. Denn Zeit ist das wertvollste und knappste Gut, das wir haben
+- gehe achtsam damit um.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)</em><br />
+Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: <em>(45 Minuten)</em></p>
+<ul>
+<li>“<a href="5-7-Kata-7.md">Besprecht die Sammlung der Hacks aus Kata 7
+im Circle</a>”</li>
+<li>Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-8-Kata-8.md">Kata 8 - Meetings effizient gestalten</a> vor und
+tauscht euch darüber aus.</li>
+</ul>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe:</strong><br />
+Bereite bitte bis zur nächsten Woche <a href="5-9-Kata-9.md">Kata 9 -
+Wie kannst Du selbst vom Wissen anderer profitieren und Dankbarkeit
+zeigen (#Nehmen)?</a> vor.</p>
+<h2 id="woche-9---wissen-teilen-nehmen">Woche 9 - Wissen teilen
+(#Nehmen)</h2>
+<p>“Sharing is caring!” - Ein Slogan, der gerne verwendet wird - aber
+wer macht’s denn?<br />
+Sicher, man freut sich, wenn man “brauchbares Wissen” findet, nach dem
+man gesucht hat.<br />
+Aber selbst Wissen teilen? So viel Aufwand (Zeit + Energie)
+betreiben?</p>
+<p>Und doch ist es so einfach und leicht vom Wissensnehmenden zum
+Wissensgebenden zu werden, wenn man sich ganz bewusst auf diese
+Lernreise begibt.<br />
+Und jede Reise beginnt mit einem ersten, kleinen Schritt.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)</em><br />
+Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: <em>(45 Minuten)</em><br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-9-Kata-9.md">Kata 9 - Wie kannst Du selbst vom Wissen anderer
+profitieren und Dankbarkeit zeigen (#Nehmen)?</a> vor und tauscht euch
+darüber aus.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe:</strong><br />
+Bereite bitte bis zur nächsten Woche <a href="5-10-Kata-10.md">Kata 10 -
+Wie ich mit meinem Wissen im Unternehmen sichtbar werde
+(#SichtbarWerden)</a> vor.</p>
+<h2 id="woche-10---wissen-teilen-sichtbarwerden">Woche 10 - Wissen
+teilen (#SichtbarWerden)</h2>
+<p>Wer sich auf den Weg macht und sich mit dem Thema “Wissen teilen”
+beschäftigt, wird auf Gleichgesinnte treffen und diese Erfahrungen
+machen:</p>
+<ul>
+<li>“Wissen teilen ist Macht”</li>
+<li>Niemand kann mehr alles wissen - Netzwerk ist der Weg zur
+Lösung.</li>
+<li>Reputation / Sichtbarkeit ist die neue “Währung” in Netzwerken.</li>
+<li>Es gibt Follower anstatt Untergebene. ;-)</li>
+</ul>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)</em><br />
+Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: <em>(45 Minuten)</em><br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-10-Kata-10.md">Kata 10 - Wie ich mit meinem Wissen im
+Unternehmen sichtbar werde (#SichtbarWerden)</a> vor und tauscht euch
+darüber aus.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe:</strong><br />
+Bereite bitte bis zur nächsten Woche <a href="5-11-Kata-11.md">Kata 11 -
+Was meine Kolleg:innen von meinem aktiven Teilen von
+Wissen/Informationen haben (#Geben)</a> vor.</p>
+<h2 id="woche-11---wissen-teilen-geben">Woche 11 - Wissen teilen
+(#Geben)</h2>
+<p>Wissen teilen - das klingt so groß, wie das Erstellen einer
+wissenschaftlichen Arbeit.<br />
+Aber das können auch ganz kleine Dinge sein, z.B. Tipps &amp; Tricks,
+die anderen die Arbeit einfacher machen und für dich keinen großen
+Aufwand bedeuten, z.B. durch das Beantworten von Fragen im Chat,
+Diskussionsforen und Kommentare sowie Ergänzungen zu anderen
+Beiträgen.</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)</em><br />
+Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: <em>(45 Minuten)</em><br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-11-Kata-11.md">Kata 11 - Was meine Kolleg:innen von meinem
+aktiven Teilen von Wissen/Informationen haben (#Geben)</a> vor und
+tauscht euch darüber aus.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Was werdet ihr bis zum nächsten Weekly tun?</p>
+<p><strong>Hausaufgabe:</strong><br />
+Bereite bitte bis zur nächsten Woche <a href="5-12-Kata-12.md">Kata 12 -
+Selbstreflexion</a> vor.</p>
+<h2 id="woche-12---sprint-review">Woche 12 - Sprint-Review</h2>
+<p>Ihr seid fast am Ziel angekommen. Heute ist die letzte Woche des
+Lernpfads. Ihr sprecht über eure Selbstreflexion zum Lernprozess. Wenn
+ihr wollt, könnt ihr auch noch mal eine Retro machen. Das kennt ihr noch
+aus Woche 6 (<a href="5-6-Kata-6.md">Kata 6 - Retro</a>).</p>
+<h3 id="agenda">Agenda:</h3>
+<p><strong>Check-in:</strong> <em>(10 Minuten)<br />
+</em>Was hat dich die letzte Woche im Zusammenhang mit digitaler
+Zusammenarbeit beschäftigt?<br />
+Zwei-Minuten-Timebox pro Circle-Mitglied.</p>
+<p><strong>Hauptthema</strong>: (45 Minuten)<br />
+Stellt euch gegenseitig eure Ergebnisse und Erkenntnisse aus der <a
+href="5-12-Kata-12.md">Kata 12 - Selbstreflexion</a> vor und tauscht
+euch darüber aus.<br />
+Wenn noch Zeit übrig ist und ihr wollt, könnt ihr auch noch mal eine
+Retro machen [<a href="5-6-Kata-6.md">Kata 6 - Retro</a>].</p>
+<p>Besprecht auf jeden Fall auch, wie ihr mit den gemeinsam erstellten
+und oder geteilten Dokumenten weiter vorgehen wollt.</p>
+<p><strong>Feiern:</strong> <em>(beliebig lange)</em><br />
+Feiert euren Lernerfolg!<br />
+Entweder heute oder ihr verabredet euch für einen separaten Termin.</p>
+<p><strong>Check-out:</strong> <em>(5 Minuten)</em><br />
+Wie geht ihr auseinander?<br />
+Wollt ihr euch womöglich noch mal treffen, um weiter dran zu bleiben?
+Ggf. in anderen zeitlichen Abständen?</p>
+<p>Super, dass ihr bis hierher dabei geblieben seid und eure Kompetenz
+der digitalen Zusammenarbeit weiter aufgebaut habt. Hier geht’s zum <a
+href="8-0-Abschluss.md">Abschluss</a>.</p>
+<h1 id="kata-log">Kata-log</h1>
+<p><strong>Einstieg &amp; Vorbereitung</strong></p>
+<h2
+id="kata-0---organisation-und-circle-setup-für-digitale-zusammenarbeit">Kata
+0 - Organisation und Circle-Setup für digitale Zusammenarbeit</h2>
+<p>In dieser ersten Kata geht es darum, dass ihr euch als Circle
+organisiert.</p>
+<p><strong>Circle-Moderation und Timekeeping:</strong> Wer moderiert
+eure Treffen? Wer hat die Zeit im Blick?</p>
+<p>Vorschlag: Wechselt euch in der Moderation und Timekeeping ab, so
+dass jede:r mal dran kommt!</p>
+<p>Die Moderation beinhaltet:</p>
+<ul>
+<li><p>Willkommen/Einleitung übernehmen</p></li>
+<li><p>Zeit und Thema im Blick zu haben</p></li>
+<li><p>Diskussionen einfangen</p></li>
+<li><p>Commitments z.B. für die nächste Woche einfordern</p></li>
+<li><p>nächsten Termin/Thema/Kata abstimmen (bzw. bestätigen)</p></li>
+</ul>
+<p><strong>Tag und Uhrzeit des Treffens:</strong> Wann trefft ihr euch?
+Wer stellt die Termine ein? (z.B. 12x freitags, 10 Uhr)</p>
+<p><strong>Verbindlichkeit und Pünktlichkeit:</strong> Euer Lernerfolg
+hängt von euch ab - d.h. haltet die Termine ein und seid pünktlich.
+Bitte plant euch zusätzliche Zeit für die wöchentliche Hausaufgabe (=
+Kata) ein, so dass ihr in der jeweiligen Woche auf das Hauptthema
+vorbereitet seid und eure Erfahrungen &amp; Erkenntnisse austauschen
+könnt. So zeigt ihr Wertschätzung für euren Circle.</p>
+<p><strong>Tools:</strong> Was wollt ihr nutzen für eure Kommunikation,
+eure Treffen und für eure Dokumentation?</p>
+<p>Klärt, ob alle Circle-Teilnehmenden diese Tools haben und anwenden
+können.</p>
+<p>Um im #lernOS Circle selbst digital zusammen arbeiten zu können, ist
+es erforderlich, ein passendes Circle-Setup abzustimmen.</p>
+<p>Denn wir wollen alles Gelernte möglichst gleich selbst anwenden und
+damit verstehen und verinnerlichen.</p>
+<p><em>Anmerkung an Unternehmen, welche den Leitfaden für sich
+anpassen:<br />
+Hier könnte ein Setup vorgeschlagen oder auch ein Template zur Verfügung
+gestellt werden. Mit professioneller Unterstützung könnte den Circles
+auch bereits eine Umgebung voreingerichtet werden, z.B. im
+Microsoft365-Umfeld ein Team in MS Teams mit eingebundenem
+OneNote.</em></p>
+<p>Folgende Punkte sind zu klären:</p>
+<ul>
+<li><p>gemeinsame Kommunikations-Plattform (z.B. MS Teams, Slack, ggf.
+Messenger für die schnelle Kommunikation)</p></li>
+<li><p>Videokonferenzlösung für Treffen (z.B. MS Teams, Zoom)</p></li>
+<li><p>gemeinsame Dokumentenablage (z.B. MS Teams-Dokumente,
+SharePoint)</p></li>
+<li><p>gemeinsame Dokumentation (z.B. OneNote, Padlet,
+Word-Dokument)</p>
+<ul>
+<li>Mitschriften und Hausaufgaben in OneNote oder Word auf einem
+gemeinsamen Ort ablegen<br />
+siehe auch <a
+href="6-3-Theorie-Zusammenarbeit.md#gemeinsam-an-dokumenten-arbeiten">Theorie
+Gemeinsam an Dokumenten arbeiten</a></li>
+</ul></li>
+</ul>
+<h2 id="kata-1---meine-standort-bestimmung">Kata 1 - Meine
+Standort-Bestimmung</h2>
+<p>In dieser Übung beschäftigst du dich mit deiner persönlichen
+Standortbestimmung in Bezug auf die digitale Zusammenarbeit. Das lernOS
+Canvas zeigt nicht nur dir deinen Standort, sondern im Austausch mit den
+anderen Circle-Mitgliedern könnt ihr sehen, wo jede:r von euch steht und
+wie und wo ihr euch gegenseitig unterstützen könnt. Das lernOS-Wheel
+gibt euch einen Überblick über die verwendeten Tools, dein Skill- und
+Mindset.</p>
+<h3 id="mein-lernos-canvas">Mein lernOS-Canvas</h3>
+<ul>
+<li><p>Lade dir die Vorlage des <a
+href="https://cogneon.github.io/lernos-for-you/de/1-2-lernOS-Canvas/">lernOS
+Canvas</a> herunter, welches in verschiedenen Formaten (z.B. PowerPoint,
+PDF, PNG) dort vorliegt. Oder alternativ kopiere dir die PowerPoint aus
+den <a href="7-0-Vorlagen.md">Vorlagen</a>.</p></li>
+<li><p>Fülle das lernOS Canvas aus.<br />
+</p></li>
+<li><p>Bitte lege dein persönliches lernOS Canvas am Ort ab, den ihr in
+der Woche 0 festgelegt habt.</p>
+<p><img src="images/lernOS_Canvas.png" /></p></li>
+</ul>
+<h3 id="lernos-workplace">lernOS Workplace</h3>
+<p>In dieser Kata geht es darum deinen persönlichen Workplace zu
+erstellen und dir die drei Dimensionen genauer anzuschauen. Für mehr
+schaue dir den <a
+href="https://cogneon.github.io/lernos-for-you/de/">lernOS-for-You
+Guide</a> an.</p>
+<p>In deinem persönlichen Entwicklungsprozess ist es wichtig, alle drei
+Dimensionen des <a
+href="https://cogneon.github.io/lernos-for-you/de/1-4-lernOS-Workplace/">lernOS
+Workplace</a> zu kennen und zu berücksichtigen.</p>
+<ul>
+<li>Mindset,</li>
+<li>Skillset und</li>
+<li>Toolset.</li>
+</ul>
+<p><img src="images/lernOS_Wheel.png" /></p>
+<p><strong>Wo startest du (persönlich) mit dem Thema?</strong></p>
+<p><strong>Toolset:</strong><br />
+Schreibe in deiner <a href="7-0-Vorlagen.md">Vorlage</a> auf, welche
+Tools du bereits kennst, sowohl aus dem privaten als auch aus dem
+beruflichen Kontext.</p>
+<p><strong>Skillset:</strong><br />
+Was sind die Fähigkeiten, die du mitbringst?</p>
+<p><strong>Mindset:</strong><br />
+Überlege dir, welche Haltung du zum Thema digitale Zusammenarbeit
+mitbringst und welche deiner Werte darauf ein zielen.</p>
+<p>Bitte lege dein persönliches lernOS Workplace am Ort ab, den ihr in
+der Woche 0 festgelegt habt.</p>
+<p><img src="images/Collaboration.png" /> <strong>Zusammenarbeit (Teil
+1)</strong></p>
+<h2 id="kata-2---wie-arbeiten-wir-zusammen">Kata 2 - Wie arbeiten
+<strong>wir</strong> zusammen?</h2>
+<p><strong>Lies dir zur Vorbereitung die Grundlagen durch:</strong> <a
+href="6-3-Theorie-Zusammenarbeit.md">Grundlagen: Zusammenarbeit</a></p>
+<p><img src="images/Collaboration_Canvas_Template.jpeg" /> Zum Einstieg
+in den Bereich “Zusammenarbeit” schau dir das <a
+href="6-3-Theorie-Zusammenarbeit.md#collaboration-canvas">Collaboration
+Canvas</a> an.<br />
+Nachdem du deine Standortbestimmung erstellt und mit den anderen geteilt
+hast, geht es jetzt darum, euren gemeinsamen Workplace festzulegen.</p>
+<p><img src="images/Collaboration_Canvas_Blank.jpeg" /></p>
+<p>Überlege, welche Vereinbarungen für die Zusammenarbeit du bereits in
+deinem beruflichen Kontext kennst.<br />
+Hast du welche? Wenn ja, welche sind dir wichtig und warum? Mache dir
+dazu Notizen.</p>
+<p>Überlege dir, wie ihr gerade im Circle zusammen arbeitet. Was passt
+bzw. was passt nicht bezüglich eurer Vereinbarungen in Woche 0? Mache
+dir dazu Gedanken, so dass ihr in der Woche 2 dann zusammen mit allen
+Circle-Mitgliedern eure gemeinsamen Zusammenarbeitsregeln erstellen
+könnt.</p>
+<p>Verwendet im Circle-Treffen das <a
+href="6-3-Theorie-Zusammenarbeit.md#collaboration-canvas">Collaboration
+Canvas</a> und formuliert eure gemeinsamen Regeln der
+Zusammenarbeit.</p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Weiterführende Informationen findest du hier zusammengestellt: <a
+href="6-3-Theorie-Zusammenarbeit.md">Regeln für die Zusammenarbeit</a>,
+Vertiefung und Idee zur Umsetzung.</p>
+<p>Als Anregung - nimm diese Regeln der Zusammenarbeit zum Anlass und
+erarbeite mit deinem eigenen Team im beruflichen Kontext ein eigenes <a
+href="6-3-Theorie-Zusammenarbeit.md#collaboration-canvas">Collaboration
+Canvas</a>.<br />
+Nach einem Monat kannst du mit deinem Team dazu eine <a
+href="5-6-Kata-6.md">Retro</a> durchführen und teilt eure
+Erfahrungen.</p>
+<p><strong>Kommunikation</strong></p>
+<p><img src="images/Kommunikation.png" /></p>
+<h2 id="kata-3---analysiere-und-reflektiere-deine-kommunikation">Kata 3
+- Analysiere und reflektiere deine Kommunikation</h2>
+<h3
+id="analysiere-und-reflektiere-deine-kommunikation-kommunikationskanäle">“Analysiere
+und reflektiere deine Kommunikation” (#KommunikationsKanäle)</h3>
+<p>Lese dir zur Vorbereitung die Grundlagen durch:</p>
+<ul>
+<li><a
+href="6-1-Theorie-Kommunikation.md#grundlagen-synchrone-asynchrone-kommunikation">Synchrone
+vs. Asynchrone Kommunikation</a></li>
+<li><a
+href="6-1-Theorie-Kommunikation.md#grundlagen-push-vs.-pull-kommunikation">Push
+vs. Pull Kommunikation</a></li>
+</ul>
+<p>Welche Kommunikationskanäle nutzt du schon, welche kennst du noch
+(nutzt sie aber nicht)?</p>
+<p>Schaue durch deine Kommunikations-Kanäle!</p>
+<ol type="1">
+<li><p>Welche Kommunikation läuft gut / welche erzeugt Stress?</p></li>
+<li><p>Schaue deine Kommunikations-Kanäle (z.B.
+E-Mail-Eingang/Chat-Nachrichten/o.ä.) durch:</p>
+<ul>
+<li><p>Welche Nachricht/Informationen kommen wo an?</p></li>
+<li><p>Wann/wie benötigst du die Informationen?</p></li>
+<li><p>Findest du die Informationen schnell/leicht wieder?</p></li>
+<li><p>Was nervt dich? z.B. Einladung zu Meeting ohne Agenda, CC-Mail an
+alle</p></li>
+<li><p>Was sind deine Bedürfnisse?</p></li>
+<li><p>Prüfe deinen Erwartungshorizont: Was hilft dir? Was kannst du
+ändern?</p></li>
+</ul></li>
+</ol>
+<p>Tipp: Lass das sein, was dich genervt hat! ;-)</p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Lege eine Liste aller genutzten Kanäle an, so dass ihr dann im Circle
+eine gemeinsame Liste erstellen könnt.</p>
+<h2 id="kata-4---lerne-deine-tools-kennen">Kata 4 - Lerne deine Tools
+kennen</h2>
+<p>Kommunikations-Tools bieten viele Einstellungsmöglichkeiten, um dir
+die tägliche Arbeit zu erleichtern.</p>
+<p>Wähle deine präferierten Kommunikationstools aus und überlege, wie du
+sie bisher nutzt.<br />
+Gehe durch jedes Menü: Welche Bereiche hast du bisher noch nie
+benutzt?<br />
+Findest du Stichworte in den Menüs, die dich neugierig machen?</p>
+<p>Schaue dir dabei beispielsweise die folgenden Programme und Punkte
+an:</p>
+<p>E-Mail (Beispiel Outlook; Thunderbird):</p>
+<ul>
+<li>Menübereich “Datei” oder “Start”: z.B. Vorlagen speichern</li>
+<li>Menübereich “Extras”: z.B. Regeln einrichten oder automatische
+Antworten einstellen</li>
+<li>…</li>
+</ul>
+<p>Chat (Beispiel MS Teams, Slack):</p>
+<ul>
+<li>Benachrichtigungsoptionen definieren: z.B. wann möchte ich wie über
+neue Nachrichten informiert werden?</li>
+<li>Nachrichten bearbeiten (Bearbeitungsmodus)</li>
+<li><span class="citation" data-cites="mentions">@mentions</span>
+nutzen</li>
+<li>Emojis gezielt nutzen (z. B. Daumen hoch = Lesebestätigung, Herz =
+Like)</li>
+<li>Status: z.B. was bedeutet “beschäftigt” / “nicht stören”? Wie wird
+der Status von Kolleg:innen interpretiert?</li>
+<li>…</li>
+</ul>
+<p>Videokonferenzen (Beispiel MS Teams, Zoom):</p>
+<ul>
+<li>Optionen für Bildschirm teilen/präsentieren</li>
+<li>Hand heben &amp; Emojis nutzen</li>
+<li>Breakout Rooms einstellen und nutzen</li>
+<li>…</li>
+</ul>
+<p>Welche neuen Funktionen hast du gefunden? Welche Funktionen wirst du
+wie zukünftig nutzen?</p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Schaue im Internet und suche weiterführende Anleitungen zu den
+jeweiligen Tools, die du nutzt.</p>
+<p>Schaue dir weitere Tools an, welche du bisher nicht so aktiv nutzt
+aber gerne mehr nutzen möchtest.</p>
+<p><em>Anmerkung für Unternehmen, die den Leitfaden für sich
+anpassen:</em></p>
+<p><em>Hier könnt ihr gerne Anleitungen zu euren Tools sowie Communities
+in eurem ESN verlinken, in denen Tipps, Tricks und Fragen geteilt
+werden.</em></p>
+<h2 id="kata-5---wähle-einen-passenden-kanal">Kata 5 - Wähle einen
+passenden Kanal</h2>
+<h3 id="thema-kommunikation-verbessern">Thema: Kommunikation
+verbessern</h3>
+<p>Welches Thema beschäftigt dich aktuell?<br />
+Im Folgenden wirst du herausfinden, wie du dein Thema mit Hilfe von
+Kommunikation am besten steuerst.</p>
+<p>Schaue dir dazu noch mal die beiden Inputs aus Kata 3 an:</p>
+<ul>
+<li><a
+href="6-1-Theorie-Kommunikation.md#grundlagen-synchrone-asynchrone-kommunikation">Info-Block
+“synchrone und asynchrone Kommunikation”</a></li>
+<li><a
+href="6-1-Theorie-Kommunikation.md#grundlagen-push-vs.-pull-kommunikation">Info-Block
+Pull vs. Push</a></li>
+</ul>
+<p>Beantworte im nächsten Schritt die folgenden Fragen:</p>
+<ol type="1">
+<li><p>Was möchte ich erreichen? (<strong>Ziel</strong>)</p>
+<ul>
+<li>Verständnis für ein Thema erzeugen?</li>
+<li>Eine Aufgabe vergeben?</li>
+<li>Kurz Informationen weitergeben? / Statusupdate</li>
+<li>Ein Thema diskutieren?</li>
+<li>Eine Entscheidung treffen?</li>
+<li>Sollen die Informationen langfristig verfügbar und wieder auffindbar
+sein?<br />
+Bestehen vielleicht sogar Anforderungen an Archivierbarkeit /
+Revisionssicherheit für Dokumentationszwecke (z.B. für Aufträge)?</li>
+<li>Viele Informationen vermitteln (, die z.B. im Telefonat untergehen
+könnten)?</li>
+<li>Detailreiche Informationen, die Vorbereitung benötigen?</li>
+</ul></li>
+<li><p>Wie schnell und dringend benötige ich eine Antwort?
+(<strong>Dringlichkeit</strong>)</p></li>
+<li><p>An wen richtet sich meine Kommunikation?
+(<strong>Zielgruppe</strong>)</p>
+<ul>
+<li>Einzelperson / Gruppe?</li>
+<li>Kenne ich den richtigen Ansprechpartner?</li>
+<li>Wer ist die Zielgruppe?</li>
+</ul></li>
+<li><p>Handelt es sich um ein emotionales oder unemotionales Thema?
+(<strong>Emotionen</strong>)</p>
+<ul>
+<li>Achtung: Emotionale Themen sind ohne direkten Augenkontakt nur
+schwer zu platzieren und kontrollieren!</li>
+<li>Öffentliche Sichtbarkeit ist nicht immer sinnvoll: Kritik ist z.B.
+manchmal besser persönlich platzierbar</li>
+</ul></li>
+<li><p>Welchen <strong>Aufwand</strong> benötige ich zur Vorbereitung /
+mein Gegenüber zur Beantwortung?</p>
+<ul>
+<li>Wie komplex ist das Thema? (Komplexität)</li>
+<li>Gibt es einen hohen Erklärungsbedarf?<br />
+Tipp: Informationen in ein Dokument oder Präsentation (Meeting)
+auslagern.</li>
+</ul></li>
+<li><p>“Muss es denn ein Meeting sein, wenn alle einer Person beim
+Sprechen zuhören?” <img src="images/zwinkersmiley.png" /><br />
+(Weitere Infos siehe <a
+href="6-1-Theorie-Kommunikation.md#themenbereich-meetings">Themenbereich:
+Meetings</a>, <a href="5-8-Kata-8.md">Kata 8 - Meetings effizient
+gestalten</a>.)</p></li>
+</ol>
+<p>Dazu kann dir die folgende Übersicht behilflich sein:</p>
+<table>
+<colgroup>
+<col style="width: 23%" />
+<col style="width: 36%" />
+<col style="width: 40%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Intention</strong></th>
+<th><strong>Üblicher Vorschlag</strong></th>
+<th><strong>Mögliche Alternative</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Abstimmung</td>
+<td>Meeting im Team</td>
+<td>Teams-Post mit Abstimmung<br>durch Likes</td>
+</tr>
+<tr class="even">
+<td>Informationen weitergeben <br> z.B. aktueller Projektstand</td>
+<td>Meeting</td>
+<td>Teams-Post ggf. mit<br>verknüpfter Präsentation</td>
+</tr>
+<tr class="odd">
+<td>(Technische) Frage bei<br>unbekanntem Ansprechpartner</td>
+<td></td>
+<td>Post im ESN Yammer</td>
+</tr>
+<tr class="even">
+<td>Aufgabe vergeben</td>
+<td>E-Mail</td>
+<td>Aufgabe in Planner</td>
+</tr>
+<tr class="odd">
+<td>Anleitung / Dokumentation</td>
+<td>E-Mail-Verteiler</td>
+<td>Teams-Post / Gruppen-Chat<br>mit Link zu Dokument
+/<br>Wiki-Seite</td>
+</tr>
+<tr class="even">
+<td>emotionales Thema</td>
+<td>Telefonat</td>
+<td>persönliches Gespräch<br>ggf. Videoanruf mit MS Teams</td>
+</tr>
+<tr class="odd">
+<td>Dringende Frage</td>
+<td>E-Mail mit Priorität “Wichtig”</td>
+<td>Teams-Chat/Post mit “Wichtig”<br>und <span class="citation"
+data-cites="mention">@mention</span> <br>möglichst mit Link<br>zu mehr
+Details</td>
+</tr>
+<tr class="even">
+<td>Feedback an Einzelperson</td>
+<td>Meeting</td>
+<td>Chat / Videocall</td>
+</tr>
+<tr class="odd">
+<td>Feedback Team/Gruppe</td>
+<td>Meeting</td>
+<td>Teamskanal / Videocall</td>
+</tr>
+<tr class="even">
+<td>Feedback Unternehmen</td>
+<td>E-Mail</td>
+<td>ESN-Post</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Schaue dir die verschiedenen Themenbereiche an:</p>
+<ul>
+<li><a
+href="6-1-Theorie-Kommunikation.md#themenbereich-e-mail">Themenbereich:
+E-Mail</a><br />
+</li>
+<li><a
+href="6-1-Theorie-Kommunikation.md#themenbereich-chat">Themenbereich:
+Chat</a></li>
+<li><a
+href="6-1-Theorie-Kommunikation.md#themenbereich-meetings">Themenbereich:
+Meetings</a></li>
+<li><a
+href="6-1-Theorie-Kommunikation.md#themenbereich-aufgaben">Themenbereich:
+Aufgaben</a></li>
+</ul>
+<p>Zudem kannst du hier weiteres Material finden:</p>
+<ul>
+<li><p>Kommunikationsquadrat:<br />
+<a
+href="https://www.schulz-von-thun.de/die-modelle/das-kommunikationsquadrat"
+class="uri">https://www.schulz-von-thun.de/die-modelle/das-kommunikationsquadrat</a></p></li>
+<li><p>Antreiber:<br />
+<a
+href="https://www.studentenwerk-oldenburg.de/de/beratung/psychologischer-beratungsservice/themen-und-materialien/dokumente-zum-download/349-selbsttest-innere-antreiber/file.html"
+class="uri">https://www.studentenwerk-oldenburg.de/de/beratung/psychologischer-beratungsservice/themen-und-materialien/dokumente-zum-download/349-selbsttest-innere-antreiber/file.html</a></p></li>
+</ul>
+<p><strong>Boxenstopp</strong></p>
+<h2 id="kata-6---retrospektive">Kata 6 - Retrospektive</h2>
+<p>In dieser Kata lernt ihr die Möglichkeiten von rückblickendem
+Erfahrungsaustausch kennen. Ihr werdet auch als erstes einen Überblick
+verschaffen und in der nächsten Session gemeinsam in eurem
+Lernreise-Team eine Retro ausprobieren.</p>
+<p>Anwenden könnt ihr das Format der Retro bzw. Retrospektive später
+dann beispielsweise, um diese in Projektgruppen oder zur Auswertung von
+gemeinsamen Prozessen oder Veranstaltungen einzusetzen. Retrospektiven
+werden in der agilen Vorgehensweise angewandt.</p>
+<p>Schau dir die verschiedenen Tools und Vorlagen an und tauscht euch
+beim nächsten Treffen darüber aus. Wenn du schon mal von Retro gehört
+hast, kannst du direkt zum Übungsteil übergehen, falls du dich aber noch
+ein bisschen erkundigen möchtest, was sich hinter eine Retro verbirgt
+und was Retrospektive bedeutet, dann schau dir die <a
+href="6-4-Theorie-Retrospektive.md">Theorie “Retrospektive”</a> an.</p>
+<ul>
+<li>4L Methode</li>
+</ul>
+<p><img src="images/Retrospektive-Template.png" /></p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>LIKED</strong></th>
+<th><strong>LEARNED</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><em>Was lief richtig gut?</em></td>
+<td><em>Was habe ich gelernt?</em></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>LACKED</strong></td>
+<td><strong>LONGED FOR</strong></td>
+</tr>
+<tr class="even">
+<td><em>Was hat mir nicht gefallen?</em></td>
+<td><em>Was hat mir gefehlt?</em></td>
+</tr>
+</tbody>
+</table>
+<p>Du findest eine PowerPoint-Vorlage hierzu unter <a
+href="7-0-Vorlagen.md">Vorlagen</a>.</p>
+<ul>
+<li>Alternativ kann man sich auch selbst eine Retrospektive
+beispielsweise in PowerPoint erstellen. Gebe dazu in fünf Spalten die
+folgenden Fragen (nach der <a
+href="https://t2informatik.de/wissen-kompakt/starfish-retrospektive/#:~:text=Die%20Starfish%20Retrospektive%20ist%20eine%20bekannte%20und%20h%C3%A4ufig%20genutzte%20Variante,der%20Product%20Owner%20%E2%80%93%20zum%20Austausch.">Starfish-Methode</a>)
+ein:</li>
+</ul>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 15%" />
+<col style="width: 19%" />
+<col style="width: 29%" />
+<col style="width: 6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ab sofort<br>nutzen</th>
+<th>Mehr davon</th>
+<th>Weniger davon</th>
+<th>Nicht mehr<br>nutzen</th>
+<th>Weiter<br>nutzen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>Templates bzw. Vorlagen nutzen:</p>
+<ul>
+<li>Mural<br> <a href="https://www.mural.co/templates/retrospective"
+class="uri">https://www.mural.co/templates/retrospective</a></li>
+<li>Miro<br> <a href="https://miro.com/templates/retrospective-tool/"
+class="uri">https://miro.com/templates/retrospective-tool/</a> und <a
+href="https://miro.com/templates/4-ls-retrospective/"
+class="uri">https://miro.com/templates/4-ls-retrospective/</a></li>
+<li>Trello<br> <a
+href="https://trello.com/b/hkaQsLWx/sprint-retrospectives"
+class="uri">https://trello.com/b/hkaQsLWx/sprint-retrospectives</a></li>
+</ul></li>
+<li><p>Weiterführendes Material:</p>
+<ul>
+<li><a href="https://retromat.org/de/"
+class="uri">https://retromat.org/de/</a></li>
+<li><a
+href="https://retromat.org/blog/best-retrospective-for-beginners/"
+class="uri">https://retromat.org/blog/best-retrospective-for-beginners/</a></li>
+<li><a
+href="https://liberatingstructures.de/liberating-structures-menue/15-solutions/"
+class="uri">https://liberatingstructures.de/liberating-structures-menue/15-solutions/</a></li>
+</ul></li>
+<li><p>Anleitungen:</p>
+<ul>
+<li>Retrospektive<br />
+<a href="https://www.atlassian.com/de/team-playbook/plays/retrospective"
+class="uri">https://www.atlassian.com/de/team-playbook/plays/retrospective</a></li>
+<li>4L-Retrospektive<br />
+<a
+href="https://www.atlassian.com/de/team-playbook/plays/4-ls-retrospective-technique"
+class="uri">https://www.atlassian.com/de/team-playbook/plays/4-ls-retrospective-technique</a></li>
+</ul></li>
+<li><p>Beispiele:</p>
+<ul>
+<li><a
+href="https://www.collaboard.app/de/blog/retrospective-online-whiteboard"
+class="uri">https://www.collaboard.app/de/blog/retrospective-online-whiteboard</a></li>
+<li><a
+href="https://agilescrumgroup.de/retrospektive-formen-mit-beispielen-und-ideen/"
+class="uri">https://agilescrumgroup.de/retrospektive-formen-mit-beispielen-und-ideen/</a></li>
+</ul></li>
+</ul>
+<p>Sucht euch eine der oben erkundeten Vorlagen aus und macht anhand
+dieser Retrospektive einen Circle-Boxenstopp. Reflektiert gemeinsam, wie
+eure bisherige Zusammenarbeit im Circle gelaufen ist, was ihr auf jeden
+Fall beibehalten und was ihr weglassen wollt. Das wird die Aufgabe in
+der nächsten Woche sein. Macht euch dazu Gedanken, so dass ihr beim
+nächsten Treffen zeitnah loslegen könnt.</p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Wenn ihr die Retro innerhalb der Lernreise ausprobiert habt, könnt
+ihr euch im nächsten Schritt daran wagen, diese mal im eigenen Team oder
+einer anderen Gruppe auszuprobieren.</p>
+<p><strong>Zusammenarbeit (Teil 2)</strong></p>
+<p><img src="images/Collaboration.png" /></p>
+<h2 id="kata-7---dokumente-gemeinsam-bearbeiten">Kata 7 - Dokumente
+gemeinsam bearbeiten</h2>
+<p>Lese dir zur Vorbereitung die Grundlagen durch:<br />
+<a
+href="6-3-Theorie-Zusammenarbeit.md#gemeinsam-an-dokumenten-arbeiten">Theorie
+“Gemeinsam an Dokumenten arbeiten”</a></p>
+<p>Beantworte und reflektiere die folgenden Fragen:</p>
+<ul>
+<li>Wo liegt euer Collaboration Canvas?</li>
+<li>Wie hast du hier mitgearbeitet?</li>
+<li>Wie hat die Zusammenarbeit funktioniert?</li>
+<li>Hast du die Änderungen der anderen gesehen?</li>
+<li>Wie hat sich das angefühlt, dass alle sofort gesehen haben, was du
+geschrieben hast?</li>
+<li>Hat es Zeit für den Austausch gespart?</li>
+<li>Soll das Dokument langfristig verfügbar und wieder auffindbar sein?
+Was musst du dafür tun?</li>
+</ul>
+<p>Erstelle Beiträge für die gemeinsame Sammlung “die besten Hacks für
+die digitale Zusammenarbeit” und lege sie in eine gemeinsame
+Datei.<br />
+Die Frage ist: Wie schafft ihr das jetzt asynchron abzustimmen, welches
+Tool ihr wählt und wo ihr die Datei ablegt?<br />
+In <a
+href="6-3-Theorie-Zusammenarbeit.md#gemeinsam-an-dokumenten-arbeiten">Wie
+teile ich Dokumente in einem Chat? (Beispiel M365)</a> findet ihr
+Inspirationen dazu.</p>
+<p>Verwendet im Circle-Treffen eure gemeinsame Sammlung “die besten
+Hacks für die digitale Zusammenarbeit” und überlegt euch eine gemeinsame
+Struktur. Wie lief die asynchrone Zusammenarbeit?</p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Asynchron weiter zusammen arbeiten:</p>
+<ul>
+<li>Du kannst die Liste in den nächsten Wochen erweitern, wenn dir
+weitere Hacks einfallen.</li>
+<li>Du kannst Kommentare zu Hacks der anderen hinzufügen, z.B. wenn dir
+etwas besonders gefällt oder unklar ist.</li>
+<li>Kannst du erkennen, wer welche Punkte ergänzt hat / Änderungen
+nachverfolgen?</li>
+<li>Du kannst die Hacks mit deinem Netzwerk teilen. (siehe auch unter <a
+href="5-10-Kata-10.md">Kata 10</a>))</li>
+</ul>
+<h2 id="kata-8---meetings-effizient-gestalten">Kata 8 - Meetings
+effizient gestalten</h2>
+<p>Lese dir zur Vorbereitung die Grundlagen durch:<br />
+<a
+href="6-3-Theorie-Zusammenarbeit.md#meetings-effizient-gestalten">Meetings
+effizient gestalten</a></p>
+<p>Schaue dir als Rückblick auch noch einmal die Theorie unter
+Kommunikation (<a
+href="6-1-Theorie-Kommunikation.md#themenbereich-meetings">Themenbereich:
+Meetings</a>) an.</p>
+<p>In <a href="5-5-Kata-5.md">Kata 5 - Wähle einen passenden Kanal</a>
+haben wir dich gefragt:<br />
+<em>“Muss es denn ein Meeting sein, wenn alle einer Person beim Sprechen
+zuhören?”</em> <img src="images/zwinkersmiley.png" /></p>
+<p>Greife dir ein Meeting aus dem Kalender der letzten Wochen heraus, zu
+dem du selbst eingeladen hast und beantworte die folgenden Fragen:</p>
+<ul>
+<li>Wie wurde die Agenda für das Meeting erstellt?</li>
+<li>Wurde während des Meetings ein Protokoll / eine Dokumentation der
+wichtigsten Erkenntnisse erstellt? Wenn ja, wie und wo?</li>
+<li>War allen Teilnehmenden nach dem Meeting klar, welche Aufgaben
+definiert wurden?</li>
+<li>Wie hättest du dein Meeting effizienter gestalten können?</li>
+<li>Welche Punkte hättest du auch ohne dieses Meeting klären zu
+können?</li>
+<li>Welche Informationen hätten vorher mit allen geteilt werden
+können?</li>
+</ul>
+<p>Plane dein nächstes berufliches Meeting unter Berücksichtigung der
+gewonnenen Erkenntnisse und bisher gemachten Erfahrungen. Teile im
+nächsten Circle, wie es gelaufen ist.</p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Lege ein gemeinsames Dokument / eine OneNote-Seite / eine Wiki-Seite
+für das Meeting an, auf der du mit deinem Team vor dem Treffen die zu
+besprechenden Themen planst und damit eine Agenda zusammen
+stellst.<br />
+Überlegt für jeden Punkt, ob dieser “live” (synchron) besprochen werden
+muss oder (zumindest zum Teil) bereits vorab (asynchron) geklärt werden
+kann.</p>
+<p>Wer einen Punkt auf die Agenda gestellt hat, ist auch als “Topic
+Owner” verantwortlich,</p>
+<ul>
+<li>Materialien / Unterlagen zum Einlesen rechtzeitig bereitzustellen,
+sowie</li>
+<li>den Agenda-Punkt im Treffen zu moderieren.</li>
+</ul>
+<p>Wenn du in Meetings gemeinsam Entscheidungen mit dem Team treffen
+oder in der Gruppe treffen möchtest, kannst du folgende Dinge
+ausprobieren:</p>
+<ul>
+<li>Umfragen
+<ul>
+<li>Du kannst verschiedene Umfrage-Tools in dein Meeting einbinden (z.B.
+Forms, Slido, Mentimeter, LimeSurvey)</li>
+<li>Eine Forms-Umfrage kannst du in MS Teams nicht nur synchron in
+Meetings sondern auch asynchron in den Chat einbinden.</li>
+</ul></li>
+<li>Abstimmungen
+<ul>
+<li>über Daumen hoch/Daumen runter,</li>
+<li>Hand heben</li>
+<li>Eingaben im Chat</li>
+<li>Im Chat auf einer Skala (z.B. von 1-10) voten.</li>
+<li>Mit Reaktionen auf Posts abstimmen (Like, Herz, …).</li>
+</ul></li>
+<li>Systemisches Konsensieren</li>
+</ul>
+<p><strong>Wissen teilen</strong></p>
+<p><img src="images/Wissen_teilen.png" /></p>
+<h2
+id="kata-9---wie-kannst-du-selbst-vom-wissen-anderer-profitieren-und-dankbarkeit-zeigen-nehmen">Kata
+9 - Wie kannst Du selbst vom Wissen anderer profitieren und Dankbarkeit
+zeigen (#Nehmen)?</h2>
+<p>Zum Einstieg in den Bereich “Wissen teilen” schau dir die <a
+href="6-2-Theorie-Wissen-teilen.md">Grundlagen</a> zu Wissensmanagement
+an.</p>
+<p><a
+href="6-2-Theorie-Wissen-teilen.md#Beispiele-für-Wissen-teilen">Beispiele
+für Wissen teilen: Arten und Formate</a> haben wir dir
+zusammengestellt.</p>
+<ul>
+<li>Welche Beispiele für “Wissen teilen” kennst du aus deinem
+Arbeitsumfeld?</li>
+<li>Gibt es noch weitere Formate, die du aus deinem privaten Bereich
+kennst?</li>
+<li>Schreibe alle dir bekannten Formate und Arten auf.</li>
+</ul>
+<p>Werde konkret für deinen beruflichen Kontext und wähle dir ein Thema
+aus, das dich interessiert:</p>
+<ul>
+<li>Wie und wo hast du dir Wissen bisher geholt oder von anderen
+bekommen?</li>
+<li>Wie wurde das Wissen geteilt (Art, Format)?</li>
+<li>Was ist dir dabei aufgefallen?</li>
+</ul>
+<p>Und jetzt gehen wir einen Schritt weiter und wechseln die
+Perspektive:</p>
+<ul>
+<li>Wann warst du zum letzten Mal richtig dankbar, als eine Kollegin
+oder ein Kollege etwas mit dir geteilt hat und du von ihrem bzw. seinem
+Wissen profitiert hast?</li>
+<li>Wie zeigst du Dankbarkeit?</li>
+<li>Was wurde durch dein “Danke sagen” ausgelöst?</li>
+</ul>
+<p>Bezogen auf “Wie profitierst du vom Wissen anderer?” UND “Wie zeigst
+du Dankbarkeit?”:<br />
+Welche Unterschiede nimmst du zwischen dienstlichen und privaten
+Interaktionen wahr?</p>
+<p>Wie kannst du im beruflichen Kontext Dankbarkeit zeigen und damit
+z.B. deine Kolleg:innen wertschätzen, die ihr Wissen mit dir geteilt
+haben?<br />
+Anregungen findest du hier unter <a
+href="https://harald-schirmer.de/2019/04/07/likes-sind-mehr-als-wertschaetzung/">Likes
+sind mehr als Wertschätzung (Harald Schirmer)</a> und <a
+href="https://tomoff.de/30-wege-dankbarkeit-zu-zeigen/">30 Wege,
+Dankbarkeit zu zeigen.</a></p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Probiere andere Formen der Dankbarkeit in deinem Arbeitsumfeld aus,
+die du gerade gelernt hast, und zeige aktiv deine Wertschätzung - und
+sei gespannt, wie diese Art von “Feedback” Wirkung zeigt.</p>
+<p>Dankbarkeits-Termin: Richte dir einen regelmäßigen wöchentlichen
+Termin ein (z.B. vor dem Wochenende) und überlege, wie du in der
+vergangenen Woche von dem Wissen anderer profitierst hast oder wie dich
+Kolleg:innen bei deiner Arbeit unterstützt haben. Zeige Deine
+Dankbarkeit - auf deine Art.</p>
+<p>Berichte in deinem Team und gib deine Erfahrungen aus dieser Übung
+weiter.</p>
+<h2
+id="kata-10---wie-ich-mit-meinem-wissen-im-unternehmen-sichtbar-werde-sichtbarwerden">Kata
+10 - Wie ich mit meinem Wissen im Unternehmen sichtbar werde
+(#SichtbarWerden)</h2>
+<p><a
+href="6-2-Theorie-Wissen-teilen.md#sichtbar-werden-working-out-loud-wol">Sichtbar
+werden</a> ist eines der Grundprinzipen von Working Out Loud.</p>
+<blockquote>
+<p>“Mit Working Out Loud kannst du Beziehungen aufbauen, die dir helfen,
+ein Ziel zu erreichen oder etwas Neues zu lernen. Anstatt Netzwerke zu
+knüpfen, um etwas zu bekommen, investierst du in Beziehungen: Dazu
+leistest du Beiträge, die deine Arbeit und Erfahrungen sichtbar werden
+lassen.” (John Stepper)</p>
+</blockquote>
+<ul>
+<li>Schau Dir online-Profile aus deinem Netzwerk (beruflich, privat)
+an.</li>
+<li>Wie werden andere in deinem Arbeitsumfeld sichtbar?</li>
+</ul>
+<p>Überlege dir: Wie kannst du in deinem Unternehmen sichtbar
+werden?<br />
+Das Sichtbarwerden ist abhängig von vielen Dingen, wie z.B. deinem
+Arbeitsumfeld, deinem Arbeitskontext. Es gibt so etliche und ungeahnte
+Möglichkeiten, deshalb sei neugierig und offen, beobachte für dich
+interessante Personen (innerhalb/außerhalb deines Unternehmens) und
+reflektiere, was zu dir passt und was du davon selbst anwenden
+kannst.</p>
+<p>Es wird konkreter:</p>
+<ul>
+<li>Was ist dein Lieblingsthema, das dich interessiert, zu dem du etwas
+gelernt hast / zu dem du Expertise hast?</li>
+<li>Mit welchen Themen willst du sichtbar werden?</li>
+<li>Schreibe diese Themen auf eine Liste - gerne in ein persönliches
+Notizbuch (Buch oder OneNote).</li>
+</ul>
+<p>Checke deine online-Profile (Unternehmensprofil, gerne auch deine
+social Media-Profile etc.) und aktualisiere sie mit Hilfe deiner
+erstellten Liste.</p>
+<p>Suche gezielt Foren/Communities zu deinen Themen innerhalb deines
+Unternehmens und zeige dein Interesse, indem du ihnen aktiv beitrittst.
+Wie gesagt, oft reicht ein erster, kleiner Schritt. Trau dich.</p>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Schau Dir den lernOS Lernpfad Offenheit &amp; Vernetzung an. (<a
+href="https://cogneon.github.io/lernos-for-you/de/2-3-0-Lernpfad-OV/">Überblick
+- lernOS für Dich Leitfaden</a>)</p>
+<p>Suche dir ein entsprechendes Forum und beantworte dort eine Frage,
+die gestellt wurde. Damit hilfst du der Person, die gefragt hat, ebenso
+wie allen anderen, die zu einem späteren Zeitpunkt deine Antwort
+lesen.<br />
+Wenn du noch mehr machen möchtest: Erforsche, welche anderen Formate zum
+Sichtbarwerden es in diesem Forum gibt und probiere es einfach mal
+aus.</p>
+<p>Du kannst auch gerne die gemeinsame Sammlung der “Digitale
+Zusammenarbeit-Hacks” aus <a href="5-7-Kata-7.md">Kata 7 - Dokumente
+gemeinsam bearbeiten</a> als Inspiration nutzen, um dein Wissen
+weiterzugeben.</p>
+<h2
+id="kata-11---was-meine-kolleginnen-von-meinem-aktiven-teilen-von-wisseninformationen-haben-geben">Kata
+11 - Was meine Kolleg:innen von meinem aktiven Teilen von
+Wissen/Informationen haben (#Geben)</h2>
+<p>In der <a href="5-9-Kata-9.md">Kata 9 - Wie kannst Du selbst vom
+Wissen anderer profitieren und Dankbarkeit zeigen (#Nehmen)?</a> hast du
+dir Gedanken gemacht, wie du von anderen profitierst. Das war die
+Vor-Übung zu dieser hier:<br />
+Werde konkret für deinen beruflichen Kontext und wähle dir ein Thema
+aus, für das du ein Experte bist oder das dich besonders interessiert:
+Wie und wo hast du bisher dein Wissen dazu mit anderen geteilt (Art,
+Format)?</p>
+<p>Wie kannst du in deinem Arbeitsumfeld noch mit weiteren Formaten dein
+Wissen teilen, damit andere davon profitieren können? Schreibe alle
+Arten und Formate auf, die dir in deinem Arbeitsumfeld zur Verfügung
+stehen - auch wenn du nicht jede davon jetzt schon umsetzen kannst (z.B.
+Post in eurer Yammer-Community erstellen).</p>
+<p>Hier findest du nochmal <a
+href="6-2-Theorie-Wissen-teilen.md#Arten-und-Formate">Beispiele für
+Wissen teilen: Arten und Formate</a>.</p>
+<p>“Wissen teilen” - das ist gar nicht so schwer.<br />
+Ganz einfaches Beispiel: Wenn du Microsoft-Office Produkte nutzt, kannst
+du in den meisten Anwendungen mit dem <strong>Shortcut Strg+K</strong>,
+einen Link erstellen. Das funktioniert in Outlook genauso wie in OneNote
+oder Word, d.h. diesen Shortcut kann man immer gut gebrauchen - man ist
+damit einfach schneller. Dieser Workhack lässt sich einfach und schnell
+im nächsten Teammeeting teilen.</p>
+<p>Nun überlege für dein Thema:</p>
+<ul>
+<li>Welchen Mehrwert hat dieses Wissen für deine Kolleg:innen?</li>
+<li>Wie kannst du dein Wissen zu einem bestimmten Thema mit den anderen
+teilen?</li>
+<li>Was hindert dich gerade noch dies auch zu tun? (wichtig!)</li>
+</ul>
+<p>Betrachte nochmal deine Hindernisse und Bedenken, dein Wissen zu
+teilen. Sein Wissen offen mit anderen zu teilen, erfordert auch Mut.
+Aber Mut ist wie ein Muskel, der trainiert werden kann. Denke an den
+kleinen Workhack Shortcut Strg+K - habe keine Angst, ganz kleine Dinge
+zu teilen, denn später klappt es auch mit den großen Sachen. <img
+src="images/zwinkersmiley.png" /></p>
+<p>Und jetzt gehst du einen Schritt weiter und teilst ganz aktiv dein
+Wissen zu einem Thema, für das du Experte bist. Gerne kannst du das in
+deinem beruflichen Arbeitsumfeld tun.</p>
+<ul>
+<li>Wie hat sich das angefühlt? Was wurde dadurch bei dir
+ausgelöst?</li>
+<li>Was ist passiert? Was waren die Reaktionen darauf?</li>
+</ul>
+<p>Mach dir Gedanken: Was habe ich davon, mein Wissen zu teilen?<br />
+Zum Beispiel:</p>
+<ul>
+<li>Wir teilen uns unser Wissen, um es uns leichter zu machen,
+miteinander zu arbeiten.</li>
+<li>Niemand kann alles wissen.</li>
+</ul>
+<h3 id="wenn-du-mehr-machen-willst">Wenn du mehr machen willst:</h3>
+<p>Teile deine Erfahrungen und Erkenntnisse mit deinen eigenen
+Arbeitskolleg:innen und überlegt gemeinsam: Was könnt ihr konkret tun,
+damit Wissen im Team, in der Community etc. geteilt wird?<br />
+z.B. Einführung des Agendapunktes “Workhack - was habe ich Tolles in
+dieser Woche gelernt?” in jedem Teammeeting.</p>
+<p>Teile deine Arbeit - auch wenn sie noch “in Arbeit” ist:<br />
+Durch das Teilen einiger Aspekte deiner Arbeit - was du tust, warum und
+wie - kannst du andere inspirieren oder von anderen lernen, die etwas
+ähnliches tun, oder Möglichkeiten für Innovation und Zusammenarbeit
+schaffen. Verpacke deinen Beitrag in einer Art und Weise, die sich nicht
+nach “Schau’ mich an!” sondern eher nach “Ich glaube, dies hier könnte
+hilfreich und interessant für dich sein.” anfühlt.</p>
+<p>Teile Deine Erfahrungen und Lessons Learned:<br />
+Reflektiere deine Arbeitsweise. Was hast du gelernt - sowohl von Fehlern
+als auch von Erfolgen - und was könnte nützlich für andere sein? Es
+können Ressourcen sein, die dir geholfen haben oder Techniken, die dich
+vorangebracht haben, oder Fehler, die andere vermeiden sollten. Denke
+daran, es als Beitrag zu verpacken, der anderen deine Erkenntnisse in
+einer Art anbietet, die für sie hilfreich ist.</p>
+<p>Du kannst auch gerne die gemeinsame Sammlung der “Digitale
+Zusammenarbeit-Hacks” aus <a href="5-7-Kata-7.md">Kata 7 - Dokumente
+gemeinsam bearbeiten</a> als Inspiration nutzen, um dein Wissen
+weiterzugeben.</p>
+<p>Sammelt eure Erfahrungen und Lessons Learned in einem weiteren
+gemeinsamen Dokument im Circle. Auf dieses könnt ihr nächste Woche in <a
+href="5-12-Kata-12.md">Kata 12 - Selbstreflexion</a> zurückgreifen.</p>
+<p><strong>Abschluss &amp; Nachbereitung</strong></p>
+<h2 id="kata-12---selbstreflexion">Kata 12 - Selbstreflexion</h2>
+<p>Du hast dich auf den Weg gemacht. Wie weit bist du gekommen und wie
+geht es für dich weiter?</p>
+<p>Hast du Freude an der digitalen Zusammenarbeit entdeckt? Was nimmst
+du dir als nächstes vor?</p>
+<p>Es ist Zeit, die hinter dir liegenden Lernerfahrungen zu reflektieren
+und gleichzeitig zu schauen, wie es mit dem Thema für dich weitergehen
+kann.</p>
+<p>Schaue dir dazu noch mal dein am Anfang erstelltes lernOS-Canvas an
+und beantworte dazu die folgenden Fragen:</p>
+<ul>
+<li>Was war deine Startsituation?</li>
+<li>Was hast du gelernt?
+<ul>
+<li>allgemein in Bezug auf digitale Zusammenarbeit</li>
+<li>in Bezug auf “Kommunikation”</li>
+<li>in Bezug auf “Wissen teilen”</li>
+<li>in Bezug auf „Gemeinsam an Dokumenten arbeiten”</li>
+</ul></li>
+<li>Was hat dir am meisten geholfen?</li>
+<li>Worüber warst du am meisten überrascht?</li>
+<li>Wie geht’s weiter für dich? Welchen Aspekt möchtest du
+vertiefen?<br />
+Was möchtest du weiterlernen?</li>
+</ul>
+<h1 id="hintergrund-wissen">Hintergrund-Wissen</h1>
+<h2 id="theorie-kommunikation">Theorie “Kommunikation”</h2>
+<h3 id="grundlagen-synchrone-asynchrone-kommunikation">Grundlagen:
+Synchrone &amp; asynchrone Kommunikation</h3>
+<p><strong>Synchrone Kommunikation</strong></p>
+<ul>
+<li><p>syn·chron: gleichzeitig; mit gleicher Geschwindigkeit
+[ab]laufend</p></li>
+<li><p>Die Kommunikationspartner:innen begeben sich zur gleichen Zeit in
+die Kommunikationssituation.</p></li>
+<li><p>Beispiele: direktes Gespräch/Meeting, Video-/Audio-Call</p></li>
+<li><p>Vorteile: direkter und schneller Austausch</p></li>
+<li><p>Nachteile: Fehlende Interaktionsregeln oder mangelnde
+Rücksichtnahme. Man muss die genutzte Technik beherrschen.</p></li>
+</ul>
+<p><strong>Asynchrone Kommunikation</strong></p>
+<ul>
+<li><p>asyn·chron: nicht synchron, nicht gleichzeitig, nicht mit
+gleicher Geschwindigkeit [ab]laufend</p></li>
+<li><p>Die Beiträge zur Kommunikation erfolgen zeitlich
+versetzt.</p></li>
+<li><p>Beispiele: Brief, Fax, E-Mail, Chat<br />
+(Hinweis: E-Mail und Chat wird oftmals als synchrones
+Kommunikationsmittel missbraucht!)</p></li>
+<li><p>Vorteile: keine unmittelbare Reaktion nötig. Personen können
+selbst entscheiden, wann und wie sie reagieren.</p></li>
+<li><p>Nachteile: Antworten kommen ggf. zu spät oder werden sogar
+vergessen. Informationen sind u. U. schwerer aufzufinden und die Bezüge
+von Nachrichten unklar. Dies kann zu Missverständnissen führen.</p></li>
+</ul>
+<p>Hier noch mal die verschiedenen Kombinationen in der Übersicht:</p>
+<table>
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 30%" />
+<col style="width: 39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Matrix</strong></th>
+<th><strong>Synchron</strong></th>
+<th><strong>Asynchron</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Persönlich</strong> <br> (1:1)</td>
+<td>Anruf <br> Videocall</td>
+<td>E-Mail<br> Chat</td>
+</tr>
+<tr class="even">
+<td><strong>Gruppe</strong> <br>(1:N)</td>
+<td>Telefon/Audiokonferenz<br> Videokonferenz</td>
+<td>E-Mail-Verteiler<br> MS Teams Kanal<br> Gruppenchat<br> ESN</td>
+</tr>
+</tbody>
+</table>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="grundlagen-push-vs.-pull-kommunikation">Grundlagen: Push
+vs. Pull Kommunikation</h3>
+<p><strong>Push:</strong></p>
+<p>Beispiel: E-Mail</p>
+<p>Merkmale:</p>
+<ul>
+<li><p>Sender:in definiert Empfänger:in</p></li>
+<li><p>Sender:in entscheidet, was wichtig für Empfänger:in ist</p></li>
+<li><p>Empfänger:in ist passiv</p></li>
+<li><p>Geschlossene Kommunikation an Einzelperson oder einen gezielten
+Personenkreis</p></li>
+<li><p>Empfänger:in ist extrinsisch motiviert</p></li>
+</ul>
+<p><strong>Pull:</strong></p>
+<p>Beispiel: Chat in Teams, Post im ESN (Enterprise Social Network =
+soziales Netzwerk im Unternehmen)</p>
+<p>Merkmale:</p>
+<ul>
+<li><p>Sender:in veröffentlicht Information</p></li>
+<li><p>Empfänger:in entscheidet, was für sie oder ihn wichtig
+ist</p></li>
+<li><p>Empfänger:in ist aktiv</p></li>
+<li><p>Offene Kommunikation an alle im Unternehmen oder eine Gruppe oder
+ins Team</p></li>
+<li><p>Empfänger:in ist intrinsisch motiviert</p></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="themenbereich-e-mail">Themenbereich: E-Mail</h3>
+<p><strong>Eingehende E-Mail-Kommunikation</strong></p>
+<p>Klassifiziere deine E-Mails und Nachrichten:</p>
+<ul>
+<li><p>Erledigen (Fünf-Minuten-Regel)</p></li>
+<li><p>Terminieren/Aufgabe definieren</p></li>
+<li><p>Weiterleiten/delegieren</p></li>
+<li><p>Archivieren</p></li>
+<li><p>Löschen</p></li>
+</ul>
+<p>Beantworte E-Mail nicht sofort, sondern lege Zeitfenster für die
+Beantwortung fest.</p>
+<p>Stelle E-Mail-Benachrichtigungen in deinen Outlookeinstellungen ab,
+wenn sie dich ablenken.</p>
+<p><strong>Ausgehende E-Mail-Kommunikation</strong></p>
+<p>Tipps für E-Mail- und Chat-Kommunikation</p>
+<ul>
+<li><p>Im Betreff definieren um was es geht (auch in Team-Chat sehr
+sinnvoll)</p></li>
+<li><p>Das Wichtigste zuerst nennen</p></li>
+<li><p>Kurze Aussagen treffen, klare Botschaften senden</p></li>
+<li><p>Texte strukturieren (Formatierungen nutzen, Links im Text
+einsetzen)</p></li>
+<li><p>Deadlines nennen</p></li>
+<li><p>Kommunikation und Entscheidungsfenster terminieren</p></li>
+<li><p>Vermeide CC-E-Mail. CC-E-Mails sind nicht ehrlich und nicht
+transparent.</p>
+<ul>
+<li><p>Inhalte sind oftmals nicht für alle Empfänger
+verständlich</p></li>
+<li><p>Keiner der in CC gesetzten fühlt sich zuständig</p></li>
+<li><p>Keiner der in CC gesetzten ist wirklich informiert</p></li>
+<li><p>Die Kommunikation der AN-Adressierten wird auf einmal für andere
+öffentlich gemacht, die nicht im Thema sind</p></li>
+</ul></li>
+</ul>
+<p>Tipps zum Umgang mit Dateien</p>
+<ul>
+<li><p>Kein „Drag &amp; Drop” in Chat Nachrichten nutzen</p></li>
+<li><p>nur noch E-Mails mit Links verschicken (keine Anhänge!)</p></li>
+</ul>
+<p><strong>Tipp: Wann schreibe ich eine E-Mail? Wann eine
+Chat-Nachricht?</strong></p>
+<p>E-Mail:</p>
+<ul>
+<li><p>Informationen sind auch für Personen relevant, die nicht Teil
+eines Teams oder Gruppe sind. (zu prüfen: ggf. ist es sinnvoll zu einem
+Thema eine neue Chat-Gruppe zu eröffnen).</p></li>
+<li><p>Informationen haben einen „offiziellen” Charakter</p></li>
+<li><p>Informationen haben besondere Compliance-Anforderungen<br />
+(z. B. muss revisionssicher abgelegt werden)</p></li>
+</ul>
+<p>Chat:</p>
+<ul>
+<li><p>Team- und Gruppen-Kommunikation (statt CC-E-Mails)</p></li>
+<li><p>Information soll einer Gruppe längere Zeit zur Verfügung
+stehen</p></li>
+<li><p>Kurze Fragen / Antworten<br />
+(„ist das Bild auf Seite xx final? Ist der Text freigegeben? Können wir
+den Termin verschieben?“)</p></li>
+<li><p>Diskussionen und Feedback zu einem Thema<br />
+(„ich brauche Eure Meinung zu…, Welche Punkte müssen wir
+berücksichtigen?“)</p></li>
+<li><p>Chat ist schneller und leichtgewichtiger als E-Mail.<br />
+Bedenke aber, dass die Zielgruppe häufig größer und offener
+ist.</p></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="themenbereich-chat">Themenbereich: Chat</h3>
+<p>Eingehende Chat-Kommunikation</p>
+<ul>
+<li><p>Nutze in Teams die individuellen Benachrichtigungsoptionen<br />
+(pro Team / pro Kanal).</p></li>
+<li><p>Vereinbare Chat-Regeln mit deinem Team (z. B.
+Reaktionszeiten).</p></li>
+<li><p>Lass dich vom Arbeitsverhalten anderer nicht
+„anstecken”.</p></li>
+<li><p>Nutze <a
+href="https://support.microsoft.com/de-de/office/verwenden-einer-erw%C3%A4hnung-in-kommentaren-um-eine-person-f%C3%BCr-feedback-zu-markieren-644bf689-31a0-4977-a4fb-afe01820c1fd">@-Mention</a>
+um sicherzugehen, dass du Personen erreichst.</p></li>
+<li><p>Pflege und nutze z.B. die <a
+href="https://support.microsoft.com/de-de/office/%C3%A4ndern-ihres-status-in-teams-ce36ed14-6bc9-4775-a33e-6629ba4ff78e">Statusanzeige</a>
+in Teams.</p></li>
+<li><p>Nutze die Option „nicht stören” konsequent zur
+Konzentrationsarbeit.<br />
+Erlaube ggf. bestimmten Personen „Prioritätszugriff”.</p></li>
+<li><p>Nutze die Einstellung der “Ruhezeiten” in der Teams App auf
+mobilen Geräten.</p></li>
+<li><p>Auf eingehende Nachrichten reagieren: Like, Antworten oder
+Weiterleiten</p></li>
+</ul>
+<p>Ausgehende Chat-Kommunikation</p>
+<ul>
+<li><p>#nohello: bitte schreibe nicht einfach nur “Hallo” im Chat,
+sondern benenne direkt dein Anliegen oder die Fragestellung.</p></li>
+<li><p>Es geht um schnelle und unkomplizierte Kommunikation.</p></li>
+<li><p>Schreibe so kurz und einfach wie möglich (kein langer
+E-Mail-Text).</p></li>
+<li><p>Verwende <a
+href="https://support.microsoft.com/de-de/office/verwenden-einer-erw%C3%A4hnung-in-kommentaren-um-eine-person-f%C3%BCr-feedback-zu-markieren-644bf689-31a0-4977-a4fb-afe01820c1fd">@-Mention</a>,
+wenn du jemanden direkt ansprechen willst.</p></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="themenbereich-meetings">Themenbereich: Meetings</h3>
+<p><strong>Ausgehende Meeting-Anfragen</strong></p>
+<p>Wann vereinbare ich ein Meeting?</p>
+<ul>
+<li><p>Möchte ich Personen nur informieren oder brauche ich auch
+Feedback/Gespräche?</p></li>
+<li><p>Was kann asynchron – was sollte synchron (=gemeinsam) erledigt
+werden?</p></li>
+<li><p><strong>Achtung:</strong> Monologe in Meetings sind ein Indikator
+dafür, dass etwas genauso gut auch asynchron erledigt werden
+könnte.</p></li>
+</ul>
+<p>Tipps, um Zeit zu sparen:</p>
+<ul>
+<li><p>Teile Präsentationen/Dokumente mit Personen und frage konkretes
+Feedback per Chat ab.</p></li>
+<li><p>Vergebe VOR dem Meeting “Hausaufgaben” (z.B. „bitte Präsentation
+vorher durchlesen”), damit die Zeit im Meeting zum Austausch genutzt
+werden kann.</p></li>
+</ul>
+<p>Tipps für Organisator:innen</p>
+<ul>
+<li><p>Hinterfrage: lässt sich das Thema nur in einem Meeting
+erarbeiten?</p></li>
+<li><p>Versende Termineinladungen mit Ziel, Agenda und
+Aufgaben.</p></li>
+<li><p>Die Rollen für das Meeting sind geklärt.</p></li>
+<li><p>Starte pünktlich und beende das Meeting bereits 5 Minuten vor der
+terminierten Uhrzeit.</p></li>
+<li><p>Teste techn. Einstellungen vor dem Start des Meetings.</p></li>
+<li><p>Nach dem Meeting ist allen klar, was als nächstes
+passiert.</p></li>
+<li><p>Erstelle ein Meeting-Protokoll:</p>
+<ul>
+<li><p>Was wurde besprochen/beschlossen?</p></li>
+<li><p>Wer nimmt welche Aufgaben mit?</p></li>
+</ul></li>
+</ul>
+<p><strong>Eingehende Meeting-Anfragen</strong></p>
+<p>Tipps für Teilnehmer:innen</p>
+<ul>
+<li><p>Lehne eine Einladung ab, wenn Du nicht weißt, warum Du bei einem
+Meeting mit dabei sein sollst.</p></li>
+<li><p>Erscheine pünktlich und vorbereitet zum Termin.</p></li>
+<li><p>„Multitasking” ist unhöflich (und funktioniert auch nicht). Das
+gilt auch für Online-Meetings.</p></li>
+<li><p>Gebe Feedback (nutze z. B. den Besprechungschat /
+Emojis).</p></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="themenbereich-aufgaben">Themenbereich: Aufgaben</h3>
+<p><strong>Wenn du eine Aufgabe verteilst…</strong></p>
+<ul>
+<li><p>Definiere im Betreff, worum es geht (auch in Team-Chat sehr
+sinnvoll).</p></li>
+<li><p>Nenne das Wichtigste zuerst.</p></li>
+<li><p>Treffe kurze Aussagen und sende klare Botschaften.</p></li>
+<li><p>Strukturiere Texte (Formatierungen nutzen, Links im Text
+einsetzen).</p></li>
+<li><p>Nenne Deadlines.</p></li>
+<li><p>Terminiere Kommunikation und Entscheidungsfenster.</p></li>
+</ul>
+<p><strong>Wenn du eine Aufgabe erhältst, …</strong></p>
+<p>Tipps zur Priorisierung &amp; Aufgabenplanung</p>
+<ul>
+<li><p>Aufgabenüberblick + Deadlines digital nachhalten (digitalen
+Kalender pflegen).</p></li>
+<li><p>Neue Aufgaben gegen eigene Ziele prüfen (Helfersyndrom
+unterdrücken).</p></li>
+<li><p>Nicht überrumpeln lassen: deine Arbeitszeit ist
+begrenzt.</p></li>
+<li><p>Falls Informationen fehlen: Zeitfenster für Aufgaben abfragen und
+oder selbst definieren.</p></li>
+<li><p>Pflege deine ToDos als „gleichberechtigte” Termine.</p></li>
+<li><p>Plane vorausschauend.</p>
+<ul>
+<li><p>Was brauche ich, damit ich meine Aufgabe erledigen kann? Fehlen
+mir z. B. klare Deadlines oder Informationen?</p></li>
+<li><p>Wie lange brauche ich für die Aufgabe?</p></li>
+<li><p>Wann erledige ich diese Aufgabe (inkl. festen
+Termineintrag)?</p></li>
+<li><p>Was muss ich zurückstellen, um diese Aufgabe zu
+erledigen?</p></li>
+<li><p>Signalisiere anderen frühzeitig, wenn eine Aufgabe nicht
+rechtzeitig erledigt werden kann.</p></li>
+</ul></li>
+<li><p>Pflege deine Aufgaben an EINEM Ort (am besten digital).<br />
+Nutze z. B. ToDo und Planner, um Aufgabenübersichten zu erstellen
+(Vorteil: direkte Verbindung zu Chat &amp; E-Mail).</p>
+<ul>
+<li><p>Hin und her springen vermeiden.</p></li>
+<li><p>Suche nach Infos auf ein Minimum beschränken.</p></li>
+</ul></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h2 id="theorie-wissen-teilen">Theorie “Wissen teilen”</h2>
+<h3 id="grundlagen">Grundlagen</h3>
+<p><strong>Wissenstreppe</strong></p>
+<p>Die <strong>Wissenstreppe von Prof. Klaus North</strong> erläutert
+anschaulich, wie Daten, Informationen und Wissen sowie schließlich
+Können, Handeln und Kompetenz zusammenhängen bzw. aufeinander aufbauen.
+Sie setzt dies in Beziehung zu einem Modell für operatives
+Wissensmanagement - quasi bottom-up ausgehend von dem Management der
+Daten und Informationen - und strategischem Wissensmanagement, das quasi
+top-down eine Sichtweise ausgehend von der Kompetenz und damit der
+Wettbewerbsfähigkeit als Ziel nimmt.</p>
+<p>Mehr dazu hier:<br />
+<a
+href="https://wissensmanagement.open-academy.com/category/grundlagen/wissensmanagement-modelle/wissenstreppe"
+class="uri">https://wissensmanagement.open-academy.com/category/grundlagen/wissensmanagement-modelle/wissenstreppe</a></p>
+<p>In diesem Video erläutert Dr. Angelika Mittelmann die Wissenstreppe
+anhand eines „echten” Modells: <a
+href="https://youtu.be/zyYsHe1AaKU">Die Wissenstreppe</a></p>
+<p><strong>Dimensionen des Wissens</strong></p>
+<ul>
+<li><p>Individuelles vs. Kollektives Wissen</p>
+<ul>
+<li>Wissen eines Einzelnen &lt;-&gt; Wissen einer Organisation</li>
+</ul></li>
+<li><p>Internes vs. Externes Wissen</p></li>
+<li><p>Explizites vs. Implizites Wissen</p>
+<ul>
+<li>Explizit: Liegt „schriftlich” vor, kann kopiert werden.</li>
+<li>Implizit: Unbewusst, „Bauchgefühl”<br />
+(Bsp. Automechaniker - Motorengeräusch)</li>
+</ul></li>
+</ul>
+<p><img src="images/Dimensionen_des_Wissens.jpeg" /></p>
+<p><strong>Wissen &amp; Wissensmanagement - Früher &amp;
+Heute</strong></p>
+<p>“Wissensmanagement 1.0” - Dokumenten-Management (ab Mitte der 90er
+Jahre)</p>
+<ul>
+<li>Annahme: Organisations-Wissen steckt in Dokumenten</li>
+<li>Fokus: Informationen &amp; Dokumente / Explizites Wissen</li>
+<li>Aufgaben des Wissensmanagements: Dokumente sammeln - Speichern -
+Qualität sichern</li>
+<li>Werkzeuge: Datenbanken</li>
+</ul>
+<p>“Enterprise 2.0” - Beginn der Digitalen Zusammenarbeit (ab 2006)</p>
+<ul>
+<li>Annahme: Organisations-Wissen steckt in den Köpfen der Experten</li>
+<li>Fokus: Erfahrungen &amp; Dialog, Zusammenarbeit / Implizites
+Wissen</li>
+<li>Aufgaben des Wissensmanagements: Netzwerken - Dialog moderieren -
+Wissensträger coachen</li>
+<li>Werkzeuge: Social Networks, Communities of Practice</li>
+</ul>
+<p><strong>Beispiele für Wissen teilen</strong><br />
+<strong>Arten und Formate</strong></p>
+<p><img src="images/Lagerfeuer.png" /></p>
+<p><em>Sketchnote “Austausch am Lagerfeuer” Tobias Grewe</em></p>
+<p>Das Gespräch ist die häufigste Form des Wissenteilens. Aber: Es ist
+nicht skalierbar, es sei denn man kann es unabhängig von Zeit und Raum
+nutzbar machen. Durch Dokumentation (Aufschreiben, Aufzeichnen, etc.)
+wird das Wissen explizit und damit verfügbar.</p>
+<p>Es gibt so viele Arten sein Wissen zu teilen: das Gespräch, die
+zufällige Begegnung, Community, Intranet, Newsletter etc..<br />
+Die Arten zur Wissenserfassung/-vermittlung lassen sich reduzieren
+auf:</p>
+<ul>
+<li><p>Gespräch (persönlicher Austausch, Telefonkonferenz, Schulung,
+etc.)</p></li>
+<li><p>Handschriftlich (Block und Bleistift, Flipchart,
+Sketchnote)</p></li>
+<li><p>Dokument/Datei (Word, Excel, PowerPoint, Mail, aber auch OneNote,
+Mindmaps, etc.)</p></li>
+<li><p>Beiträge (Blog, Communities, Foren, Wiki, etc.)</p></li>
+<li><p>Bild (Screenshot, Foto von Flipcharts, Graphik, etc.)</p></li>
+<li><p>Video (Screencast, Video mit verschiedenen Tools, etc.)</p></li>
+<li><p>Audio (Diktiergerät des Smartphones, Podcast, etc.)</p></li>
+<li><p>Überblick (Linksammlungen, kuratierte Listen, etc.)</p></li>
+</ul>
+<p>Kennst du alle hier gelisteten Tools? Suche sie im Internet mit “Was
+ist… ?” oder frage in deinem Circle nach.</p>
+<h3 id="sichtbar-werden---working-out-loud-wol">Sichtbar werden -
+Working Out Loud (WOL)</h3>
+<p>Die Graphik von Tanmay Vora unter folgendem Link erläutert die 5
+Elemente von Working Out Loud. Sie bezieht sich auf WOL als Ganzes, als
+Mindset - nicht nur auf die Circle Methode: <a
+href="https://qaspire.com/2017/01/26/5-elements-of-working-out-loud-by-johnstepper/"
+class="uri">https://qaspire.com/2017/01/26/5-elements-of-working-out-loud-by-johnstepper/</a></p>
+<p>Die 5 Elemente von WOL hängen alle eng zusammen. Im Folgenden liegt
+der Fokus allerdings auf “Sichtbar werden”, was in der Graphik “Visible
+Work” entspricht.<br />
+Weiterführende Infos: lernOS Lernpfad Offenheit &amp; Vernetzung (<a
+href="https://cogneon.github.io/lernos-for-you/de/2-3-0-Lernpfad-OV/">Überblick
+- lernOS für Dich Leitfaden (cogneon.github.io)</a>)</p>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h2 id="theorie-zusammenarbeit">Theorie “Zusammenarbeit”</h2>
+<h3 id="grundlagen-zusammenarbeit">Grundlagen: Zusammenarbeit</h3>
+<p><strong>Regeln für die Zusammenarbeit</strong></p>
+<p>Grundlagen:<br />
+<a
+href="https://techcommunity.microsoft.com/t5/yammer-blog/the-social-collaboration-contract/ba-p/364461">Microsoft:
+The Social Collaboration Contract</a></p>
+<p>Vertiefung:</p>
+<ul>
+<li><a
+href="https://www.atlassian.com/de/team-playbook/examples">Atlassian -
+Playbook - Working at Atlassian</a></li>
+<li><a
+href="https://www.atlassian.com/de/team-playbook/plays/working-agreements">Atlassian
+- Playbook - Working Agreements in action</a></li>
+<li><a href="https://www.buero-kaizen.de/">Büro-Kaizen:
+Spielregeln</a></li>
+<li><a href="https://lp.qbeyond.de/teamsstudie">Expertenstudie:
+Microsoft Teams: Marketing Hype oder Game Changer?</a></li>
+</ul>
+<p>Idee für die Erarbeitung der Regeln für die Zusammenarbeit im
+Team:<br />
+<a
+href="https://www.atlassian.com/de/team-playbook/plays/working-agreements">Arbeitsvereinbarungen|Atlassian</a></p>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="collaboration-canvas">Collaboration Canvas</h3>
+<h3 id="auch-zusammenarbeits-canvas">(auch: Zusammenarbeits-Canvas)</h3>
+<p><strong>Canvas</strong></p>
+<p>Wir haben in PowerPoint einen Collaboration Canvas vorbereitet, den
+ihr zum Festhalten eurer Regeln für die Zusammenarbeit verwenden könnt
+(siehe <a href="7-0-Vorlagen.md">Vorlagen</a>).</p>
+<p><img src="images/Collaboration_Canvas_Template.jpeg" /></p>
+<p>Ihr könnt aber auch das folgende Bild als Hintergrund für andere
+Tools nutzen: <img src="images/Collaboration_Canvas_Blank.jpeg" /></p>
+<p>Als Alternative zum Canvas könnt ihr folgenden Text als
+Vorlage/Idee/Anregung in einem Tool eurer Wahl verwenden:</p>
+<p><strong>Regeln für unsere Zusammenarbeit im lernOS
+Circle:</strong></p>
+<p><strong>Ziel:</strong> Unser lernOS Circle hat als gemeinsames Ziel
+<span style="color:grey">[Ziel formulieren]</span></p>
+<p>Für die Zusammenarbeit im Team legen wir folgende Regeln für die
+Zusammenarbeit fest:</p>
+<p>Purpose / Ziel</p>
+<ul>
+<li>Wofür braucht uns die Welt?</li>
+<li>Wofür stehen wir jeden Morgen auf?</li>
+<li>Wer ist unser Auftraggeber? (Kunde bzw. Motivation z.B. bei
+Ehrenämtern)</li>
+<li>Was ist unser Auftrag als Team?</li>
+</ul>
+<p>Interaktion</p>
+<ul>
+<li><p>Wir treffen uns <span style="color:grey">[1x wöchentlich - Dauer,
+Rhythmus, Ort, Zeitpunkt]</span>. Wenn wir Video nutzen, werden wir als
+Videokonferenzlösung für Treffen <span
+style="color:grey">[Videokonferenztool]</span> verwenden.</p></li>
+<li><p>Wir werden uns die Dokumente nicht gegenseitig per E-Mail
+zusenden, sondern die Links zu den Dokumenten in unserer <span
+style="color:grey">[Dokumentenbibliothek]</span> veröffentlichen und
+gemeinsam nutzen.</p></li>
+</ul>
+<p>Aktion</p>
+<ul>
+<li><p>Wir werden in der Zeit dazwischen unsere Aufgaben erledigen und
+sie für das nächste Treffen vorbereiten.</p></li>
+<li><p>Wir verpflichten uns gegenseitig, den Vertrag über die
+Zusammenarbeit einzuhalten.</p></li>
+</ul>
+<p>Kommunikation, informell (spontan, sozial, schnell)</p>
+<ul>
+<li>Kurz und knapp: Für die spontane, schnelle soziale Kommunikation
+nutzen wir <span style="color:grey">[Kommunikationstool]</span>.</li>
+</ul>
+<p>Kommunikation, fachlich</p>
+<ul>
+<li><p>Wir sind dafür verantwortlich, vor dem nächsten Treffen uns in
+unserem <span style="color:grey">[Kommunikationstool]</span> über
+Neuigkeiten zu informieren.</p></li>
+<li><p>Konstruktiv: Für den <strong>fachlichen</strong> Austausch nutzen
+wir <span style="color:grey">[Kanal im
+Kommunikationstool]</span>.</p></li>
+</ul>
+<p>Dokumentation</p>
+<ul>
+<li><p>Wir werden unser <span
+style="color:grey">[OneNote-Notizbuch]</span> für alle Treffen als
+Dokumentation verwenden.</p></li>
+<li><p>Wir werden <span style="color:grey">[Name des Tools (z. B.
+Planner)]</span> verwenden, um den Aufgabenstatus zu erfassen und
+unseren Status und die wichtigsten Meilensteine auf dem neuesten Stand
+zu halten.</p></li>
+<li><p>Wir stellen sicher, dass die gesamte Arbeit (auch Dokumente, die
+noch in Arbeit sind) in der vereinbarten <span
+style="color:grey">[Dokumentenbibliothek]</span> gespeichert
+wird.</p></li>
+<li><p><em>Optional</em>: Wir werden diese spezielle <span
+style="color:grey">[Ordner-/Bibliotheksstruktur]</span> verwenden, um
+unsere Teamdokumente zu organisieren.</p></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="gemeinsam-an-dokumenten-arbeiten">Gemeinsam an Dokumenten
+arbeiten</h3>
+<p><strong>Freigabe von Dokumenten in der Cloud (Beispiel
+M365)</strong></p>
+<ol type="1">
+<li><p>Tipp: Gemeinsam gleichzeitig an einem Dokument arbeiten<br />
+Möchte man gemeinsam Inhalte in einem Dokument bearbeiten, mussten
+oftmals bisher mühsam Korrekturen und Beiträge einzelner Personen Stück
+für Stück in einem Dokument konsolidiert werden. Sobald Dokumente in der
+Cloud (beispielsweise auf SharePoint TeamSites oder in OneDrive)
+gespeichert sind, gibt es die Möglichkeit, dass mehrere Personen
+gleichzeitig an einem Dokument arbeiten (über Freigabe per Link (siehe
+Tipp 4)).<br />
+<a
+href="https://support.microsoft.com/de-de/office/zusammenarbeiten-an-word-dokumenten-mit-gemeinsamer-dokumenterstellung-in-echtzeit-7dd3040c-3f30-4fdd-bab0-8586492a1f1d">Link
+zu weiteren Informationen &amp; Anleitungen.</a></p></li>
+<li><p>Tipp: Automatische Versionierung in Cloud Ablagen nutzen<br />
+Durch die Ablage in der Microsoft Cloud, werden Arbeitsstände von
+Dokumenten automatisch gespeichert und Versionen eines Dokuments
+nachgehalten. Falls man gemeinsam an Dokumenten arbeitet, gibt diese
+Funktion allen die Sicherheit, dass Dokumente und Arbeitsstände nicht
+aus Versehen gelöscht/überschieben und dadurch verloren gehen
+können.<br />
+<a
+href="https://support.microsoft.com/de-de/office/anzeigen-des-versionsverlaufs-eines-elements-oder-einer-datei-in-einer-liste-oder-bibliothek-53262060-5092-424d-a50b-c798b0ec32b1">Link
+zu weiteren Informationen &amp; Anleitungen.</a></p></li>
+<li><p>Tipp: Änderungen nachverfolgen<br />
+Neben der Automatischen Versionierung bieten Word, Excel und PowerPoint
+Dokumente die Möglichkeit Änderungen nachzuverfolgen. Dadurch kann jeder
+sehen, welche Inhalte wann und von welcher Person bearbeitet wurden. Die
+Änderungsverfolgung lässt sich leicht im Hauptmenüpunkt “Überprüfen” an-
+und ausschalten.<br />
+<a
+href="https://support.microsoft.com/de-de/office/nachverfolgen-von-%C3%A4nderungen-in-word-197ba630-0f5f-4a8e-9a77-3712475e806a#:~:text=%C3%96ffnen%20Sie%20das%20Dokument%2C%20das,Nachverfolgen%20von%20%C3%84nderungen%20zu%20aktivieren.">Link
+zu weiteren Informationen &amp; Anleitungen.</a></p></li>
+<li><p>Tipp: Kommentarfunktion im Dokument nutzen<br />
+In Word, Excel und PowerPoint gibt es die Möglichkeit gezielt Kommentare
+z. B. an Textstellen, zu hinterlassen. Alle Personen, die das Dokument
+nutzen, können die Kommentare lesen und darauf antworten. So können
+Fragen, Informationen und Antworten zu den Inhalten in einem Dokument
+schnell und einfach ausgetauscht werden.<br />
+<a
+href="https://support.microsoft.com/de-de/office/verwenden-von-modernen-kommentaren-in-word-edc6ae71-0a2d-49fe-8faa-986f1e48136a">Link
+zu weiteren Informationen &amp; Anleitungen</a>.</p></li>
+<li><p>Tipp: Dateien per Link teilen<br />
+Es ist ratsam Dateien immer zuerst auf der Cloud Ablage (z. B. TeamSite
+oder im pers. OneDrive) abzulegen und dann die Datei per Link im
+Teamskanal, einem 1:1 Chat oder Gruppenchat zu teilen. So bleibt die
+Datei am gewählten Ablageort. Teilt man eine Datei einfach per Drag
+&amp; Drop in einem Chat wird diese automatisch im Kanalordner (Teams
+Chat) oder im OneDrive eines der Chatgruppen Teilnehmenden abgelegt. Es
+wird somit also eine Kopie der ursprünglichen Datei erzeugt.</p></li>
+</ol>
+<p><strong>Wie teile ich Dokumente in einem Chat? (Beispiel
+M365)</strong></p>
+<p><em>Chat-Kommunikation ist für die Zusammenarbeit in einer Gruppe
+sehr wichtig. In Microsoft Teams gibt es dafür mehrere Möglichkeiten:
+man kann in einem Team in MS Teams die Kanäle nutzen - oder im
+persönlichen Chat Bereich einen Gruppenchat anlegen. Auch
+Besprechungschats werden oft für die Gruppenkommunikation genutzt. Die
+Optionen sind jeweils für unterschiedliche Anwendungsfälle sinnvoll,
+unterscheiden sich aber in wichtigen Details, wenn man per Chat auch
+Dokumente teilen möchte.</em></p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 32%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Teams-Kanal</strong></th>
+<th><strong>Gruppenchat</strong></th>
+<th><strong>Besprechungschat</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Vorteile</strong>:</td>
+<td><strong>Vorteile</strong>:</td>
+<td><strong>Vorteile</strong>:</td>
+</tr>
+<tr class="even">
+<td>Geteilte Dateien werden automatisch auf der TeamSite im
+entsprechenden Kanalordner abgelegt. Alle Teammitglieder (auch externe
+Personen/Gäste) haben automatisch auf Dateien Zugriff, die über die
+TeamSite und/oder direkt im Kanal geteilt werden. (wird auch beim
+Verlassen des Teams wieder entfernt!)</td>
+<td>Wenn eine neue Person zum Gruppenchat hinzugefügt wird, kann
+individuell entschieden werden, ob die Historie des Chats
+gesamtheitlich, teilweise oder gar nicht zur Einsicht freigegeben werden
+soll.</td>
+<td>Eignet sich gut für die Chat Kommunikation während und kurz nach
+einem Termin.</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Nachteile</strong>:</td>
+<td><strong>Nachteile</strong>:</td>
+<td><strong>Nachteile</strong>:</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Intransparente Dateiablage</td>
+<td>Intransparente Dateiablage</td>
+</tr>
+<tr class="even">
+<td>Keine direkte Einbindung von Personen außerhalb der M365-Gruppe
+möglich.</td>
+<td>Auch wenn alle Dateien scheinbar geordnet im Dateien Reiter des
+Chats sichtbar sind: es gibt es keine gemeinsame Dateiablage. Die
+geteilte Datei wird jeweils bei der Person im OneDrive im Ordner
+“Microsoft Teams Chat Dateien” abgelegt. Dort landen alle Dateien, die
+in 1:1 Chats, Gruppenchats und Besprechungschats von der Person per Drag
+&amp; Drop geteilt wurden. Diese Ablage kann also schnell sehr
+unübersichtlich werden und viel Speicherplatz einnehmen.</td>
+<td>Auch wenn alle Dateien scheinbar geordnet im Dateien Reiter des
+Chats sichtbar sind: es gibt es keine gemeinsame Dateiablage (Details
+siehe Beschreibung “Gruppenchat”).</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Personen, die später zum Chat hinzugefügt werden, haben nicht
+automatisch auf die geteilten Dateien Zugriff. Sobald eine externe
+Person (= Gäste im genutzten M365 Tenant) dem Gruppenchat beitritt
+können keine Dateien mehr geteilt werden. Gäste können nicht auf die
+geteilten Dateien zugreifen.</td>
+<td>Externe Personen (= Gäste im genutzten M365 Tenant) können geteilte
+Dateien nur sehen und abrufen, wenn sie einen Gast Account besitzen und
+sich auch über diesen Account in die Besprechung eingewählt haben.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tool-sammlung">Tool-Sammlung</h3>
+<p><a
+href="https://www.selbstlernen.net/kooperatives-online-lernen-teil-3/">verschiedene
+Tools zur gemeinsamen Texterstellung</a></p>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h3 id="meetings-effizient-gestalten">Meetings effizient gestalten</h3>
+<p>Wie du mit einer besseren Organisation und Gestaltung deiner Meetings
+mehr Zeit für das Wesentliche gewinnst.</p>
+<p><strong>Meetings - Wofür?</strong></p>
+<ul>
+<li><p>Entscheidungen</p></li>
+<li><p>Abstimmungen</p></li>
+<li><p>Brainstorming &amp; Ideation</p></li>
+<li><p>Präsentation von Ergebnissen (Pitch)</p></li>
+<li><p>Austausch / Dialog &amp; Lernen (Schulung)</p></li>
+<li><p>Meeting = noch nicht abgeklärte, offene Punkte<br />
+Alles, was persönlich &amp; live besprochen werden soll.</p></li>
+<li><p>≠ Aber NICHT für Information!</p></li>
+</ul>
+<p><strong>Was braucht es?</strong></p>
+<ul>
+<li><p>Agenda - Was steht an?</p></li>
+<li><p>Ziel - Was wollen wir erreichen?</p></li>
+<li><p>Einladung - nur an relevante Teilnehmer:innen<br />
+(= können ein Beitrag zur Zielerreichung leisten)</p></li>
+<li><p>Zeitrahmen</p></li>
+<li><p>Ergebnisprotokoll – Aufgaben, Verantwortlichkeiten</p></li>
+</ul>
+<p><strong>Wie machen wir das?</strong></p>
+<ul>
+<li><p>Wir erstellen Agenda &amp; Protokoll gemeinsam. Live.</p></li>
+<li><p>Wir kommen vorbereitet und kennen die Materialien.</p></li>
+<li><p>Keine Agenda - kein Meeting!</p></li>
+<li><p>Wir gehen aus dem Meeting raus und kennen die nächsten
+Schritte:<br />
+jede:r weiß, was zu tun ist.</p></li>
+</ul>
+<p><strong>Was kann im Vorfeld oder während des Meetings im Chat geklärt
+werden?</strong></p>
+<ul>
+<li><p>„Müssen wir diesen Punkt „live” klären -<br />
+oder geht das auch asynchron im Netzwerk?”</p></li>
+<li><p>Abstimmung durch „Like”</p></li>
+<li><p>Offene Punkte / zu klärende Fragen im Kommentar</p></li>
+<li><p>Keine Scheu vor „dummen Fragen” = Lern-Gelegenheit!</p></li>
+<li><p>Hohe Motivation, Punkte vorab zu klären</p></li>
+<li><p>Reduzierte Agenda bedeutet Kürzere Meetings</p></li>
+</ul>
+<p><strong>Wer einen Punkt auf die Agenda setzt, ist als Topic Owner
+dafür verantwortlich:</strong></p>
+<ul>
+<li><p>Materialien / Unterlagen zum Einlesen rechtzeitig
+bereitstellen</p></li>
+<li><p>3 Tage vorher - sonst Verschiebung zum nächsten Termin</p></li>
+<li><p>Klären von Fragen im Chat</p></li>
+<li><p>Protokoll-Verantwortung: Schluss-Redaktion</p></li>
+</ul>
+<p><strong>Im Meeting:</strong></p>
+<ul>
+<li><p>Alle Rollen &amp; Aufgaben werden von allen Beteiligten
+übernommen</p></li>
+<li><p>Topic Owner = Moderatoren für ihre TOPs</p></li>
+<li><p>Alle anderen sind aktiv beteiligt - in der Diskussion oder am
+Protokoll</p></li>
+</ul>
+<p><strong>Vorteile von effizient gestalteten Meetings:</strong></p>
+<ul>
+<li><p>Weniger &amp; kürzere Meetings</p></li>
+<li><p>Entscheidungsprozess: Schnellere Ergebnisse und
+Zeitersparnis</p></li>
+<li><p>Mitarbeitende: Höhere Motivation &amp; Engagement durch aktive
+Beteiligung</p></li>
+<li><p>Virale Verbreitung in andere Projektteams</p></li>
+<li><p>Wer die Vorteile erlebt hat, will nicht mehr zurück!</p></li>
+</ul>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h2 id="theorie-retrospektive">Theorie “Retrospektive”</h2>
+<h3 id="hinführung-retrospektive">Hinführung: Retrospektive</h3>
+<p>Lernen aus Erfahrung ist ein wichtiger Aspekt in der (digitalen)
+Zusammenarbeit. Es geht darum das Geschehene zu reflektieren und daraus
+Erkenntnisse abzuleiten, die zukünftig berücksichtigt werden, um die
+Zusammenarbeit zu verbessern.</p>
+<h3 id="definition-retrospektive">Definition Retrospektive</h3>
+<p>Exemplarisch findest du hier zwei ausgewählte Definitionen für
+Retrospektive (Retrospective oder auch kurz Retro):</p>
+<blockquote>
+<ol type="1">
+<li><em>“Retrospektive (lat. retrospectare „zurückblicken”) bezeichnet
+einen Rückblick auf bereits geschehene Ereignisse.”</em> (<a
+href="https://de.wikipedia.org/wiki/Retrospektive">Wikipedia</a>)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2" type="1">
+<li><em>“Retrospektiven sind Teamtreffen, deren Ziel es ist, aus der
+Vergangenheit zu lernen. „Retrospektiv” bedeutet „rückblickend”. Die
+Teammitglieder schauen also gemeinsam zurück und bewerten, was gut und
+was schlecht gelaufen ist. Sie analysieren, warum Dinge gut liefen oder
+von Erwartungen abwichen, um so Maßnahmen zur Verbesserung zu
+formulieren und anzugehen. “</em> (<a
+href="https://www.it-agile.de/agiles-wissen/agile-teams/was-sind-retrospektiven/">it-agile</a>)</li>
+</ol>
+</blockquote>
+<h3 id="was-kann-eine-retrospektive-bewirken">Was kann eine
+Retrospektive bewirken?</h3>
+<p>Retrospektiven werden genutzt, um</p>
+<ul>
+<li><p>Reflexion über die Zusammenarbeit anzustoßen,</p></li>
+<li><p>Verbesserungspotential zu identifizieren,</p></li>
+<li><p>neugierig und offen zu bleiben,</p></li>
+<li><p>Neues auszuprobieren,</p></li>
+<li><p>andere, alte oder neuen Ideen zu adaptieren.</p></li>
+</ul>
+<p>Retrospektiven helfen</p>
+<ul>
+<li><p>sich und die Zusammenarbeit im Team weiterzuentwickeln,</p></li>
+<li><p>Unstimmigkeiten aus dem Weg zu räumen,</p></li>
+<li><p>zielgerichteter zu arbeiten</p></li>
+<li><p>und sich zu fokussieren.</p></li>
+</ul>
+<h3 id="was-eine-retrospektive-nicht-ist">Was eine Retrospektive NICHT
+ist:</h3>
+<blockquote>
+<ol type="1">
+<li>“Ein „blame game”<br />
+Retrospektiven dienen nicht dazu Verantwortung abzuwälzen und anderen
+Schuld zuzuweisen. Einige Moderator:innen beginnen daher ihre
+Retrospektiven, indem sie die “Retrospective Prime Directive”
+vorlesen:<br />
+<em>Unabhängig davon was wir entdecken werden - wir verstehen und
+glauben aufrichtig, dass in der gegebenen Situation, mit dem verfügbaren
+Wissen und den verfügbaren Ressourcen und den individuellen Fähigkeiten,
+alle ihr Bestes getan haben. Konzentriere dich darauf, was du in der
+Zukunft machen wirst.</em></li>
+<li>Ein Laber-Meeting<br />
+Wenn Retrospektiven nur ein weiteres Meeting sind, in dem viel geredet
+wird, daraus aber nichts folgt, d.h. wenn den Retrospektiven keine
+konkreten Veränderungen, Anpassungen oder Maßnahmen folgen oder niemand
+sich dafür interessiert, dann sind Retrospektiven
+Zeitverschwendung.<br />
+Aber wenn man die Entscheidungen aus Retros umsetzt, kann man
+Erstaunliches erreichen! Kleine Änderungen addieren sich auf zu
+weitreichenden Verbesserungen, wie ein Zinseszinseffekt. Es lohnt
+sich!”<br />
+Aus &lt;<a
+href="https://finding-marbles.com/retr-o-mat/was-ist-eine-agile-retrospektive/"
+class="uri">https://finding-marbles.com/retr-o-mat/was-ist-eine-agile-retrospektive/</a>&gt;</li>
+</ol>
+</blockquote>
+<h3 id="retrospektive-in-abgrenzung-dazu-lessons-learned">Retrospektive
+in Abgrenzung dazu Lessons Learned</h3>
+<p>Vorab wieder zwei Definitionen, damit ihr wisst, was eine Lessons
+Learned ist:</p>
+<blockquote>
+<ol type="1">
+<li><em>“Lessons Learned bezeichnet das Lernen aus Erfahrung, mit dem
+Ziel, die gewonnenen Erkenntnisse zukünftig aktiv zu nutzen. „Gewonnene
+Erkenntnisse” ist die gebräuchlichste Übersetzung für den aus dem
+Englischen stammenden Begriff; „Lektion gelernt” ist eine alternative
+und vielleicht sogar bessere Übersetzung.”</em> (<a
+href="https://t2informatik.de/wissen-kompakt/lessons-learned/#:~:text=aus%20ihnen%20lernt.-,Lessons%20Learned%20bezeichnet%20das%20Lernen%20aus%20Erfahrung%2C%20mit%20dem%20Ziel,und%20vielleicht%20sogar%20bessere%20%C3%9Cbersetzung.">t2informatik</a>)</li>
+</ol>
+</blockquote>
+<blockquote>
+<ol start="2" type="1">
+<li><em>“Lessons Learned sind gewonnene Erkenntnisse, neues Wissen oder
+Erfahrungen, die während der Arbeit an einem Projekt entstehen, sowie
+deren Dokumentation. Der innovative Charakter von Projekten bedingt,
+dass die Projektbeteiligten während eines Projekts beständig neue
+Erkenntnisse gewinnen. Wenn sie eine solche neue Erkenntnis in
+geeigneter Weise dokumentieren, wird sie zum Erfahrungswert bzw.
+zur”Lessons Learned “.</em><br />
+<em>Lessons Learned können sowohl aus positiven als auch aus negativen
+Erfahrungen abgeleitet werden und beschreiben dementsprechend
+Optimierungsmöglichkeiten oder Risiken. Sie können sich gleichermaßen
+auf Aspekte des Managements (z.B. Organisation) und des
+Projektgegenstands (z.B. Lösungsansatz) beziehen.”</em> (<a
+href="https://www.projektmagazin.de/glossarterm/lessons-learned">projektmagazin</a>)</li>
+</ol>
+</blockquote>
+<p>Beide Formate - <strong>Retrospektive</strong> und <strong>Lessons
+Learned</strong> - sind darauf angelegt die Art und Weise der
+Zusammenarbeit zu beleuchten, um so die Herausforderungen und
+Verbesserungsmöglichkeiten abzuleiten. Es geht um die Fragen “Was lief
+gut bzw. weniger gut?” und “Was können wir daraus für das nächste Mal
+lernen?”.</p>
+<p>Der Hauptunterschied der beiden Formate ist, dass Lessons Learned am
+Ende eingesetzt werden, z.B. wenn das Projekt im klassischen
+Projektmanagement beendet ist oder wenn die Veranstaltung abgeschlossen
+ist oder etwas Neues eingeführt wurde. Die Ergebnisse werden dann auch
+für andere zur Verfügung gestellt und geteilt.</p>
+<p>Wohingegen die Retrospektive kontinuierlich erfolgt, z.B. regelmäßig
+im agilen Projektmanagement oder wenn es um die Teamentwicklung geht.
+Sie bezieht sich auf die Zusammenarbeit im Team.</p>
+<div style="display: none">
+<div style="page-break-after: always;"></div>
+</div>
+<h1 id="vorlagen">Vorlagen</h1>
+<p>Die im Leitfaden angesprochenen Vorlagen findet ihr unter:</p>
+<p><a
+href="https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/tree/master/de/Vorlagen"
+class="uri">https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/tree/master/de/Vorlagen</a></p>
+<h1 id="abschluss">Abschluss</h1>
+<p>Wow, du hast es geschafft! Du hast dich jetzt 12 Wochen intensiv mit
+dem Thema “digitale Zusammenarbeit” beschäftigt und bist am Ende des
+Lernpfads angekommen. Herzlichen Glückwunsch!</p>
+<p>Wie kann es jetzt weiter gehen? Einige Circles sind zu richtigen
+Lerngruppen zusammengewachsen und treffen sich weiterhin regelmäßig,
+vielleicht in größeren zeitlichen Abständen (z.B. alle 2 oder 4 Wochen
+statt jede Woche). Dabei können bestimmte Themen aus dem Lernpfad
+nochmal vertieft bearbeitet oder Katas wiederholt werden. Besprich das
+mit deinem Circle, wie ihr euch zukünftig über eure Lernfortschritte
+austauschen und euch kollegial beraten könnt, indem ihr neue
+Anwendungsideen aus euren eigenen Arbeitsfeldern einbringt.</p>
+<p>Du hast die letzten Wochen Großartiges geleistet - du hast dich auf
+den Weg gemacht und bist dran geblieben. Erinnerst du dich noch an die
+Graphik ganz am <a href="3-0-Lernreise.md">Anfang deiner
+Lernreise</a>?</p>
+<p>Die Kraft der kleinen Schritte hat gezeigt, dass es sich lohnt dran
+zu bleiben - und die Erfolge werden sichtbar - für dich und andere.</p>
+<p>Keep calm and learn on!</p>
+<h1 id="anhang">Anhang</h1>
+<h2 id="danksagungen">Danksagungen</h2>
+<p>Ein großer Dank an die vielen Projekte und Vorarbeiten, die die
+Erstellung und Verwaltung von lernOS Leitfäden ermöglichen.</p>
+<h2 id="änderungshistorie">Änderungshistorie</h2>
+<table>
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 20%" />
+<col style="width: 55%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Bearbeitet von</th>
+<th>Beschreibung Änderung</th>
+<th>Datum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0.1</td>
+<td>Simon Dückert</td>
+<td>Erste Version des Template-Repositories</td>
+<td>09.12.2021</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lernos-glossar">lernOS Glossar</h2>
+<p><strong>A</strong></p>
+<dl>
+<dt>Aufgabe</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Arbeitsumgebung</dt>
+<dd>
+Nach DIN 33400 ist die Arbeitsumgebung eines Arbeitssystems „das
+räumliche Umfeld, von dem vor allem physikalische und chemische, aber
+auch unter anderem biologische (z. B. bakteriologische) Einflüsse auf
+den Menschen einwirken“. Hierbei wirken Mensch und Arbeitsmittel im
+Arbeitsablauf am Arbeitsplatz in einer Arbeitsumgebung unter den
+Bedingungen dieses Arbeitssystems zusammen.
+</dd>
+</dl>
+<p><strong>C</strong></p>
+<dl>
+<dt>Change Agent</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Change Management</dt>
+<dd>
+Definition fehlt
+</dd>
+</dl>
+<p><strong>E</strong></p>
+<dl>
+<dt>E-Portfolio</dt>
+<dd>
+Ein E-Portfolio ist eine persönliche, strukturierte und digitale
+Informationssammlung, die Lernziele und -prozesse im lebenslangen Lernen
+unterstützt und dabei erworbenes Wissen und Fähigkeiten veranschaulicht.
+</dd>
+</dl>
+<p><strong>F</strong></p>
+<dl>
+<dt>Formale Organisation</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Formales Lernen</dt>
+<dd>
+Formales Lernen ist das Lernen, das üblicherweise in einer Bildungs-
+oder Ausbildungseinrichtung stattfindet, in Bezug auf Lernziele,
+Lernzeit oder Lernförderung strukturiert ist und zur Zertifizierung
+führt. Formales Lernen ist aus der Sicht des Lernenden zielgerichtet
+(Europäische Kommission, 2001).
+</dd>
+<dt>Führung</dt>
+<dd>
+Führung ist die Tätigkeit, Menschen in die Zielfindung einzubinden,
+motivierende Rahmenbedingungen zu schaffen, Lern- und
+Entwicklungsprozesse zu unterstützen und die Zielerreichung bei Bedarf
+zu unterstützen.
+</dd>
+<dt>Führungskraft</dt>
+<dd>
+Eine Führungskraft ist eine Person in einer Organisation, die mit
+Aufgaben der Personalführung betraut ist.
+</dd>
+<dt>Führungsstil</dt>
+<dd>
+Der Führungsstil bezeichnet das langfristig stabile und von der
+Situation unabhängige Verhalten einer Führungskraft gegenüber
+Mitarbeitern. Zu den klassischen Führungsstilen nach Levin gehören
+autoritäre Führung, demokratische Führung und Laissez-faire Führung.
+</dd>
+</dl>
+<p><strong>G</strong></p>
+<dl>
+<dt>Getting Things Done (GTD)</dt>
+<dd>
+Definition fehlt
+</dd>
+</dl>
+<p><strong>I</strong></p>
+<dl>
+<dt>Informale Organisation</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Informelles Lernen</dt>
+<dd>
+Informelles Lernen ist das Lernen, das im Alltag, am Arbeitsplatz, im
+Familienkreis oder in der Freizeit stattfindet. Es ist in Bezug auf
+Lernziele, Lernzeit oder Lernförderung nicht strukturiert und führt
+üblicherweise nicht zur Zertifizierung. Informelles Lernen kann
+zielgerichtet sein, ist jedoch in den meisten Fällen nichtintentional
+beiläufig (Europäische Kommission, 2001)
+</dd>
+<dt>Infrastruktur</dt>
+<dd>
+Definition fehlt
+</dd>
+</dl>
+<p><strong>K</strong></p>
+<dl>
+<dt>Kollaboration</dt>
+<dd>
+Kollaboration ist die Zusammenarbeit von Personen oder Gruppen von
+Personen (Wikipedia).
+</dd>
+<dt>Kommunikation</dt>
+<dd>
+Kommunikation ist der Austausch oder die Übertragung von Informationen,
+die auf verschiedenen Arten (verbal, nonverbal) oder verschiedenen Wegen
+(Sprechen, Schreiben) stattfinden kann (Wikipedia).
+</dd>
+<dt>Kompetenz</dt>
+<dd>
+ability to apply knowledge and skills to achieve intended results (ISO
+9001:2015).
+</dd>
+</dl>
+<p><strong>L</strong></p>
+<dl>
+<dt>Lebenslanges Lernen</dt>
+<dd>
+Lebenslanges Lernen bezeichnet alles Lernen während des gesamten Lebens,
+das der Verbesserung von Wissen, Qualifikationen und Kompetenzen dient
+und im Rahmen einer persönlichen, bürgergesell- schaftlichen, sozialen,
+bzw. beschäftigungsbezogenen Perspektive erfolgt (Europäische
+Kommission, 2001).
+</dd>
+<dt>Lernen</dt>
+<dd>
+Lernen ist der absichtliche oder beiläufige Erwerb von Wissen und
+Fähigkeiten. Lernen führt zu einer Veränderung des Verhaltens, Denkens
+oder Fühlens auf Basis neuer Erfahrungen oder Einsichten.
+</dd>
+<dt>Lernende Organisation</dt>
+<dd>
+Eine Lernende Organisation ist eine Organisation, die die Fähigkeit
+besitzt, Wissen zu generieren, zu akquirieren und zu verteilen und ihr
+Verhalten auf Basis neuer Erkenntnisse und Einsichten zu verändern.
+</dd>
+<dt>lernOS</dt>
+<dd>
+lernOS ist ein offenes System für Lebenslanges Lernen und Lernende
+Organisationen. Es stellt auf den drei Ebenen Individuum, Team und
+Organisation offene Leitfäden für die kontinuierliche Verbesserung des
+Lern- und Wissensmanagements bereit.
+</dd>
+<dt>lernOS Canvas</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>lernOS Rad</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Lernpfad</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Lernsprint</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Lernzirkel</dt>
+<dd>
+Eine Gruppe von 4-5 Personen in der sich die Mitglieder gegenseitig mit
+Feedback, Erfahrung, Wissen und Reflexion helfen. Die Circle-Mitglieder
+treffen sich wöchentlich und folgen dabei einem vorgegebenen Ablauf, der
+den Lern- und Entwicklungsprozess strukturiert.
+</dd>
+</dl>
+<p><strong>M</strong></p>
+<dl>
+<dt>Management</dt>
+<dd>
+Management ist die Koordination der Aktivitäten in einer Organisation
+mit dem Zweck, die Ziele der Organisation zu erreichen.
+</dd>
+<dt>Mindset</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Mission</dt>
+<dd>
+Die Mission beschreibt, was die Organisation im Tagesgeschäft tut oder
+tun wird (Business Motivation Model).
+</dd>
+</dl>
+<p><strong>O</strong></p>
+<dl>
+<dt>Objectives &amp; Key Results (OKR)</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Organisation</dt>
+<dd>
+Eine Organisation besteht aus einer oder oder mehreren Personen
+(Organisationsmitglieder), die ein gemeinsamer Zweck verbindet und die
+sich zur Zeckerreichung eine formale Organisationsstruktur geben.
+</dd>
+</dl>
+<p><strong>P</strong></p>
+<dl>
+<dt>Projekt</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Prozess</dt>
+<dd>
+set of interrelated or interacting activities that use inputs to deliver
+an intended result (ISO 9001:2015).
+</dd>
+</dl>
+<p><strong>R</strong></p>
+<dl>
+<dt>Rolle</dt>
+<dd>
+Definition fehlt
+</dd>
+</dl>
+<p><strong>S</strong></p>
+<dl>
+<dt>Selbstgesteuertes Lernen</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Selbstorganisation</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Sinn</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Skillset</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Sprint</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Strategie</dt>
+<dd>
+Definition fehlt
+</dd>
+</dl>
+<p><strong>T</strong></p>
+<dl>
+<dt>Toolset</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>True North</dt>
+<dd>
+Der “wahre Norden” (true north) ist das langfristige Ziel (auch Vision
+genannt), an dem sich jährliche Ziele und konkrete
+Verbesserungsaktivitäten orientieren.
+</dd>
+</dl>
+<p><strong>V</strong></p>
+<dl>
+<dt>Vision</dt>
+<dd>
+Die Vision beschreibt den zukünftigen Zustand einer Organisation und
+ihrer Umwelt, unabhängig davon, wie diesser erreicht wird (Business
+Motivation Model).
+</dd>
+<dt>VUCA</dt>
+<dd>
+Die Abkürzung steht für volatility, uncertainty, complexity und
+ambiguity.
+</dd>
+</dl>
+<p><strong>W</strong></p>
+<dl>
+<dt>Wissen</dt>
+<dd>
+Definition fehlt
+</dd>
+<dt>Wissensmanagement</dt>
+<dd>
+Wissensmanagement ist die Führung und Gestaltung einer Lernenden
+Organisation.
+</dd>
+<dt>Working Out Loud</dt>
+<dd>
+Working Out Loud (WOL) ist eine Arbeitsweise, bei der Arbeitsstände und
+-ergebnisse offen einsehbar sind (z.B. Wiki, offene Dateiablage) und
+über den Arbeitsfortschritt offen erzählt wird (z.B. Blog, Microblog).
+</dd>
+<dt>Working Out Loud Lernprogramm</dt>
+<dd>
+Das Working Out Loud Lernprogramm von John Stepper ist ein 12-wöchiger
+Lernpfad, mit dem Einsteiger*innen die WOL Arbeitsweise erlernen können.
+</dd>
+</dl>
+<p><strong>Z</strong></p>
+<dl>
+<dt>Ziel</dt>
+<dd>
+Result to be achieved (ISO 9001:2015).
+</dd>
+</dl>
+</body>
+</html>

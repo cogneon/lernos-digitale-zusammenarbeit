@@ -36,6 +36,12 @@ echo Creating HTML version ...
 rem pandoc metadata.yaml --from markdown -s --resource-path="./src" -F mermaid-filter --number-sections -V lang=de-de -o %filename%.html %chapters%
 rem pandoc metadata.yaml --from markdown -s --resource-path="./src" --toc -V lang=de-de -o "TEST_OUT2_lernOS-digitaleZusammenarbeit-Leitfaden-de.html" ./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.2.md --lua-filter=pagebreak.lua
 pandoc metadata.yaml --from markdown -s --resource-path="./src" --toc -V lang=de-de --lua-filter=pagebreak.lua --file-scope --toc-depth=2 -o %filename%.html %chapters% 
+rem pandoc --from docx --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.html lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.docx --extract-media=".\src\images"
+
+REM Create eBook Versions (epub, mobi)
+echo Creating eBook versions ...
+pandoc --from docx --epub-cover-image=src/images/ebook-cover.jpg --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.docx
+"c:\Program Files\Calibre2\ebook-convert" lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.mobi
 
 goto ende
 
@@ -53,6 +59,7 @@ rem ACHTUNG! Unicode-Character aus md entfernen
 rem [WARNING] Missing character: There is no 😉 (U+1F609) in font [SourceSansPro-Regular.otf]/OT:script=
 
 
+
 goto ende
 
 REM das überspringen wir erstmal!
@@ -64,12 +71,16 @@ magick -density 300 %filename%.pdf[0] src/images/ebook-cover.jpg
 magick mogrify -size 2500x2500 -resize 2500x2500 src/images/ebook-cover.jpg
 magick mogrify -crop 1563x2500+102+0 src/images/ebook-cover.jpg
 pandoc metadata.yaml --from markdown -s --resource-path="./src" -F mermaid-filter --epub-cover-image=src/images/ebook-cover.jpg --number-sections --toc -V lang=de-de -o %filename%.epub %chapters%
+pandoc metadata.yaml --from markdown -s --resource-path="./src" --epub-cover-image=src/images/ebook-cover.jpg --toc -V lang=de-de --lua-filter=pagebreak.lua --file-scope --toc-depth=2 -o %filename%.epub %chapters%
 ebook-convert %filename%.epub %filename%.mobi
 
 magick -density 300 lernOS-digitaleZusammenarbeit-Leitfaden-de_0.3.pdf[0] src/images/ebook-cover.jpg
 magick mogrify -size 2500x2500 -resize 2500x2500 src/images/ebook-cover.jpg
 magick mogrify -crop 1563x2500+102+0 src/images/ebook-cover.jp
 pandoc metadata.yaml --from markdown -s --resource-path="./src" --pdf-engine=xelatex --epub-cover-image=src\images2\media\image1.jpeg --toc -V lang=de-de -o "TEST_OUT2_lernOS-digitaleZusammenarbeit-Leitfaden-de.epub" ./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.2.md --lua-filter=pagebreak.lua 
+pandoc --from docx --epub-cover-image=src/images/ebook-cover.jpg --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.docx
+"c:\Program Files\Calibre2\ebook-convert" lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.mobi
+
 
 :ende
 
