@@ -7,8 +7,8 @@
 Die **Wissenstreppe von Prof. Klaus North** erläutert anschaulich, wie
 Daten, Informationen und Wissen sowie schließlich Können, Handeln und
 Kompetenz zusammenhängen bzw. aufeinander aufbauen. Sie setzt dies in
-Beziehung zu einem Modell für operatives Wissensmanagement -- quasi
-bottom-up ausgehend von dem Management der Daten und Informationen --
+Beziehung zu einem Modell für operatives Wissensmanagement - quasi
+bottom-up ausgehend von dem Management der Daten und Informationen -
 und strategischem Wissensmanagement, das quasi top-down eine Sichtweise
 ausgehend von der Kompetenz und damit der Wettbewerbsfähigkeit als Ziel
 nimmt.
@@ -29,7 +29,7 @@ anhand eines „echten" Modells: [Die Wissenstreppe](https://youtu.be/zyYsHe1AaK
 -  Explizites vs. Implizites Wissen
     -   Explizit: Liegt „schriftlich" vor, kann kopiert werden.
     -   Implizit: Unbewusst, „Bauchgefühl"  
-        (Bsp. Automechaniker -- Motorengeräusch)
+        (Bsp. Automechaniker - Motorengeräusch)
   
 
 ![](images/Dimensionen_des_Wissens.jpeg)
@@ -46,21 +46,21 @@ Jahre)
 -   Werkzeuge: Datenbanken
   
 
-„Enterprise 2.0" - Beginn der Digitalen Zusammenarbeit (ab 2006)
+"Enterprise 2.0" - Beginn der Digitalen Zusammenarbeit (ab 2006)
 
 -   Annahme: Organisations-Wissen steckt in den Köpfen der Experten
 -   Fokus: Erfahrungen & Dialog, Zusammenarbeit / Implizites Wissen
 -   Aufgaben des Wissensmanagements: Netzwerken - Dialog moderieren - Wissensträger coachen
 -   Werkzeuge: Social Networks, Communities of Practice
+
+
+**Beispiele für Wissen teilen**  
+**Arten und Formate**
   
 
 ![](images/Lagerfeuer.png)
 
 *Sketchnote "Austausch am Lagerfeuer" Tobias Grewe*
-
-
-**Beispiele für Wissen teilen**  
-**Arten und Formate**
 
 Das Gespräch ist die häufigste Form des Wissenteilens. Aber: Es ist
 nicht skalierbar, es sei denn man kann es unabhängig von Zeit und Raum
@@ -92,7 +92,7 @@ Kennst du alle hier gelisteten Tools? Suche sie im Internet mit  "Was
 ist... ? " oder frage in deinem Circle nach.
   
 
-### Sichtbar werden -- Working Out Loud (WOL)
+### Sichtbar werden - Working Out Loud (WOL)
 
 Die Graphik von Tanmay Vora unter folgendem Link erläutert die 5
 Elemente von Working Out Loud. Sie bezieht sich auf WOL als Ganzes, als
@@ -105,3 +105,6 @@ Work " entspricht.
 Weiterführende Infos: lernOS Lernpfad Offenheit & Vernetzung
 ([Überblick - lernOS für Dich Leitfaden
 (cogneon.github.io)](https://cogneon.github.io/lernos-for-you/de/2-3-0-Lernpfad-OV/))
+
+
+<div style="display: none">\newpage</div>

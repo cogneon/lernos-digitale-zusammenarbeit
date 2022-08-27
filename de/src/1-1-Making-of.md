@@ -55,8 +55,8 @@ Multiplikatoren-Netzwerken vereinfachen.
 
 Wir haben unsere gemeinsamen Erfahrungen zusammengetragen und in einen
 Theorie-Teil sowie Aufgaben in Form der #lernOS Katas für die einzelnen
-Wochen im Circle aufbereitet.\
-Dabei gilt:\
+Wochen im Circle aufbereitet.  
+Dabei gilt:  
 "Eat your own dogfood" - Alles was wir hier schreiben, haben wir auch
 selbst ausprobiert.
 

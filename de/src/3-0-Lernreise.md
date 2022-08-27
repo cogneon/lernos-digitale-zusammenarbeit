@@ -7,38 +7,38 @@ digitale Zusammenarbeit beschäftigen.
 
 Hier die Wochen im Überblick:
 
--   In der Woche 0 geht es darum, die Lernreise vorzubereiten, sich klar
+-   In der **Woche 0** geht es darum, die Lernreise vorzubereiten, sich klar
     zu werden über die eigene Motivation und mit der Lerngruppe zu
     verabreden, wie ihr euch in der Zeit organisieren wollt.
 
--   In Woche 1 beschäftigst du dich mit deinem individuellen Einstieg in
+-   In **Woche 1** beschäftigst du dich mit deinem individuellen Einstieg in
     die digitale Zusammenarbeit. Dazu erstellst du eine individuelle
     Standortbestimmung.
 
--   In Woche 2 erstellt ihr gemein das Collaboration Canvas für eure
+-   In **Woche 2** erstellt ihr gemein das Collaboration Canvas für eure
     Zusammenarbeit im Circle und legt damit eure Regeln der
     Zusammenarbeit fest.
 
--   In den Wochen 3-5 geht es um verschiedene Aspekte rund um das Thema
+-   In den **Wochen 3-5** geht es um verschiedene Aspekte rund um das Thema
     Kommunikation. Du lernst geeignete Tools aber auch Kanäle für die
     Kommunikation kennen und erfährst, wie du deine Kommunikation
     optimal ausrichtest.
 
--   In der Woche 6 erfolgt ein Boxenstopp, indem ihr eine
+-   In der **Woche 6** erfolgt ein Boxenstopp, indem ihr eine
     Circle-Retrospektive durchführt.
 
--   In Woche 7 steht das gemeinsame Arbeiten an Dokumenten im
+-   In **Woche 7** steht das gemeinsame Arbeiten an Dokumenten im
     Mittelpunkt. Du lernst, was dabei in der digitalen Zusammenarbeit zu
     berücksichtigen ist.
 
--   In Woche 8 erhältst du Anregungen, wie du Meetings effizient
+-   In **Woche 8** erhältst du Anregungen, wie du Meetings effizient
     gestalten kannst.
 
--   In den Wochen 9-11 liegt der Schwerpunkt auf Wissen teilen. Du
+-   In den **Wochen 9-11** liegt der Schwerpunkt auf Wissen teilen. Du
     behandelst dabei die Aspekte "nehmen", "sichtbar werden" und
     "geben".
 
--   In der Woche 12 erwartet dich ein Sprint-Review. Hier reflektierst
+-   In der **Woche 12** erwartet dich ein Sprint-Review. Hier reflektierst
     du deine Lernreise.
 
 Für jede Woche gibt es eine Agenda mit folgendem Aufbau:
@@ -51,7 +51,7 @@ Für jede Woche gibt es eine Agenda mit folgendem Aufbau:
 
 -   Hausaufgabe
 
-Auf deiner Lernreise begegnest du wöchentlich einer sog. Kata, was so
+Auf deiner Lernreise begegnest du wöchentlich einer sogenannten Kata, was so
 viel wie "Übung" bedeutet. Die Lernreise ist so angelegt, dass du in
 der Vor-Woche die jeweilige Kata für die nächste Woche als Hausaufgabe
 vorbereitest, so dass ihr euch gemeinsam darüber im Circle austauschen

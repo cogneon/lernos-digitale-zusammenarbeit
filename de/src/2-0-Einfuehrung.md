@@ -55,6 +55,5 @@ geschützten Raum zu testen, bevor ihr es im Team, eurer Abteilung etc.
 einführt.
 
 Daher die Hashtags für den Leitfaden "Digitale Zusammenarbeit":  
- #lernOS #digitaleZusammenarbeit #collaboration #EinfachAusprobieren
- #EinfachMalMachen
+**#lernOS #digitaleZusammenarbeit #collaboration #EinfachAusprobieren #EinfachMalMachen**
 (z.B. wenn ihr in Social Media über eure Lernreise schreibt)

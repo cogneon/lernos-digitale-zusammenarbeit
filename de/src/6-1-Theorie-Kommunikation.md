@@ -23,7 +23,7 @@
 
 -   Die Beiträge zur Kommunikation erfolgen zeitlich versetzt.
 
--   Beispiele: Brief, Fax, E-Mail, Chat\
+-   Beispiele: Brief, Fax, E-Mail, Chat  
     (Hinweis: E-Mail und Chat wird oftmals als synchrones
     Kommunikationsmittel missbraucht!)
 
@@ -43,6 +43,8 @@ Hier noch mal die verschiedenen Kombinationen in der Übersicht:
 |  **Persönlich** <br> (1:1)  | Anruf <br> Videocall    | E-Mail<br> Chat  |
 |  **Gruppe** <br>(1:N) | Telefon/Audiokonferenz<br> Videokonferenz |       E-Mail-Verteiler<br> MS Teams Kanal<br> Gruppenchat<br> ESN |
 
+
+<div style="display: none">\newpage</div>
 
 ### Grundlagen: Push vs. Pull Kommunikation
 
@@ -80,6 +82,8 @@ Merkmale:
     ins Team
 
 -   Empfänger:in ist intrinsisch motiviert
+
+<div style="display: none">\newpage</div>
 
 ### Themenbereich: E-Mail
 
@@ -145,7 +149,7 @@ E-Mail:
     Teams oder Gruppe sind. (zu prüfen: ggf. ist es sinnvoll zu einem
     Thema eine neue Chat-Gruppe zu eröffnen).
 
--   Informationen haben einen „offiziellen"-Charakter
+-   Informationen haben einen „offiziellen" Charakter
 
 -   Informationen haben besondere Compliance-Anforderungen  
     (z. B. muss revisionssicher abgelegt werden)
@@ -166,6 +170,8 @@ Chat:
 
 -   Chat ist schneller und leichtgewichtiger als E-Mail.  
     Bedenke aber, dass die Zielgruppe häufig größer und offener ist.
+
+<div style="display: none">\newpage</div>
 
 ### Themenbereich: Chat
 
@@ -208,6 +214,8 @@ Ausgehende Chat-Kommunikation
 -   Verwende
     [@-Mention](https://support.microsoft.com/de-de/office/verwenden-einer-erw%C3%A4hnung-in-kommentaren-um-eine-person-f%C3%BCr-feedback-zu-markieren-644bf689-31a0-4977-a4fb-afe01820c1fd),
     wenn du jemanden direkt ansprechen willst.
+
+<div style="display: none">\newpage</div>
 
 ### Themenbereich: Meetings
 
@@ -268,6 +276,8 @@ Tipps für Teilnehmer:innen
 
 -   Gebe Feedback (nutze z. B. den Besprechungschat / Emojis).
 
+<div style="display: none">\newpage</div>
+
 ### Themenbereich: Aufgaben
 
 **Wenn du eine Aufgabe verteilst...**
@@ -323,3 +333,6 @@ Tipps zur Priorisierung & Aufgabenplanung
     -   Hin und her springen vermeiden.
 
     -   Suche nach Infos auf ein Minimum beschränken.
+
+    
+<div style="display: none">\newpage</div>

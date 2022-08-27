@@ -2,6 +2,7 @@ site_name: lernOS Digitale Zusammenarbeit Leitfaden
 site_url: https://magnus-rode.github.io/
 docs_dir: src
 site_dir: ../docs/de
+edit_uri: 'edit/master/de/src'
 
 nav:
     - Willkommen: index.md
@@ -48,10 +49,9 @@ nav:
       - Theorie Retrospektive: 6-4-Theorie-Retrospektive.md    
     - Vorlagen: 7-0-Vorlagen.md
     - Abschluss: 8-0-Abschluss.md
-    - Anhang: _Anhang.md
     - Download:
-      - PDF-Version: https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-digitaleZusammenarbeit-Leitfaden-de_0.3.pdf
-      - Word-Version: https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-digitaleZusammenarbeit-Leitfaden-de_0.3.docx
+      - PDF-Version: https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.pdf
+      - Word-Version: https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.docx
       - HTML-Version: https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-digitaleZusammenarbeit-Leitfaden-de_0.3.html
       - E-Book (epub): https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-digitaleZusammenarbeit-Leitfaden-de_0.3.epub
       - E-Book (mobi): https://github.com/Magnus-Rode/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-digitaleZusammenarbeit-Leitfaden-de_0.3.mobi

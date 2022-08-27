@@ -1,4 +1,4 @@
-## Theorie  "Zusammenarbeit "
+## Theorie  "Zusammenarbeit"
 
 ### Grundlagen: Zusammenarbeit
 
@@ -21,6 +21,8 @@ Vertiefung:
 Idee für die Erarbeitung der Regeln für die Zusammenarbeit im Team:  
 [Arbeitsvereinbarungen|Atlassian](https://www.atlassian.com/de/team-playbook/plays/working-agreements)
   
+
+<div style="display: none">\newpage</div>
 
 ### Collaboration Canvas
 ### (auch: Zusammenarbeits-Canvas)
@@ -102,6 +104,9 @@ Dokumentation
      <span style="color:grey">\[Ordner-/Bibliotheksstruktur\]</span> verwenden, um unsere Teamdokumente
     zu organisieren.
 
+
+<div style="display: none">\newpage</div>
+
 ### Gemeinsam an Dokumenten arbeiten
 
 **Freigabe von Dokumenten in der Cloud (Beispiel M365)**
@@ -176,6 +181,9 @@ wichtigen Details, wenn man per Chat auch Dokumente teilen möchte.*
 ###   Tool-Sammlung
 
 [verschiedene Tools zur gemeinsamen Texterstellung](https://www.selbstlernen.net/kooperatives-online-lernen-teil-3/)
+
+
+<div style="display: none">\newpage</div>
 
 ### Meetings effizient gestalten
 
@@ -268,3 +276,6 @@ mehr Zeit für das Wesentliche gewinnst.
 -   Virale Verbreitung in andere Projektteams
 
 -   Wer die Vorteile erlebt hat, will nicht mehr zurück!
+
+
+<div style="display: none">\newpage</div>
