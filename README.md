@@ -1,6 +1,6 @@
 # lernOS Leitfaden Digitale Zusammenarbeit
 
-Ein Leitfaden, um gemeinsam die digitale Zusammenarbeit im Unternehmenskontext zu erlernen.
+Ein Leitfaden, um gemeinsam die digitale Zusammenarbeit im Unternehmenskontext zu erlernen.  
 Autoren: Britta Müller-Ruhnau, Daniel Prial, Fabienne Theis, Magnus Rode, Rainer Bartl, Stefanie Ammler
 
 
