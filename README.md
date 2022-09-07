@@ -5,7 +5,7 @@ Autoren: Britta Müller-Ruhnau, Daniel Prial, Fabienne Theis, Magnus Rode, Raine
 
 
 Web-Version des lernOS Leitfaden Digitale Zusammenarbeit:
-https://magnus-rode.github.io/lernos-digitale-zusammenarbeit/de/
+https://cogneon.github.io/lernos-digitale-zusammenarbeit/de/
 
 
 Dieser #lernOS Leitfaden #DigitaleZusammenarbeit ist Teil von [lernOS](https://lernos.org).
