@@ -2,7 +2,7 @@
 echo Starting lernOS Guide Generation ...
 
 REM Variables
-set filename=lernOS-digitaleZusammenarbeit-Leitfaden-de_0.3
+set filename=lernOS-digitaleZusammenarbeit-Leitfaden-de_0.4
 rem set chapters="./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.2.md"
 rem set chapters="./src/index.md ./src/1-0-Grundlagen.md ./src/1-1-Grundidee.md ./src/1-2-Lebenszyklus.md ./src/1-3-Inhaltsverzeichnis.md ./src/1-4-Inhalt.md ./src/1-5-Produktionskette.md ./src/2-Lernpfad.md ./src/3-Anhang.md"
 rem set chapters=./src/1-0-Ueber-lernOS.md ./src/1-1-Making-of.md ./src/2-0-Einfuehrung.md ./src/2-1-Warum.md ./src/2-2-Kollaborationstools.md ./src/2-3-Bereiche.md ./src/3-0-Lernreise.md ./src/4-0-Lernpfad.md ./src/4-1-Woche-0.md ./src/5-0-Kata-log.md ./src/6-0-Hintergrund-Wissen.md ./src/7-0-Vorlagen.md ./src/8-0-Abschluss.md ./src/_Anhang.md
@@ -28,7 +28,7 @@ rem pandoc metadata.yaml --from markdown -s --resource-path="./src" --number-sec
 rem pandoc metadata.yaml --from markdown --resource-path="./src" --number-sections -V lang=de-de -o TEST_OUT_lernOS-digitaleZusammenarbeit-Leitfaden-de.docx ./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.1.md
 
 rem pandoc metadata.yaml --from markdown --resource-path="./src" --toc -V lang=de-de -o "TEST_OUT2_lernOS-digitaleZusammenarbeit-Leitfaden-de.docx" ./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.2.md --lua-filter=pagebreak.lua
-pandoc metadata.yaml --from markdown --resource-path="./src" --toc -V lang=de-de --lua-filter=pagebreak.lua --file-scope --toc-depth=2 -o %filename%.docx %chapters% 
+rem *** pandoc metadata.yaml --from markdown --resource-path="./src" --toc -V lang=de-de --lua-filter=pagebreak.lua --file-scope --toc-depth=2 -o %filename%.docx %chapters% 
 rem -F mermaid-filter nicht vorhanden
 
 REM Create HTML Version (html)
@@ -40,8 +40,8 @@ rem pandoc --from docx --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Dig
 
 REM Create eBook Versions (epub, mobi)
 echo Creating eBook versions ...
-pandoc --from docx --epub-cover-image=src/images/ebook-cover.jpg --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.docx
-"c:\Program Files\Calibre2\ebook-convert" lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.3.mobi
+pandoc --from docx --epub-cover-image=src/images/ebook-cover.jpg --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.docx
+"c:\Program Files\Calibre2\ebook-convert" lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.mobi
 
 goto ende
 
