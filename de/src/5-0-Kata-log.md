@@ -1,3 +1,0 @@
-# Kata-log
-
-**Einstieg & Vorbereitung**

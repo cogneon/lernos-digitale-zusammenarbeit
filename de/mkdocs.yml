@@ -5,57 +5,44 @@ site_dir: ../docs/de
 edit_uri: 'edit/master/de/src'
 
 nav:
-    - Willkommen: index.md
-    - Über lernOS: 1-0-Ueber-lernOS.md    
-    - Making of: 1-1-Making-of.md
-    - Einführung: 
-      - Lernpfad: 2-0-Einfuehrung.md
-      - Warum digitale Zusammenarbeit?: 2-1-Warum.md
-      - Was sind digitale Kollaborationstools?: 2-2-Kollaborationstools.md
-      - Was gehört alles zur digitalen Zusammenarbeit?: 2-3-Bereiche.md
-    - Deine Lernreise im Überblick: 3-0-Lernreise.md
+    - Willkommen:
+      - Lernpfad: 3-01-Einfuehrung.md
+      - Warum digitale Zusammenarbeit?: 3-02-Warum.md
+      - Was sind digitale Kollaborationstools?: 3-03-Kollaborationstools.md
+      - Was gehört alles zur digitalen Zusammenarbeit?: 3-04-Bereiche.md
+      - Über lernOS: 3-05-Ueber-lernOS.md       
     - Lernpfad: 
-      - Woche 0: 4-0-Woche-0.md
-      - Woche 1: 4-1-Woche-1.md
-      - Woche 2: 4-2-Woche-2.md
-      - Woche 3: 4-3-Woche-3.md
-      - Woche 4: 4-4-Woche-4.md
-      - Woche 5: 4-5-Woche-5.md
-      - Woche 6: 4-6-Woche-6.md
-      - Woche 7: 4-7-Woche-7.md
-      - Woche 8: 4-8-Woche-8.md
-      - Woche 9: 4-9-Woche-9.md
-      - Woche 10: 4-10-Woche-10.md
-      - Woche 11: 4-11-Woche-11.md
-      - Woche 12: 4-12-Woche-12.md
-    - Kata-log: 
-      - Kata 0: 5-0-Kata-0.md
-      - Kata 1: 5-1-Kata-1.md
-      - Kata 2: 5-2-Kata-2.md
-      - Kata 3: 5-3-Kata-3.md
-      - Kata 4: 5-4-Kata-4.md
-      - Kata 5: 5-5-Kata-5.md
-      - Kata 6: 5-6-Kata-6.md
-      - Kata 7: 5-7-Kata-7.md
-      - Kata 8: 5-8-Kata-8.md
-      - Kata 9: 5-9-Kata-9.md
-      - Kata 10: 5-10-Kata-10.md
-      - Kata 11: 5-11-Kata-11.md
-      - Kata 12: 5-12-Kata-12.md
-    - Hintergrund-Wissen: 
-      - Theorie Kommunikation: 6-1-Theorie-Kommunikation.md
-      - Theorie Wissen teilen: 6-2-Theorie-Wissen-teilen.md
-      - Theorie Zusammenarbeit: 6-3-Theorie-Zusammenarbeit.md
-      - Theorie Retrospektive: 6-4-Theorie-Retrospektive.md    
-    - Vorlagen: 7-0-Vorlagen.md
-    - Abschluss: 8-0-Abschluss.md
+      - Deine Lernreise im Überblick: 4-01-Ueberblick.md
+      - Vorbereitungstreffen: 4-02-Vorbereitungstreffen.md
+      - Kata 1: 4-03-Kata-1.md
+      - Kata 2: 4-04-Kata-2.md
+      - Kata 3: 4-05-Kata-3.md
+      - Kata 4: 4-06-Kata-4.md
+      - Kata 5: 4-07-Kata-5.md
+      - Kata 6: 4-08-Kata-6.md
+      - Kata 7: 4-09-Kata-7.md
+      - Kata 8: 4-10-Kata-8.md
+      - Kata 9: 4-11-Kata-9.md
+      - Kata 10: 4-12-Kata-10.md
+      - Kata 11: 4-13-Kata-11.md
+      - Kata 12: 4-14-Kata-12.md
+      - Abschluss: 4-15-Abschluss.md
+    - Grundlagen (Theorie):
+      - Theorie Grundlagen der Zusammenarbeit: 5-01-Theorie-Grundlagen-der-Zusammenarbeit.md
+      - Theorie Kommunikation: 5-02-Theorie-Kommunikation.md
+      - Theorie Retrospektive: 5-03-Theorie-Retrospektive.md
+      - Theorie Meetings: 5-04-Theorie-Meetings.md
+      - Theorie Entscheidungen: 5-05-Theorie-Entscheidungen.md
+      - Theorie Wissen: 5-06-Theorie-Wissen.md
+    - Anhang:
+      - Vorlagen: 6-01-Vorlagen.md
+      - Making of: 6-02-Making-of.md
+      - Kontakt: 6-03-Kontakt.md
     - Download:
-      - PDF-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.pdf
-      - Word-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.docx
-      - HTML-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/src/lernOS-digitaleZusammenarbeit-Leitfaden-de_0.4.html
-      - E-Book (epub): https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.epub
-      - E-Book (mobi): https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.mobi
-      - Canvas: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/Vorlagen/Collaboration%20Canvas%20(lernOS%20Digitale%20Zusammenarbeit).pptx
+      - PDF-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.pdf
+      - Word-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.docx
+      - E-Book (epub): https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.epub
+      - Canvas: https://github.com/cogneon/lernos-digitale-zusammenarbeit/raw/refs/heads/master/de/Vorlagen/Collaboration%20Canvas%20(lernOS%20Digitale%20Zusammenarbeit).pptx
     - Links:
       - lernos.org: https://lernos.org
       - CONNECT Community: https://community.cogneon.de
@@ -70,6 +57,9 @@ theme:
     icon:
       logo: material/home
       repo: fontawesome/brands/github
+    features:
+      - toc.integrate
+      - search.share
 
 extra_css:
   - stylesheets/extra.css
@@ -79,17 +69,23 @@ repo_url: 'https://github.com/cogneon/lernos-digitale-zusammenarbeit'
 
 extra:
     social:
-        - icon: fontawesome/brands/twitter
-          link: 'https://twitter.com/lern_os'
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@lernos'
         - icon: fontawesome/brands/linkedin
           link: 'https://www.linkedin.com/showcase/lern-os'
         - icon: fontawesome/brands/github
           link: 'https://github.com/cogneon'
-    disqus: lernos
+    giscus: true
     analytics:
        provider: custom
+    alternate:
+         - name: English
+           link: https://cogneon.github.io/lernos-digitale-zusammenarbeit/en
+           lang: en
+    generator: false
 
 markdown_extensions:
+  - footnotes
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -98,3 +94,6 @@ markdown_extensions:
 
 plugins:
   - search
+
+copyright: <a href="\3-05-Ueber-lernOS">CC BY 4.0</a> - <a href="\6-03-Kontakt">Kontakt</a>
+

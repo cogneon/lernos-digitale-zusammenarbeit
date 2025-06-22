@@ -2,7 +2,7 @@
 echo Starting lernOS Guide Generation ...
 
 REM Variables
-set filename=lernOS-digitaleZusammenarbeit-Leitfaden-de_0.4
+set filename=lernOS-digitaleZusammenarbeit-Leitfaden-de_2.0
 rem set chapters="./src/index.md ./src/lernOS_digitaleZusammenarbeit_Leitfaden_0.2.md"
 rem set chapters="./src/index.md ./src/1-0-Grundlagen.md ./src/1-1-Grundidee.md ./src/1-2-Lebenszyklus.md ./src/1-3-Inhaltsverzeichnis.md ./src/1-4-Inhalt.md ./src/1-5-Produktionskette.md ./src/2-Lernpfad.md ./src/3-Anhang.md"
 rem set chapters=./src/1-0-Ueber-lernOS.md ./src/1-1-Making-of.md ./src/2-0-Einfuehrung.md ./src/2-1-Warum.md ./src/2-2-Kollaborationstools.md ./src/2-3-Bereiche.md ./src/3-0-Lernreise.md ./src/4-0-Lernpfad.md ./src/4-1-Woche-0.md ./src/5-0-Kata-log.md ./src/6-0-Hintergrund-Wissen.md ./src/7-0-Vorlagen.md ./src/8-0-Abschluss.md ./src/_Anhang.md
@@ -16,10 +16,12 @@ del %filename%.*
 REM Create Web Version (mkdocs)
 echo Creating Web Version ...
 py -m mkdocs build
+goto ende
 
 rem Word to MarkDown
 rem "c:\Program Files\Pandoc\pandoc.exe" --from docx --to markdown "c:\Daten\GitHub\lernos-digitale-zusammenarbeit\de\lernOS_Digitale_Zusammenarbeit_Leitfaden_0.1.docx" -o "c:\Daten\GitHub\lernos-digitale-zusammenarbeit\de\src\lernOS_digitaleZusammenarbeit_Leitfaden_0.1.md" --extract-media=".\src\images"
 rem pandoc --from docx --to markdown "lernOS Digitale Zusammenarbeit Leitfaden 0.3.docx" -o ".\src\lernOS_digitaleZusammenarbeit_Leitfaden_0.3.md" --extract-media=".\src\images"
+rem "c:\Portable\pandoc-3.6.4\pandoc.exe" --from docx --to markdown "c:\Daten\Programmierung\GitHub\lernos-digitale-zusammenarbeit\de\lernOS-Digitale-Zusammenarbeit-Leitfaden-2.0.docx" -o "c:\Daten\Programmierung\GitHub\lernos-digitale-zusammenarbeit\de\lernOS_digitaleZusammenarbeit_Leitfaden_2.0.md" --extract-media=".\src\imgnew"
 
 
 REM Create Microsoft Word Version (docx)
@@ -40,7 +42,7 @@ rem pandoc --from docx --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Dig
 
 REM Create eBook Versions (epub, mobi)
 echo Creating eBook versions ...
-pandoc --from docx --epub-cover-image=src/images/ebook-cover.jpg --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.docx
+"c:\Portable\pandoc-3.6.4\pandoc.exe" --from docx --epub-cover-image=src/images/ebook-cover.png --toc -V lang=de-de --toc-depth=2 -o lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.epub c:\Daten\Programmierung\GitHub\lernos-digitale-zusammenarbeit_2.0\de\lernOS-Digitale-Zusammenarbeit-Leitfaden-2.0.docx
 "c:\Program Files\Calibre2\ebook-convert" lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.epub lernOS-Leitfaden-Digitale-Zusammenarbeit-0.4.mobi
 
 goto ende
