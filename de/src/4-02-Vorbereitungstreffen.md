@@ -99,8 +99,7 @@ Die Moderation beinhaltet:
 
 - Mitschriften und Hausaufgaben in OneNote, Loop oder Word an einem
   gemeinsamen Ort ablegen.  
-  🡪 siehe auch [Theorie "Gemeinsam an Dokumenten
-  arbeiten"](#gemeinsam-an-dokumenten-arbeiten)
+  🡪 siehe auch [Theorie "Gemeinsam an Dokumenten arbeiten"](5-01-Theorie-Grundlagen-der-Zusammenarbeit.md#gemeinsam-an-dokumenten-arbeiten)
 
 #### Wenn du mehr machen willst: 
 

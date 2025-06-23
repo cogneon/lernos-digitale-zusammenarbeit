@@ -39,9 +39,9 @@ nav:
       - Making of: 6-02-Making-of.md
       - Kontakt: 6-03-Kontakt.md
     - Download:
-      - PDF-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.pdf
-      - Word-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.docx
-      - E-Book (epub): https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.epub
+      - PDF-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Digitale-Zusammenarbeit-Leitfaden-2.0.pdf
+      - Word-Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/raw/refs/heads/master/de/lernOS-Digitale-Zusammenarbeit-Leitfaden-2.0.docx
+      - E-Book (epub): https://github.com/cogneon/lernos-digitale-zusammenarbeit/raw/refs/heads/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.epub
       - Canvas: https://github.com/cogneon/lernos-digitale-zusammenarbeit/raw/refs/heads/master/de/Vorlagen/Collaboration%20Canvas%20(lernOS%20Digitale%20Zusammenarbeit).pptx
     - Links:
       - lernos.org: https://lernos.org
@@ -60,6 +60,8 @@ theme:
     features:
       - toc.integrate
       - search.share
+      - navigation.top
+      - navigation.footer
 
 extra_css:
   - stylesheets/extra.css
@@ -95,5 +97,5 @@ markdown_extensions:
 plugins:
   - search
 
-copyright: <a href="\3-05-Ueber-lernOS">CC BY 4.0</a> - <a href="\6-03-Kontakt">Kontakt</a>
+copyright: <a href="https://cogneon.github.io/lernos-digitale-zusammenarbeit/de/3-05-Ueber-lernOS/">CC BY 4.0</a> - <a href="https://cogneon.github.io/lernos-digitale-zusammenarbeit/de/6-03-Kontakt/">Kontakt</a>
 

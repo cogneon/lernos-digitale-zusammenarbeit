@@ -5,7 +5,7 @@ dem Thema "digitale Zusammenarbeit" beschäftigt und bist am Ende des
 Lernpfads angekommen. Herzlichen Glückwunsch!
 
 Erinnerst du dich noch an die Grafik am [Anfang deiner
-Lernreise](\4-01-Ueberblick)? Du hast dich auf den Weg
+Lernreise](4-01-Ueberblick.md)? Du hast dich auf den Weg
 gemacht und bist dabeigeblieben. Dranbleiben lohnt sich: die Erfolge
 werden sichtbar -- für dich und andere.
 
