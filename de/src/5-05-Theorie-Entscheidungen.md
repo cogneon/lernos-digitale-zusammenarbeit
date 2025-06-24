@@ -217,12 +217,12 @@ paar auf:
   - [Delegation
   Board](https://www.claudiathonet.de/wp-content/uploads/2021/06/delegation_board.pdf)
 
-  - https://management30.com/blog/delegation-boards-the-sequel-or-why-you-should-update/
+  - <https://management30.com/blog/delegation-boards-the-sequel-or-why-you-should-update/>
 
 - Delegation Poker  
   <https://t2informatik.de/wissen-kompakt/delegation-poker/>
 - Decision Poker  
-  <https://kurswechsel.jetzt/2020/05/14/decision-poker-spielerisch-reflektierte-entscheidungen-treffen/>
+  <https://kurswexl.de/decision-poker-spielerisch-reflektierte-entscheidungen-treffen/>
 - Consent Decision Making  
   <https://thedecider.app/consent-decision-making>
 

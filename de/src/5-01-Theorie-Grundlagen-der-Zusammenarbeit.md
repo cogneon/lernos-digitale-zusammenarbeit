@@ -85,11 +85,6 @@ Dokumentation
 
 #### Weitere Links zu Regeln für die Zusammenarbeit
 
-Grundlagen:
-
-- [Microsoft: The Social Collaboration
-  Contract](https://techcommunity.microsoft.com/t5/yammer-blog/the-social-collaboration-contract/ba-p/364461)
-
 Vertiefung:
 
 - [Atlassian - Playbook - Working at
