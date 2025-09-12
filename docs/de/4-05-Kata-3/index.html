@@ -1569,27 +1569,30 @@ Funktionsmöglichkeiten, um dir die tägliche Arbeit zu erleichtern.</p>
 </li>
 <li>
 <p>Schaue dir dabei beispielsweise die folgenden Programme und Punkte an:</p>
-</li>
-</ul>
-<p><strong>E-Mail (Beispiel Outlook, Thunderbird):</strong>
-  - Menübereich "Datei" oder "Start": z.B. Vorlagen speichern
-  - Menübereich "Extras": z.B. Regeln einrichten oder automatische
-  Antworten einstellen</p>
-<p><strong>Chat (Beispiel MS Teams, Slack):</strong>
-  - Benachrichtigungsoptionen definieren: z.B. wann möchte ich wie über
-  neue Nachrichten informiert werden?
-  - Nachrichten bearbeiten (Bearbeitungsmodus)
-  - @mentions nutzen
-  - Emojis gezielt nutzen (z. B. Daumen hoch = Lesebestätigung, Herz =
-  Like)
-  - Status: z.B. was bedeutet "beschäftigt" / "nicht stören"? Wie wird
-  der Status von Kolleg:innen interpretiert?</p>
-<p><strong>Online-Meetings (Beispiel MS Teams, Zoom):</strong>
-  - Optionen für Bildschirm teilen/präsentieren
-  - Hand heben &amp; Emojis nutzen
-  - Breakout Rooms einstellen und nutzen
-  - ...</p>
+<p><strong>E-Mail (Beispiel Outlook, Thunderbird):</strong></p>
 <ul>
+<li>Menübereich "Datei" oder "Start": z.B. Vorlagen speichern</li>
+<li>Menübereich "Extras": z.B. Regeln einrichten oder automatische
+Antworten einstellen</li>
+</ul>
+<p><strong>Chat (Beispiel MS Teams, Slack):</strong></p>
+<ul>
+<li>Benachrichtigungsoptionen definieren: z.B. wann möchte ich wie über
+neue Nachrichten informiert werden?</li>
+<li>Nachrichten bearbeiten (Bearbeitungsmodus)</li>
+<li>@mentions nutzen</li>
+<li>Emojis gezielt nutzen (z. B. Daumen hoch = Lesebestätigung, Herz = Like)</li>
+<li>Status: z.B. was bedeutet "beschäftigt" / "nicht stören"? Wie wird
+der Status von Kolleg:innen interpretiert?</li>
+</ul>
+<p><strong>Online-Meetings (Beispiel MS Teams, Zoom):</strong></p>
+<ul>
+<li>Optionen für Bildschirm teilen/präsentieren</li>
+<li>Hand heben &amp; Emojis nutzen</li>
+<li>Breakout Rooms einstellen und nutzen</li>
+<li>...</li>
+</ul>
+</li>
 <li>
 <p>Welche neuen Funktionen hast du gefunden?</p>
 </li>
@@ -1624,57 +1627,7 @@ denen Tipps, Tricks und Fragen geteilt werden.</em></p>
 
 <!-- Get setting from mkdocs.yml, but allow page-level overrides -->
 
-  <h2 id="__comments">Kommentare</h2>
-  <script src="https://giscus.app/client.js"
-        data-repo="cogneon/lernos-digitale-zusammenarbeit"
-        data-repo-id="R_kgDOG--3ig"
-        data-category="General"
-        data-category-id="DIC_kwDOG--3is4Cr-6l"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="de"
-        crossorigin="anonymous"
-        async>
-  </script>
-  <!-- Synchronize Giscus theme with palette -->
-  <script>
-    var giscus = document.querySelector("script[src*=giscus]")
 
-    // Set palette on initial load
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object") {
-      var theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
-
-      // Instruct Giscus to set theme
-      giscus.setAttribute("data-theme", theme) 
-    }
-
-    // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
-      ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
-
-          // Instruct Giscus to change theme
-          var frame = document.querySelector(".giscus-frame")
-          frame.contentWindow.postMessage(
-            { giscus: { setConfig: { theme } } },
-            "https://giscus.app"
-          )
-        }
-      })
-    })
-  </script>
 
                 
               </article>

@@ -1607,7 +1607,7 @@ Vorgehensweise angewandt.</p>
 <ul>
 <li>Mural <a href="https://www.mural.co/templates/retrospective">https://www.mural.co/templates/retrospective</a></li>
 <li>Miro
-<a href="https://miro.com/templates/retrospective-tool/%20">https://miro.com/templates/retrospective-tool/</a>
+<a href="https://miro.com/templates/retrospective-tool">https://miro.com/templates/retrospective-tool/</a>
 und <a href="https://miro.com/templates/4-ls-retrospective/">https://miro.com/templates/4-ls-retrospective/</a></li>
 <li>Trello <a href="https://trello.com/b/hkaQsLWx/sprint-retrospectives">https://trello.com/b/hkaQsLWx/sprint-retrospectives</a></li>
 </ul>
@@ -1659,57 +1659,7 @@ und <a href="https://miro.com/templates/4-ls-retrospective/">https://miro.com/te
 
 <!-- Get setting from mkdocs.yml, but allow page-level overrides -->
 
-  <h2 id="__comments">Kommentare</h2>
-  <script src="https://giscus.app/client.js"
-        data-repo="cogneon/lernos-digitale-zusammenarbeit"
-        data-repo-id="R_kgDOG--3ig"
-        data-category="General"
-        data-category-id="DIC_kwDOG--3is4Cr-6l"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="de"
-        crossorigin="anonymous"
-        async>
-  </script>
-  <!-- Synchronize Giscus theme with palette -->
-  <script>
-    var giscus = document.querySelector("script[src*=giscus]")
 
-    // Set palette on initial load
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object") {
-      var theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
-
-      // Instruct Giscus to set theme
-      giscus.setAttribute("data-theme", theme) 
-    }
-
-    // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
-      ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
-
-          // Instruct Giscus to change theme
-          var frame = document.querySelector(".giscus-frame")
-          frame.contentWindow.postMessage(
-            { giscus: { setConfig: { theme } } },
-            "https://giscus.app"
-          )
-        }
-      })
-    })
-  </script>
 
                 
               </article>

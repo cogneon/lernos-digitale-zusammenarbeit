@@ -1529,7 +1529,7 @@ besser und/oder schneller erledigen, ist es wichtig, der Person (oder
 dem Team), die das Wissen geteilt hat, auch Dankbarkeit zu zeigen und
 Feedback zu geben. Wer sein Wissen geteilt hat, freut sich über diese
 Wertschätzung.</p>
-<p>Durch Likes kannst du deine Anerkennung für das gefundene Wissen zeigen,
+<p>Durch Likes 👍 kannst du deine Anerkennung für das gefundene Wissen zeigen,
 und durch Kommentare oder die Teilnahme an Diskussionen kannst du den
 Wissensgebenden wertvolles Feedback geben, wie dich das geteilte Wissen
 bei deiner Arbeit unterstützt. Damit wirst du selbst im Dialog sichtbar.</p>
@@ -1604,7 +1604,9 @@ in die Materie einzutauchen und neue Perspektiven zu gewinnen.</p>
   weiter.</p>
 </li>
 <li>
-<p>Schau Dir den LernOS Lernpfad Offenheit &amp; Vernetzung an. (<a href="https://4you.lernos.org/de/2-3-0-Lernpfad-OV/">Überblick - lernOS für Dich Leitfaden (cogneon.github.io)</a>)</p>
+<p>Schau Dir den lernOS Lernpfad Offenheit &amp; Vernetzung an. (<a href="https://4you.lernos.org/de/2-3-0-Lernpfad-OV/">Überblick -
+  lernOS für Dich Leitfaden
+  (cogneon.github.io)</a>)</p>
 </li>
 </ul>
 
@@ -1613,57 +1615,7 @@ in die Materie einzutauchen und neue Perspektiven zu gewinnen.</p>
 
 <!-- Get setting from mkdocs.yml, but allow page-level overrides -->
 
-  <h2 id="__comments">Kommentare</h2>
-  <script src="https://giscus.app/client.js"
-        data-repo="cogneon/lernos-digitale-zusammenarbeit"
-        data-repo-id="R_kgDOG--3ig"
-        data-category="General"
-        data-category-id="DIC_kwDOG--3is4Cr-6l"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="de"
-        crossorigin="anonymous"
-        async>
-  </script>
-  <!-- Synchronize Giscus theme with palette -->
-  <script>
-    var giscus = document.querySelector("script[src*=giscus]")
 
-    // Set palette on initial load
-    var palette = __md_get("__palette")
-    if (palette && typeof palette.color === "object") {
-      var theme = palette.color.scheme === "slate"
-        ? "transparent_dark"
-        : "light"
-
-      // Instruct Giscus to set theme
-      giscus.setAttribute("data-theme", theme) 
-    }
-
-    // Register event handlers after documented loaded
-    document.addEventListener("DOMContentLoaded", function() {
-      var ref = document.querySelector("[data-md-component=palette]")
-      ref.addEventListener("change", function() {
-        var palette = __md_get("__palette")
-        if (palette && typeof palette.color === "object") {
-          var theme = palette.color.scheme === "slate"
-            ? "transparent_dark"
-            : "light"
-
-          // Instruct Giscus to change theme
-          var frame = document.querySelector(".giscus-frame")
-          frame.contentWindow.postMessage(
-            { giscus: { setConfig: { theme } } },
-            "https://giscus.app"
-          )
-        }
-      })
-    })
-  </script>
 
                 
               </article>
