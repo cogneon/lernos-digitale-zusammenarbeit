@@ -1,0 +1,100 @@
+site_name: lernOS Guide Digital Collaboration
+site_url: https://cogneon.github.io/
+docs_dir: src
+site_dir: ../docs/en
+edit_uri: 'edit/master/en/src'
+
+nav:
+    - Welcome:
+      - Introduction: 3-01-IntroDC.md
+      - Why digital collaboration?: 3-02-WhyDC.md
+      - What are digital collaboration tools?: 3-03-DCTools.md
+      - What does digital collaboration involve?: 3-04-DCInvolves.md
+      - About lernOS: 3-05-AboutlernOS.md   
+    - Learning Path: 
+      - Your learning journey at a glance: 4-01-AtAGlance.md
+      - Preparatory meeting: 4-02-PreparatoryMeeting.md
+      - Kata 1: 4-03-Kata1.md
+      - Kata 2: 4-04-Kata2.md
+      - Kata 3: 4-05-Kata3.md
+      - Kata 4: 4-06-Kata4.md
+      - Kata 5: 4-07-Kata5.md
+      - Kata 6: 4-08-Kata6.md
+      - Kata 7: 4-09-Kata7.md
+      - Kata 8: 4-10-Kata8.md
+      - Kata 9: 4-11-Kata9.md
+      - Kata 10: 4-12-Kata10.md
+      - Kata 11: 4-13-Kata11.md
+      - Kata 12: 4-14-Kata12.md
+      - Conclusion: 4-15-Conclusion.md
+    - Theory:
+      - Theory Cooperation: 5-01-Cooperation.md
+      - Theory Communication: 5-02-Communication.md
+      - Theory Retrospective: 5-03-Retrospective.md
+      - Theory Meetings: 5-04-Meetings.md
+      - Theory Decisions: 5-05-Decisions.md
+      - Theory Knowledge Management: 5-06-Knowledge-Management.md
+    - Appendix:
+      - Templates: 6-01-Templates.md
+      - Acknowledgements: 6-02-Acknowledgements.md
+      - Contact: 6-03-Contact.md
+    - Download:
+      - PDF Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.pdf
+      - Word Version: https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.docx
+      - E-Book (epub): https://github.com/cogneon/lernos-digitale-zusammenarbeit/blob/master/de/lernOS-Leitfaden-Digitale-Zusammenarbeit-2.0.epub
+      - Canvas: https://github.com/cogneon/lernos-digitale-zusammenarbeit/raw/refs/heads/master/de/Vorlagen/Collaboration%20Canvas%20(lernOS%20Digitale%20Zusammenarbeit).pptx
+    - Links:
+      - lernos.org: https://lernos.org
+      - CONNECT Community: https://community.cogneon.de
+      - Peerfinder: https://web.peerfinder.app
+
+theme:
+    name: 'material'
+    custom_dir: src/overrides
+    palette:
+        scheme: lernos
+    language: en
+    icon:
+      logo: material/home
+      repo: fontawesome/brands/github
+    features:
+      - toc.integrate
+      - search.share
+
+extra_css:
+  - stylesheets/extra.css
+
+repo_name: 'cogneon/lernos-digitale-zusammenarbeit'
+repo_url: 'https://github.com/cogneon/lernos-digitale-zusammenarbeit'
+
+extra:
+    social:
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@lernos'
+        - icon: fontawesome/brands/linkedin
+          link: 'https://www.linkedin.com/showcase/lern-os'
+        - icon: fontawesome/brands/github
+          link: 'https://github.com/cogneon'
+    giscus: true
+    analytics:
+       provider: custom
+    alternate:
+         - name: English
+           link: https://cogneon.github.io/lernos-digitale-zusammenarbeit/en
+           lang: en
+    generator: false
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+
+copyright: <a href="\3-05-AboutlernOS.md">CC BY 4.0</a> - <a href="\6-03-Contact">Contact</a>
+
+
