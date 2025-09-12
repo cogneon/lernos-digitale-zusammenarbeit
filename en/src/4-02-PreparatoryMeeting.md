@@ -91,8 +91,7 @@ This first Kata is about organizing yourselves as a circle.
 
   - Shared documentation (e.g. OneNote, Padlet, Word document)  
   Store notes and homework in OneNote or Word in a shared location  
-  🡪 see also [theory "Working together on
-  documents"](\5-01-Cooperation/#working-together-on-documents)
+  🡪 see also [theory "Working together on documents"](5-01-Cooperation.md#working-together-on-documents)
  
 
 #### If you want to do more: 

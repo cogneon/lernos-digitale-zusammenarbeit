@@ -4,8 +4,7 @@ Wow, you've made it! You have now worked intensively on the topic of
 "digital collaboration" in the guide and have reached the end of the
 learning path. Congratulations!
 
-Do you remember the graphic at the [beginning of your learning
-journey](\4-01-AtAGlance)? You set out on your
+Do you remember the graphic at the [beginning of your learning journey](4-01-AtAGlance.md)? You set out on your
 journey and stuck with it. It's worth sticking with it: the successes
 become visible - for you and others.
 
