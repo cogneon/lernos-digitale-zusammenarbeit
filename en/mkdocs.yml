@@ -60,6 +60,8 @@ theme:
     features:
       - toc.integrate
       - search.share
+      - navigation.top
+      - navigation.footer      
 
 extra_css:
   - stylesheets/extra.css
@@ -79,9 +81,9 @@ extra:
     analytics:
        provider: custom
     alternate:
-         - name: English
-           link: https://cogneon.github.io/lernos-digitale-zusammenarbeit/en
-           lang: en
+         - name: German
+           link: https://cogneon.github.io/lernos-digitale-zusammenarbeit/de
+           lang: de
     generator: false
 
 markdown_extensions:
@@ -96,5 +98,3 @@ plugins:
   - search
 
 copyright: <a href="\3-05-AboutlernOS.md">CC BY 4.0</a> - <a href="\6-03-Contact">Contact</a>
-
-
