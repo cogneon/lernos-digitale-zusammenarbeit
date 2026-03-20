@@ -1,5 +1,5 @@
 # lernOS Digital Collaboration
-Version 2.0 EN (September 2025)
+Version 2.01 EN (March 2026)
 
 A guide for small groups to learn and practice digital collaboration in an organizational context.
 

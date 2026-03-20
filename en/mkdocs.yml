@@ -6,6 +6,7 @@ edit_uri: 'edit/master/en/src'
 
 nav:
     - Welcome:
+      - Welcome: index.md
       - Introduction: 3-01-IntroDC.md
       - Why digital collaboration?: 3-02-WhyDC.md
       - What are digital collaboration tools?: 3-03-DCTools.md
@@ -14,18 +15,18 @@ nav:
     - Learning Path: 
       - Your learning journey at a glance: 4-01-AtAGlance.md
       - Preparatory meeting: 4-02-PreparatoryMeeting.md
-      - Kata 1: 4-03-Kata1.md
-      - Kata 2: 4-04-Kata2.md
-      - Kata 3: 4-05-Kata3.md
-      - Kata 4: 4-06-Kata4.md
-      - Kata 5: 4-07-Kata5.md
-      - Kata 6: 4-08-Kata6.md
-      - Kata 7: 4-09-Kata7.md
-      - Kata 8: 4-10-Kata8.md
-      - Kata 9: 4-11-Kata9.md
-      - Kata 10: 4-12-Kata10.md
-      - Kata 11: 4-13-Kata11.md
-      - Kata 12: 4-14-Kata12.md
+      - Kata 1 - How do we work together in the Circle?: 4-03-Kata1.md
+      - Kata 2 - Communication analysis and reflection: 4-04-Kata2.md
+      - Kata 3 - Communication tools: 4-05-Kata3.md
+      - Kata 4 - Communication channels: 4-06-Kata4.md
+      - Kata 5 - Pit stop - Circle-Retro: 4-07-Kata5.md
+      - Kata 6 - Organizing meetings efficiently: 4-08-Kata6.md
+      - Kata 7 - Making decisions: 4-09-Kata7.md
+      - Kata 8 - Working together on documents: 4-10-Kata8.md
+      - Kata 9 - Finding knowledge: 4-11-Kata9.md
+      - Kata 10 - Valuing knowledge: 4-12-Kata10.md
+      - Kata 11 - Sharing knowledge: 4-13-Kata11.md
+      - Kata 12 - Sprint-Review: 4-14-Kata12.md
       - Conclusion: 4-15-Conclusion.md
     - Theory:
       - Theory Cooperation: 5-01-Cooperation.md
