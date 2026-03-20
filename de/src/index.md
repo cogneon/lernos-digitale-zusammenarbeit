@@ -1,5 +1,5 @@
 # lernOS Digitale Zusammenarbeit
-Version 2.0 (Juni 2025)
+Version 2.01 (März 2026)
 
 Ein Leitfaden, um gemeinsam die digitale Zusammenarbeit im
 Unternehmenskontext zu erlernen.

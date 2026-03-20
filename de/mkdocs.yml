@@ -6,6 +6,7 @@ edit_uri: 'edit/master/de/src'
 
 nav:
     - Willkommen:
+      - Willkommen: index.md
       - Lernpfad: 3-01-Einfuehrung.md
       - Warum digitale Zusammenarbeit?: 3-02-Warum.md
       - Was sind digitale Kollaborationstools?: 3-03-Kollaborationstools.md
@@ -14,18 +15,18 @@ nav:
     - Lernpfad: 
       - Deine Lernreise im Überblick: 4-01-Ueberblick.md
       - Vorbereitungstreffen: 4-02-Vorbereitungstreffen.md
-      - Kata 1: 4-03-Kata-1.md
-      - Kata 2: 4-04-Kata-2.md
-      - Kata 3: 4-05-Kata-3.md
-      - Kata 4: 4-06-Kata-4.md
-      - Kata 5: 4-07-Kata-5.md
-      - Kata 6: 4-08-Kata-6.md
-      - Kata 7: 4-09-Kata-7.md
-      - Kata 8: 4-10-Kata-8.md
-      - Kata 9: 4-11-Kata-9.md
-      - Kata 10: 4-12-Kata-10.md
-      - Kata 11: 4-13-Kata-11.md
-      - Kata 12: 4-14-Kata-12.md
+      - Kata 1 - Wie arbeiten wir im Circle zusammen?: 4-03-Kata-1.md
+      - Kata 2 - Kommunikations-Analyse und Reflektion: 4-04-Kata-2.md
+      - Kata 3 - Kommunikations-Tools: 4-05-Kata-3.md
+      - Kata 4 - Kommunikationskanäle: 4-06-Kata-4.md
+      - Kata 5 - Boxenstopp - Circle-Retro: 4-07-Kata-5.md
+      - Kata 6 - Meetings effizient gestalten: 4-08-Kata-6.md
+      - Kata 7 - Entscheidungen treffen: 4-09-Kata-7.md
+      - Kata 8 - Gemeinsam an Dokumenten arbeiten: 4-10-Kata-8.md
+      - Kata 9 - Wissen finden: 4-11-Kata-9.md
+      - Kata 10 - Wissen wertschätzen: 4-12-Kata-10.md
+      - Kata 11 - Wissen teilen: 4-13-Kata-11.md
+      - Kata 12 - Sprint-Review: 4-14-Kata-12.md
       - Abschluss: 4-15-Abschluss.md
     - Grundlagen (Theorie):
       - Theorie Grundlagen der Zusammenarbeit: 5-01-Theorie-Grundlagen-der-Zusammenarbeit.md

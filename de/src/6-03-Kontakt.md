@@ -12,4 +12,6 @@ Meldet euch gerne bei:
 
 - [Rainer Bartl](https://www.linkedin.com/in/rainerbartl/)
 
+- [Stefanie Ammler](https://www.linkedin.com/in/stefanie-ammler-00aa4011a/)
+
 Keep calm & learn on!
